@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MLBB Ultimate Guide</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090e1b;color:#eaf1ff;font-family:Arial,sans-serif}
+header{padding:22px 17px;background:linear-gradient(130deg,#142c50,#10182b)}
+header h1{margin:0;color:#71c5ff;font-size:25px}
+header p{color:#a8bad3;font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;padding:13px}
+.stat,.card{background:#141f34;border:1px solid #263b59;border-radius:13px;padding:13px}
+.stat b{display:block;color:#72c5ff;font-size:22px}
+.stat small,.muted{color:#91a4c2}
+nav{display:flex;gap:8px;padding:12px;overflow-x:auto;position:sticky;top:0;background:#0b1221;z-index:5}
+button{border:0;border-radius:9px;padding:11px 14px;background:#223653;color:white;white-space:nowrap}
+button.active{background:#1877d2}
+main{padding:14px;max-width:900px;margin:auto}
+input,select{width:100%;padding:14px;background:#131f34;color:white;border:1px solid #344b6c;border-radius:10px;margin-bottom:12px}
+h2{font-size:20px;color:#8bcaff}
+h3{color:#85caff;margin:0 0 9px}
+.card{margin-bottom:11px}
+.tag{display:inline-block;background:#253c5e;border-radius:6px;padding:5px 8px;margin:3px;font-size:12px}
+.itemrow{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.price{color:#ffd36b;white-space:nowrap}
+.detail{margin-top:10px;padding-top:10px;border-top:1px solid #30425d}
+.build{background:#101a2d;padding:12px;border-radius:10px;margin-top:10px}
+.build p{margin:7px 0;font-size:14px}
+.empty{color:#a9b9d0;text-align:center;padding:30px}
+footer{text-align:center;padding:25px;color:#7186a5;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+<h1>⚔ MLBB ULTIMATE GUIDE</h1>
+<p>Database Hero • Equipment • Build • Counter • Meta</p>
+</header>
+<div class="stats">
+<div class="stat"><b id="heroCount">-</b><small>Hero</small></div>
+<div class="stat"><b id="itemCount">-</b><small>Item</small></div>
+<div class="stat"><b id="buildCount">-</b><small>Build</small></div>
+</div>
+<nav id="nav">
+<button class="active" onclick="show('hero',this)">Hero</button>
+<button onclick="show('item',this)">Item</button>
+<button onclick="show('build',this)">Build</button>
+<button onclick="show('counter',this)">Counter</button>
+<button onclick="show('draft',this)">Draft Pick</button>
+<button onclick="show('emblem',this)">Emblem</button>
+<button onclick="show('meta',this)">Meta</button>
+</nav>
+<main>
+<input id="search" placeholder="🔎 Cari hero, item, atau build..." oninput="render()">
+<div id="content"><div class="empty">Memuat database...</div></div>
+</main>
+<footer>MLBB Ultimate Guide • Database komunitas</footer>
+<script>
+let heroes=[],items=[],builds=[],emblems=[],meta={},apiHeroes=[];
+let page='hero';
+
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>String(s??'').toLowerCase().trim();
+
+async function load(){
+ try{
+  const files=['heroes.json','items.json','builds.json','emblem.json','meta.json','api-heroes.json'];
+  const data=await Promise.all(files.map(async f=>{
+   const r=await fetch(f);
+   if(!r.ok)throw Error('Gagal membaca '+f);
+   return JSON.parse((await r.text()).replace(/^\uFEFF/,''));
+  }));
+  heroes=data[0];items=data[1];builds=data[2];
+  emblems=data[3].emblems||[];meta=data[4];apiHeroes=(data[5].data.records||[]).map(r=>r.data);
+  $('heroCount').textContent=heroes.length;
+  $('itemCount').textContent=items.length;
+  $('buildCount').textContent=builds.length;
+  render();
+ }catch(e){
+  $('content').innerHTML='<div class="card">Database gagal dimuat: '+esc(e.message)+'<br>Pastikan semua file JSON berada di folder yang sama dengan index.html.</div>';
+ }
+}
+
+function show(p,b){
+ page=p;
+ document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));
+ b.classList.add('active');
+ $('search').value='';
+ render();
+}
+
+function card(title,body){
+ return `<div class="card"><h3>${esc(title)}</h3>${body}</div>`;
+}
+
+function render(){
+ const q=norm($('search').value);
+ let html='',title='';
+
+ if(page==='hero'){
+  title='Daftar Semua Hero';
+  html=heroes.filter(h=>norm(h.name_hero).includes(q)||norm(h.role).includes(q)).map(h=>{
+   let b=builds.find(x=>norm(x.hero_name)===norm(h.name_hero));
+   return card(h.name_hero,`<img src="images-hero/${esc(h['images-hero'])}" alt="${esc(h.name_hero)}" style="width:100%;height:150px;object-fit:contain" loading="lazy"><span class="tag">${esc((h.role||[]).join(', '))}</span><p class="muted">ID Hero: ${esc(h.id_hero)}</p><p>${b?'Tersedia '+b.top_builds.length+' rekomendasi build':'Build belum tersedia'}</p><button onclick="openHero('${esc(h.name_hero)}')">Lihat Detail Hero →</button>`);
+  }).join('');
+ }
+
+ if(page==='item'){
+  title='Database Semua Equipment';
+  html=items.filter(i=>norm(i['name-equipment']).includes(q)).map(i=>
+   card(i['name-equipment'],`<img src="logo-equipment/${esc(i['logo-equipment'])}" alt="${esc(i['name-equipment'])}" style="width:100%;height:110px;object-fit:contain" loading="lazy"><div class="itemrow"><span class="muted">ID ${esc(i.id_equip)}</span><b class="price">${Number(i['prize-gold']).toLocaleString('id-ID')} Gold</b></div>`)
+  ).join('');
+ }
+
+ if(page==='build'){
+  title='Build Hero';
+  html=builds.filter(h=>norm(h.hero_name).includes(q)||norm(h.role).includes(q)).map(h=>
+   card(h.hero_name,`<span class="tag">${esc(h.role)}</span><p class="muted">${esc((h.speciality||[]).join(' • '))}</p>`+
+   (h.top_builds||[]).map((b,i)=>`<div class="build"><b>Build ${i+1}</b><p>Spell: <img src="images-spell/${esc((b.battle_spell||"").toLowerCase().includes("retribution")?"retribution":(b.battle_spell||"").toLowerCase())}.png" alt="${esc(b.battle_spell||"")}" onerror="this.style.display='none'" style="width:36px;height:36px;object-fit:contain;vertical-align:middle"> <span class="tag">${esc(b.battle_spell)}</span></p><p>Emblem & Talent:</p><p>${(b.emblems||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join('')}</p><p>Urutan item:</p>${(b.items||[]).map((x,j)=>`<p>${j+1}. ${esc(x)}</p>`).join('')}</div>`).join(''))
+  ).join('');
+ }
+
+
+ if(page==='counter'){
+  title='Counter Hero Ranked + Profesional';
+  const options=apiHeroes.map(h=>{
+   const n=h.hero?.data?.name||'';
+   return `<option value="${esc(n)}">${esc(n)}</option>`;
+  }).join('');
+  const pro=meta.alternative_counter_picks||{};
+  const proHtml=Object.entries(pro)
+   .filter(([k,v])=>norm(k+' '+JSON.stringify(v)).includes(q))
+   .map(([k,v])=>card(k.replace(/_/g,' ').toUpperCase(),renderTree(v))).join('');
+
+  html=`<div class="card">
+   <h3>Counter Hero Ranked</h3>
+   <p>Pilih hero lawan:</p>
+   <select id="counterHero">${options}</select>
+   <p>Pilih rank:</p>
+   <select id="counterRank">
+    <option value="mythic">Mythic</option>
+    <option value="honor">Mythical Honor</option>
+    <option value="glory">Mythical Glory</option>
+    <option value="epic">Epic</option>
+    <option value="legend">Legend</option>
+    <option value="all">Semua Rank</option>
+   </select>
+   <p>Periode data:</p>
+   <select id="counterDays">
+    <option value="7">7 hari</option>
+    <option value="15">15 hari</option>
+    <option value="30">30 hari</option>
+   </select>
+   <button onclick="loadCounters()">Cari Counter Hero</button>
+   <div id="rankedCounter" class="detail">Pilih hero lalu tekan Cari Counter Hero.</div>
+  </div>`+
+  card('Counter Pick Profesional',proHtml||'<p class="muted">Data profesional belum tersedia untuk pencarian ini.</p>');
+ }
+
+
+
+ if(page==='draft'){
+  title='Draft Pick Analyzer';
+  const options='<option value="">-- Pilih Hero --</option>'+heroes.map(h=>`<option value="${esc(h.name_hero)}">${esc(h.name_hero)}</option>`).join('');
+  html=`<div class="card">
+   <h3>Mode Draft Pick</h3>
+   <select id="draftMode" onchange="toggleDraftMode()">
+    <option value="solo">Solo Rank</option>
+    <option value="team">Tim / Mabar</option>
+   </select>
+   <p class="muted" id="draftModeInfo">Solo Rank: pilih posisi sendiri dan hero lawan yang terlihat.</p>
+   <h3>Tim Lawan</h3>
+   <p class="muted">Pilih maksimal 5 hero lawan.</p>
+   <div class="draft-slots">${[1,2,3,4,5].map(i=>`<select id="enemy${i}">${options}</select>`).join('')}</div>
+   <div class="detail" id="allySection"><h3>Tim Sendiri</h3>
+   <p class="muted">Pilih hero tim sendiri yang sudah terlihat.</p>
+   ${[1,2,3,4,5].map(i=>`<select id="ally${i}">${options}</select>`).join('')}</div>
+   <div class="detail"><h3>Pengaturan Statistik</h3>
+   <select id="draftRank">
+    <option value="mythic">Mythic</option><option value="honor">Mythical Honor</option>
+    <option value="glory">Mythical Glory</option><option value="epic">Epic</option>
+    <option value="legend">Legend</option><option value="all">Semua Rank</option>
+   </select>
+   <select id="draftDays"><option value="7">7 hari</option><option value="15">15 hari</option><option value="30">30 hari</option></select>
+   <select id="draftLane">
+    <option value="">Semua posisi</option><option value="exp_lane">EXP Lane</option>
+    <option value="jungler">Jungler</option><option value="mid_lane">Mid Lane</option>
+    <option value="gold_lane">Gold Lane</option><option value="roamer">Roamer</option>
+   </select>
+   <button onclick="analyzeDraft()">Analisis Draft Pick</button>
+   <div id="draftResult" class="detail">Pilih hero lalu tekan Analisis Draft Pick.</div>
+  </div></div>`;
+ }
+
+ if(page==='emblem'){
+  title='Database Emblem & Talent';
+  html=emblems.filter(e=>norm(e.name+' '+JSON.stringify(e)).includes(q)).map(e=>
+   card(e.name,`<p><b>Atribut:</b></p>${Object.entries(e.attributes||{}).map(([k,v])=>`<span class="tag">${esc(k)}: ${esc(v)}</span>`).join('')}<div class="detail"><b>Standard Talent</b>${(e.standard_talents||[]).map(t=>`<p><b>${esc(t.name)}</b><br><span class="muted">${esc(t.description)}</span></p>`).join('')}<b>Core Talent</b>${(e.core_talents||[]).map(t=>`<p><b>${esc(t.name)}</b><br><span class="muted">${esc(t.description)}</span></p>`).join('')}</div>`)
+  ).join('');
+ }
+
+ if(page==='meta'){
+  title='Meta Draft Pick';
+  const data=meta.meta_draft_picks||{};
+  html=Object.entries(data).map(([lane,list])=>{
+   let rows=list.filter(h=>norm(h.hero_name+' '+h.priority_tier+' '+lane).includes(q));
+   return rows.length?card(lane.replace(/_/g,' ').toUpperCase(),rows.map(h=>`<div class="itemrow"><b>${esc(h.hero_name)}</b><span class="tag">${esc(h.priority_tier)}</span></div>`).join('')):'';
+  }).join('');
+ }
+
+ $('content').innerHTML='<h2>'+title+'</h2>'+(html||'<div class="empty">Data tidak ditemukan.</div>');
+ if(page==='draft')toggleDraftMode();
+}
+
+
+
+
+
+function toggleDraftMode(){
+ const mode=$('draftMode')?.value||'solo';
+ const section=$('allySection');
+ const info=$('draftModeInfo');
+
+ if(section) section.style.display=mode==='solo'?'none':'block';
+ if(info) info.textContent=mode==='solo'
+  ?'Solo Rank: pilih posisi sendiri dan hero lawan yang terlihat.'
+  :'Tim / Mabar: isi hero lawan dan hero teman yang sudah terlihat.';
+}
+
+async function analyzeDraft(){
+ const mode=$('draftMode')?.value||'solo';
+ const out=$('draftResult');
+ const enemy=[1,2,3,4,5].map(i=>$('enemy'+i).value).filter(Boolean);
+ const ally=mode==='team'?[1,2,3,4,5].map(i=>$('ally'+i).value).filter(Boolean):[];
+ const rank=$('draftRank').value;
+ const days=$('draftDays').value;
+ const lane=$('draftLane').value;
+
+ if(!enemy.length){
+  out.innerHTML='<p>Pilih minimal satu hero lawan.</p>';
+  return;
+ }
+ if(new Set(enemy).size!==enemy.length){
+  out.innerHTML='<p>Jangan pilih hero lawan yang sama lebih dari sekali.</p>';
+  return;
+ }
+
+ out.innerHTML='<p>⏳ Mengambil statistik counter '+enemy.length+' hero lawan...</p>';
+
+ try{
+  const results=await Promise.all(enemy.map(async target=>{
+   try{
+    const url='https://arena.fastapicloud.dev/api/heroes/'+
+     encodeURIComponent(target)+'/counters?days='+days+
+     '&rank='+rank+'&size=20&index=1&lang=en';
+    const response=await fetch(url);
+    if(!response.ok)throw Error('HTTP '+response.status);
+    const result=await response.json();
+    if(result.code!==0)throw Error(result.message||'API gagal');
+    const records=result.data?.records||[];
+    return {target,data:records[0]?.data||null};
+   }catch(e){
+    return {target,error:e.message};
+   }
+  }));
+
+  const scores=new Map();
+  let successful=0;
+
+  results.forEach(result=>{
+   if(!result.data)return;
+   successful++;
+
+   (result.data.sub_hero||[]).forEach(c=>{
+    const info=apiHeroes.find(x=>Number(x.hero_id)===Number(c.heroid));
+    const name=info?.hero?.data?.name;
+    if(!name)return;
+
+    if(!scores.has(name)){
+     scores.set(name,{name,sum:0,wr:0,impact:0,count:0,against:[]});
+    }
+
+    const item=scores.get(name);
+    const wr=Number(c.hero_win_rate||0);
+    const impact=Number(c.increase_win_rate||0);
+
+    item.sum+=impact*100+(wr-0.5)*20;
+    item.wr+=wr;
+    item.impact+=impact;
+    item.count++;
+    item.against.push(result.target);
+   });
+  });
+
+  if(!successful){
+   out.innerHTML='<p>Gagal mengambil seluruh statistik. Periksa koneksi internet atau coba lagi nanti.</p>';
+   return;
+  }
+
+  const excluded=new Set([...enemy,...ally].map(norm));
+  const pro=meta.alternative_counter_picks||{};
+  const proList=lane?(pro[lane]||[]):Object.values(pro).flat();
+
+  const recommendations=[...scores.values()]
+   .filter(x=>!excluded.has(norm(x.name)))
+   .map(x=>{
+    const b=builds.find(y=>norm(y.hero_name)===norm(x.name));
+    const proData=proList.find(y=>norm(y.hero_name)===norm(x.name));
+    let proBonus=0;
+
+    if(proData){
+     proBonus=proData.priority_tier==='S-Tier'? (lane?22:8):
+              proData.priority_tier==='A-Tier'? (lane?15:5):
+              (lane?9:2);
+    }
+
+    let roleBonus=0;
+    const role=norm(b?.role||'');
+    const expected={
+     exp_lane:['fighter','tank'],
+     jungler:['assassin','fighter'],
+     mid_lane:['mage'],
+     gold_lane:['marksman'],
+     roamer:['tank','support']
+    };
+
+    if(lane&&expected[lane]?.some(r=>role.includes(r)))roleBonus=5;
+
+    const avg=x.sum/x.count;
+    return {
+     ...x,build:b,proData,
+     avgWR:x.wr/x.count*100,
+     avgImpact:x.impact/x.count*100,
+     score:avg+(x.count*2)+proBonus+roleBonus
+    };
+   })
+   .sort((a,b)=>b.score-a.score)
+   .slice(0,5);
+
+  if(!recommendations.length){
+   out.innerHTML='<p>Belum ada rekomendasi. Coba pilih hero lawan lain.</p>';
+   return;
+  }
+
+  let html='<h3>5 Rekomendasi Hero Terbaik</h3>';
+  html+='<p class="muted">Berhasil mengambil data '+successful+' dari '+enemy.length+' hero lawan. Rank: '+esc(rank)+' • Periode: '+esc(days)+' hari.</p>';
+
+  recommendations.forEach((x,i)=>{
+   const build=x.build?.top_builds?.[0];
+   html+=`<div class="card">
+    <div class="itemrow"><h3>#${i+1} ${esc(x.name)}</h3><span class="tag">${esc(x.build?.role||'Hero')}</span></div>
+    <p>Skor rekomendasi: <b>${x.score.toFixed(2)}</b></p>
+    <p>Rata-rata Win Rate Counter: <b>${x.avgWR.toFixed(2)}%</b></p>
+    <p>Pengaruh Matchup: <b>+${x.avgImpact.toFixed(2)}%</b></p>
+    <p class="muted">Counter terhadap: ${x.against.map(esc).join(', ')}</p>
+    ${x.proData?'<span class="tag">Pro: '+esc(x.proData.priority_tier)+'</span>':''}
+    ${build?`<div class="detail">
+     <b>Rekomendasi Build</b>
+     <p>Spell: ${esc(build.battle_spell||'-')}</p>
+     <p>Emblem: ${(build.emblems||[]).map(esc).join(' • ')}</p>
+     <p>Item:</p>${(build.items||[]).map((it,j)=>`<p>${j+1}. ${esc(it)}</p>`).join('')}
+    </div>`:'<p class="muted">Build belum tersedia.</p>'}
+   </div>`;
+  });
+
+  if(results.some(x=>x.error)){
+   html+='<p class="muted">Sebagian data gagal dimuat: '+results.filter(x=>x.error).map(x=>esc(x.target)).join(', ')+'</p>';
+  }
+
+  out.innerHTML=html;
+ }catch(e){
+  out.innerHTML='<p>Analisis gagal: '+esc(e.message)+'</p>';
+ }
+}
+
+async function loadCounters(){
+ const out=$('rankedCounter');
+ const target=$('counterHero')?.value;
+ const rank=$('counterRank')?.value||'mythic';
+ const days=$('counterDays')?.value||'7';
+
+ if(!out||!target)return;
+
+ out.innerHTML='<p>Memuat data counter...</p>';
+
+ try{
+  const url='https://arena.fastapicloud.dev/api/heroes/'+
+   encodeURIComponent(target)+'/counters?days='+days+
+   '&rank='+rank+'&size=20&index=1&lang=en';
+
+  const response=await fetch(url);
+  if(!response.ok)throw Error('Server API: '+response.status);
+
+  const result=await response.json();
+  if(result.code!==0)throw Error(result.message||'API gagal');
+
+  const records=result.data?.records||[];
+  if(!records.length){
+   out.innerHTML='<p>Belum ada data counter untuk hero ini pada rank tersebut.</p>';
+   return;
+  }
+
+  const d=records[0].data;
+  const counters=d.sub_hero||[];
+
+  const cards=counters.map(c=>{
+   const info=apiHeroes.find(x=>Number(x.hero_id)===Number(c.heroid));
+   const name=info?.hero?.data?.name||('Hero ID '+c.heroid);
+   const img=info?.hero?.data?.head||c.hero?.data?.head?.url||c.hero?.data?.head||'';
+   const wr=Number(c.hero_win_rate||0)*100;
+   const impact=Number(c.increase_win_rate||0)*100;
+
+   return `<div class="card">
+    <div class="itemrow">
+     <div style="display:flex;align-items:center;gap:12px">
+      ${img?`<img src="${esc(img)}" alt="${esc(name)}" style="width:58px;height:58px;object-fit:cover;border-radius:10px">`:''}
+      <b>${esc(name)}</b>
+     </div>
+     <span class="tag">ID ${esc(c.heroid)}</span>
+    </div>
+    <div class="detail">
+     <p>Win rate counter: <b>${wr.toFixed(2)}%</b></p>
+     <p>Pengaruh matchup: <b>${impact>=0?'+':''}${impact.toFixed(2)}%</b></p>
+     <p>Pick rate: ${ (Number(c.hero_appearance_rate||0)*100).toFixed(2)}%</p>
+    </div>
+   </div>`;
+  }).join('');
+
+  const mainWR=Number(d.main_hero_win_rate||0)*100;
+  out.innerHTML=
+   `<h3>Counter untuk ${esc(target)}</h3>
+    <p>Win rate hero: <b>${mainWR.toFixed(2)}%</b></p>
+    <p class="muted">Rank: ${esc(rank)} • Periode: ${esc(days)} hari</p>
+    <h3>Hero yang menjadi counter</h3>`+
+    (cards||'<p>Belum ada daftar counter.</p>');
+
+ }catch(e){
+  out.innerHTML='<p style="color:#ff9b9b">Gagal mengambil data: '+
+   esc(e.message)+
+   '</p><p class="muted">Periksa koneksi internet. Jika muncul pesan Failed to fetch, browser mungkin memblokir koneksi API.</p>';
+ }
+}
+
+async function openHero(name){
+ const h=heroes.find(x=>x.name_hero===name);
+ const b=builds.find(x=>norm(x.hero_name)===norm(name));
+ if(!h)return;
+ let html=card(h.name_hero,
+ '<span class="tag">'+esc((h.role||[]).join(', '))+'</span>'+
+ '<p>ID Hero: '+esc(h.id_hero)+'</p>'+
+ '<p>Build tersedia: '+(b?b.top_builds.length:0)+'</p>'+
+ '<button onclick="location.reload()">← Kembali ke hero</button>'+
+ (b?(b.top_builds||[]).map((x,i)=>{
+  const aliases={
+   "athena's shield":"athenas_shield",
+   "berserker's fury":"berserkers_fury",
+   "demon shoes":"demon_boots",
+   "haas' claws":"haass_claws",
+   "magic shoes":"magic_boots",
+   "queen's wings":"queens_wings"
+  };
+  const icon=(name,folder)=>{
+   const key=name.trim().toLowerCase();
+   const file=aliases[key]||key.replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+   return '<img src="'+folder+'/'+file+'.png" onerror="this.style.display=\'none\'" style="width:42px;height:42px;object-fit:contain;background:#172238;border-radius:9px;padding:3px">';
+  };
+  const spell='<div style="display:flex;align-items:center;gap:10px;margin:8px 0">'+icon(x.battle_spell,'images-spell')+'<span>'+esc(x.battle_spell)+'</span></div>';
+  const emblemFiles={
+   'basic common emblem':'emblem_basic-common.webp',
+   'custom tank emblem':'emblem_tank.webp',
+   'custom assassin emblem':'emblem_assassin.webp',
+   'custom magic emblem':'emblem_mage.webp',
+   'custom mage emblem':'emblem_mage.webp',
+   'custom fighter emblem':'emblem_fighter.webp',
+   'custom support emblem':'emblem_support.webp',
+   'custom marksman emblem':'emblem_marksman.webp'
+  };
+  const emblems=(x.emblems||[]).map((e,j)=>{
+   const key=e.trim().toLowerCase();
+   const file=emblemFiles[key]||('talent_'+key.replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'.webp');
+   return '<div style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;width:82px;margin:5px 3px;text-align:center">'+
+    '<img src="images-emblem/'+file+'" onerror="this.style.display=\'none\'" style="width:54px;height:54px;object-fit:contain;background:#1b2942;border-radius:12px;padding:5px">'+
+    '<small>'+esc(e)+'</small></div>';
+  }).join('');
+  const items=(x.items||[]).map((it,j)=>{
+   const choices=it.split('/');
+   return '<div style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;background:#111c30;border-radius:10px;padding:8px;margin:4px;min-width:76px">'+
+    '<div style="display:flex;gap:3px">'+choices.map(n=>icon(n,'logo-equipment')).join('')+'</div>'+
+    '<small style="text-align:center;max-width:100px">'+esc(it)+'</small></div>';
+  }).join('');
+  return '<div class="build"><h3>Build '+(i+1)+'</h3><p><b>Battle Spell</b></p>'+spell+
+   '<p><b>Emblem & Talent</b></p><div style="display:flex;flex-wrap:wrap;gap:5px">'+emblems+'</div>'+
+   '<p><b>Equipment</b></p><div style="display:flex;flex-wrap:wrap;gap:4px">'+items+'</div></div>';
+ }).join(''):'<p>Build belum tersedia.</p>')+
+ '<div class="detail" id="heroDetailCounter"><h3>Data counter terkait</h3><p>Memuat data counter...</p></div>');
+ $('content').innerHTML='<h2>Detail Hero</h2>'+html;
+ window.scrollTo(0,0);
+ loadHeroDetailCounters(name);
+}
+
+async function loadHeroDetailCounters(name){
+ const out=$('heroDetailCounter');
+ if(!out)return;
+
+ try{
+  const url='https://arena.fastapicloud.dev/api/heroes/'+
+   encodeURIComponent(name)+'/counters?days=7&rank=mythic&size=20&index=1&lang=en';
+
+  const response=await fetch(url);
+  if(!response.ok)throw Error('Server API: '+response.status);
+
+  const result=await response.json();
+  if(result.code!==0)throw Error(result.message||'API gagal');
+
+  const records=result.data?.records||[];
+  if(!records.length){
+   out.innerHTML='<h3>Data counter terkait</h3><p>Belum ada data counter untuk hero ini.</p>';
+   return;
+  }
+
+  const d=records[0].data;
+  const counters=d.sub_hero||[];
+
+  const cards=counters.map(c=>{
+   const info=apiHeroes.find(x=>Number(x.hero_id)===Number(c.heroid));
+   const heroName=info?.hero?.data?.name||('Hero ID '+c.heroid);
+   const img=info?.hero?.data?.head||c.hero?.data?.head?.url||c.hero?.data?.head||'';
+   const wr=Number(c.hero_win_rate||0)*100;
+   const impact=Number(c.increase_win_rate||0)*100;
+
+   return `<div class="card">
+    <div class="itemrow">
+     <div style="display:flex;align-items:center;gap:12px">
+      ${img?`<img src="${esc(img)}" alt="${esc(heroName)}" style="width:58px;height:58px;object-fit:cover;border-radius:10px">`:''}
+      <b>${esc(heroName)}</b>
+     </div>
+     <span class="tag">ID ${esc(c.heroid)}</span>
+    </div>
+    <div class="detail">
+     <p>Win rate counter: <b>${wr.toFixed(2)}%</b></p>
+     <p>Pengaruh matchup: <b>${impact>=0?'+':''}${impact.toFixed(2)}%</b></p>
+     <p>Pick rate: ${(Number(c.hero_appearance_rate||0)*100).toFixed(2)}%</p>
+    </div>
+   </div>`;
+  }).join('');
+
+  out.innerHTML='<h3>Data counter terkait</h3>'+
+   '<p class="muted">Rank Mythic • Periode 7 hari</p>'+
+   (cards||'<p>Belum ada daftar counter.</p>');
+
+ }catch(e){
+  out.innerHTML='<h3>Data counter terkait</h3><p style="color:#ff9b9b">Gagal mengambil data: '+esc(e.message)+'</p>';
+ }
+}
+
+function renderTree(v){
+ if(v===null||v===undefined)return '';
+ if(Array.isArray(v))return v.map(x=>`<div class="detail">${renderTree(x)}</div>`).join('');
+ if(typeof v==='object')return Object.entries(v).map(([k,x])=>`<p><b>${esc(k.replace(/_/g,' '))}:</b> ${renderTree(x)}</p>`).join('');
+ return esc(v);
+}
+load();
+</script>
+</body>
+</html>
