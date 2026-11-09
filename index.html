@@ -167,6 +167,15 @@ main{padding:12px}
  margin:0;
  padding:14px 8px 10px;
 }
+
+.hero-card > img{
+ display:block;
+ width:100%!important;
+ height:220px!important;
+ object-fit:contain!important;
+ padding:10px;
+ background:radial-gradient(ellipse at center,#123d69,#080e1d);
+}
 .hero-card > img{
  display:block;
  width:100%!important;
@@ -654,6 +663,7 @@ async function openHero(name){
  const b=builds.find(x=>norm(x.hero_name)===norm(name));
  if(!h)return;
  let html=card(h.name_hero,
+ '<img src="images-hero/'+esc(h['images-hero'])+'" alt="'+esc(h.name_hero)+'" loading="lazy">'+
  '<span class="tag">'+esc((h.role||[]).join(', '))+'</span>'+
  '<p>ID Hero: '+esc(h.id_hero)+'</p>'+
  '<p>Build tersedia: '+(b?b.top_builds.length:0)+'</p>'+
