@@ -339,16 +339,11 @@ function render(){
 
 
  if(page==='counter'){
-  title='Counter Hero Ranked + Profesional';
+  title='Counter Hero Ranked';
   const options=apiHeroes.map(h=>{
    const n=h.hero?.data?.name||'';
    return `<option value="${esc(n)}">${esc(n)}</option>`;
   }).join('');
-  const pro=meta.alternative_counter_picks||{};
-  const proHtml=Object.entries(pro)
-   .filter(([k,v])=>norm(k+' '+JSON.stringify(v)).includes(q))
-   .map(([k,v])=>card(k.replace(/_/g,' ').toUpperCase(),renderTree(v))).join('');
-
   html=`<div class="card">
    <h3>Counter Hero Ranked</h3>
    <p>Pilih hero lawan:</p>
@@ -370,8 +365,7 @@ function render(){
    </select>
    <button onclick="loadCounters()">Cari Counter Hero</button>
    <div id="rankedCounter" class="detail">Pilih hero lalu tekan Cari Counter Hero.</div>
-  </div>`+
-  card('Counter Pick Profesional',proHtml||'<p class="muted">Data profesional belum tersedia untuk pencarian ini.</p>');
+  </div>`;
  }
 
 
