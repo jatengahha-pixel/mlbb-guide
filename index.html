@@ -5,31 +5,41 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MLBB Ultimate Guide</title>
 <style>
+
 *{box-sizing:border-box}
-body{margin:0;background:#090e1b;color:#eaf1ff;font-family:Arial,sans-serif}
-header{padding:22px 17px;background:linear-gradient(130deg,#142c50,#10182b)}
-header h1{margin:0;color:#71c5ff;font-size:25px}
-header p{color:#a8bad3;font-size:13px}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;padding:13px}
-.stat,.card{background:#141f34;border:1px solid #263b59;border-radius:13px;padding:13px}
-.stat b{display:block;color:#72c5ff;font-size:22px}
-.stat small,.muted{color:#91a4c2}
-nav{display:flex;gap:8px;padding:12px;overflow-x:auto;position:sticky;top:0;background:#0b1221;z-index:5}
-button{border:0;border-radius:9px;padding:11px 14px;background:#223653;color:white;white-space:nowrap}
-button.active{background:#1877d2}
-main{padding:14px;max-width:900px;margin:auto}
-input,select{width:100%;padding:14px;background:#131f34;color:white;border:1px solid #344b6c;border-radius:10px;margin-bottom:12px}
-h2{font-size:20px;color:#8bcaff}
-h3{color:#85caff;margin:0 0 9px}
-.card{margin-bottom:11px}
-.tag{display:inline-block;background:#253c5e;border-radius:6px;padding:5px 8px;margin:3px;font-size:12px}
+:root{--bg:#061321;--panel:#10263c;--panel2:#15334e;--line:#23618a;--blue:#38bdf8;--cyan:#7dd3fc;--text:#effaff;--muted:#a4c5dc}
+body{margin:0;background:radial-gradient(ellipse at 50% -15%,#075985 0%,#0b2942 38%,var(--bg) 75%);color:var(--text);font-family:Arial,sans-serif;min-height:100vh}
+header{padding:30px 18px 25px;background:linear-gradient(120deg,rgba(8,73,112,.98),rgba(7,25,44,.98));border-bottom:1px solid #24517b;position:relative;overflow:hidden}
+header:after{content:"";position:absolute;width:220px;height:220px;border:1px solid #38bdf850;border-radius:50%;right:-65px;top:-100px;box-shadow:0 0 50px #168bff25}
+header h1{margin:0;color:#7dd3fc;font-size:26px;letter-spacing:1.5px;text-shadow:0 0 18px #38bdf8aa}
+header p{color:#a8c3df;font-size:13px;margin:9px 0 0}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:14px;max-width:1000px;margin:auto}
+.stat,.card{background:linear-gradient(145deg,#14243a,#0e1929);border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:0 8px 25px #0003}
+.stat{text-align:center}
+.stat b{display:block;color:var(--cyan);font-size:23px;text-shadow:0 0 15px #21aaff55}
+.stat small,.muted{color:var(--muted)}
+nav{display:flex;gap:8px;padding:12px;overflow-x:auto;position:sticky;top:0;background:#080f1deF;backdrop-filter:blur(14px);border-top:1px solid #1b3450;border-bottom:1px solid #1b3450;z-index:5;scrollbar-width:thin}
+button{border:1px solid #29496a;border-radius:10px;padding:11px 15px;background:linear-gradient(145deg,#1a304b,#122238);color:#eaf6ff;white-space:nowrap;font-weight:600;cursor:pointer;transition:.2s}
+button:active{transform:scale(.97)}
+button.active{background:linear-gradient(120deg,#0284c7,#0369a1);border-color:#7dd3fc;box-shadow:0 0 15px #0ea5e955}
+main{padding:16px;max-width:1000px;margin:auto;min-height:55vh}
+input,select{width:100%;padding:14px;background:#0d192a;color:white;border:1px solid #294663;border-radius:11px;margin-bottom:12px;outline:none}
+input:focus,select:focus{border-color:var(--blue);box-shadow:0 0 0 3px #24aaff20}
+h2{font-size:21px;color:#7dd3fc;margin:14px 0 16px;text-shadow:0 0 12px #168bff30}
+h3{color:#7dd3fc;margin:0 0 9px}
+.card{margin-bottom:13px;overflow:hidden}
+.tag{display:inline-block;background:#164767;border:1px solid #287ba8;color:#b9edff;border-radius:7px;padding:5px 9px;margin:3px;font-size:12px}
 .itemrow{display:flex;justify-content:space-between;gap:10px;align-items:center}
 .price{color:#ffd36b;white-space:nowrap}
-.detail{margin-top:10px;padding-top:10px;border-top:1px solid #30425d}
-.build{background:#101a2d;padding:12px;border-radius:10px;margin-top:10px}
+.detail{margin-top:10px;padding-top:10px;border-top:1px solid #29415c}
+.build{background:#0c1728;border:1px solid #1e3854;padding:12px;border-radius:10px;margin-top:10px}
 .build p{margin:7px 0;font-size:14px}
 .empty{color:#a9b9d0;text-align:center;padding:30px}
-footer{text-align:center;padding:25px;color:#7186a5;font-size:12px}
+footer{text-align:center;padding:25px;color:#7186a5;font-size:12px;border-top:1px solid #172a40}
+img{max-width:100%}
+@media(min-width:650px){#content{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}#content>h2{grid-column:1/-1}.card{margin-bottom:0}}
+@media(max-width:420px){header h1{font-size:22px}.stats{gap:7px;padding:10px}.stat{padding:11px 5px}.stat b{font-size:20px}main{padding:12px}}
+
 </style>
 <meta name="google-site-verification" content="mfixhoj0V0ntm_HZzNYXvYHCLHtgDZMcJdGCqcB5uYY" />
 </head>
