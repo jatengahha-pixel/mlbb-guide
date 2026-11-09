@@ -1,248 +1,191 @@
-﻿{
+{
   "metadata": {
-    "title": "MLBB Professional Meta Draft Pick Data 2026 By MPL"
+    "title": "MLBB Ranked Meta Season 42 - Patch 2.2.16a",
+    "source": "MLBBHub Tier List",
+    "snapshot": "8 November 2026",
+    "rank": "All Ranks"
   },
   "meta_draft_picks": {
     "exp_lane": [
       {
+        "hero_name": "Masha",
+        "priority_tier": "S"
+      },
+      {
+        "hero_name": "Argus",
+        "priority_tier": "S"
+      },
+      {
         "hero_name": "Gloo",
-        "priority_tier": "S-Tier"
+        "priority_tier": "S"
       },
       {
-        "hero_name": "Arlott",
-        "priority_tier": "S-Tier"
+        "hero_name": "Sun",
+        "priority_tier": "S"
       },
       {
-        "hero_name": "Cici",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Alice",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Paquito",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Lapu-Lapu",
-        "priority_tier": "A-Tier"
+        "hero_name": "Aulus",
+        "priority_tier": "S"
       }
     ],
     "roamer": [
       {
-        "hero_name": "Marcel",
-        "priority_tier": "S-Tier"
+        "hero_name": "Rafaela",
+        "priority_tier": "S"
       },
-      { 
+      {
+        "hero_name": "Gloo",
+        "priority_tier": "S"
+      },
+      {
         "hero_name": "Floryn",
-        "priority_tier": "S-Tier"
-      },
-      {
-        "hero_name": "Atlas",
-        "priority_tier": "S-Tier"
-      },
-      {
-        "hero_name": "Belerick",
-        "priority_tier": "S-Tier"
+        "priority_tier": "S"
       },
       {
         "hero_name": "Minotaur",
-        "priority_tier": "A-Tier"
+        "priority_tier": "S"
       },
       {
-        "hero_name": "Hylos",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Hilda",
-        "priority_tier": "A-Tier"
+        "hero_name": "Carmilla",
+        "priority_tier": "S"
       }
     ],
     "mid_lane": [
       {
-        "hero_name": "Zhuxin",
-        "priority_tier": "S-Tier"
+        "hero_name": "Valir",
+        "priority_tier": "S"
       },
       {
         "hero_name": "Gord",
-        "priority_tier": "S-Tier"
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Valentina",
-        "priority_tier": "A-Tier"
+        "hero_name": "Kagura",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Kimmy",
-        "priority_tier": "A-Tier"
+        "hero_name": "Kadita",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Luo Yi",
-        "priority_tier": "A-Tier"
+        "hero_name": "Zetian",
+        "priority_tier": "A"
       }
     ],
     "gold_lane": [
       {
-        "hero_name": "Claude",
-        "priority_tier": "S-Tier"
+        "hero_name": "Obsidia",
+        "priority_tier": "S"
       },
       {
-        "hero_name": "Harith",
-        "priority_tier": "S-Tier"
+        "hero_name": "Bruno",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Karrie",
-        "priority_tier": "A-Tier"
+        "hero_name": "Hanabi",
+        "priority_tier": "A"
+      },
+      {
+        "hero_name": "Clint",
+        "priority_tier": "B"
+      },
+      {
+        "hero_name": "Beatrix",
+        "priority_tier": "B"
       }
     ],
     "jungler": [
       {
-        "hero_name": "Leomord",
-        "priority_tier": "S-Tier"
+        "hero_name": "Sun",
+        "priority_tier": "S"
       },
       {
-        "hero_name": "Suyou",
-        "priority_tier": "S-Tier"
+        "hero_name": "Aulus",
+        "priority_tier": "S"
       },
       {
-        "hero_name": "Fredrinn",
-        "priority_tier": "S-Tier"
+        "hero_name": "Ling",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Harley",
-        "priority_tier": "A-Tier"
+        "hero_name": "Lukas",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Guinevere",
-        "priority_tier": "A-Tier"
+        "hero_name": "Barats",
+        "priority_tier": "A"
       }
     ]
   },
   "alternative_counter_picks": {
     "exp_lane": [
       {
-        "hero_name": "Terizla",
-        "priority_tier": "S-Tier"
+        "hero_name": "Lukas",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Phoveus",
-        "priority_tier": "A-Tier"
+        "hero_name": "Minsitthar",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Yu Zhong",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Benedetta",
-        "priority_tier": "B-Tier"
+        "hero_name": "Barats",
+        "priority_tier": "A"
       }
     ],
     "roamer": [
       {
-        "hero_name": "Chou",
-        "priority_tier": "S-Tier"
+        "hero_name": "Estes",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Kaja",
-        "priority_tier": "A-Tier"
+        "hero_name": "Atlas",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Tigreal",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Diggie",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Khaleed",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Mathilda",
-        "priority_tier": "B-Tier"
-      },
-      {
-        "hero_name": "Lolita",
-        "priority_tier": "B-Tier"
+        "hero_name": "Belerick",
+        "priority_tier": "A"
       }
     ],
     "mid_lane": [
       {
-        "hero_name": "Pharsa",
-        "priority_tier": "S-Tier"
+        "hero_name": "Cyclops",
+        "priority_tier": "B"
       },
       {
-        "hero_name": "Yve",
-        "priority_tier": "A-Tier"
+        "hero_name": "Cecilion",
+        "priority_tier": "B"
       },
       {
-        "hero_name": "Novaria",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Lylia",
-        "priority_tier": "B-Tier"
-      },
-      {
-        "hero_name": "Kagura",
-        "priority_tier": "B-Tier"
+        "hero_name": "Eudora",
+        "priority_tier": "B"
       }
     ],
     "gold_lane": [
       {
-        "hero_name": "Brody",
-        "priority_tier": "S-Tier"
-      },
-      {
-        "hero_name": "Melissa",
-        "priority_tier": "S-Tier"
-      },
-      {
-        "hero_name": "Popol & Kupa",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Freya",
-        "priority_tier": "A-Tier"
-      },
-      {
         "hero_name": "Moskov",
-        "priority_tier": "A-Tier"
+        "priority_tier": "B"
       },
       {
-        "hero_name": "Bruno",
-        "priority_tier": "B-Tier"
+        "hero_name": "Brody",
+        "priority_tier": "B"
+      },
+      {
+        "hero_name": "Ixia",
+        "priority_tier": "B"
       }
     ],
     "jungler": [
       {
-        "hero_name": "Martis",
-        "priority_tier": "S-Tier"
+        "hero_name": "Saber",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Baxia",
-        "priority_tier": "S-Tier"
+        "hero_name": "Alice",
+        "priority_tier": "A"
       },
       {
-        "hero_name": "Fanny",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Balmond",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Alpha",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Barats",
-        "priority_tier": "A-Tier"
-      },
-      {
-        "hero_name": "Nolan",
-        "priority_tier": "A-Tier"
+        "hero_name": "Aamon",
+        "priority_tier": "B"
       }
     ]
   }

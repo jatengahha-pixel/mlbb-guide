@@ -1,0 +1,2574 @@
+[
+  {
+    "slug": "allow-throw",
+    "url": "https://mlbbhub.com/items/allow-throw",
+    "description": "Allow Throw is a Tier 1 Movement item in Mobile Legends costing 0 gold. Trust: Allow allied Jawhead to fling you.",
+    "faq": [
+      {
+        "question": "What does Allow Throw do in Mobile Legends?",
+        "answer": "Allow Throw is a Tier 1 Movement item that provides no base stats. Its passive ability \"Trust\" Allow allied Jawhead to fling you."
+      },
+      {
+        "question": "How do I build Allow Throw?",
+        "answer": "Allow Throw is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Allow Throw?",
+        "answer": "Allow Throw is designed for any hero who needs a boot slot, with the enchant chosen by role. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "Is Allow Throw available every match?",
+        "answer": "No. Only available when your team includes Jawhead. If the condition isn't met, the item cannot be purchased from the shop for this match."
+      },
+      {
+        "question": "How much does Allow Throw cost?",
+        "answer": "Allow Throw costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "antique-cuirass",
+    "url": "https://mlbbhub.com/items/antique-cuirass",
+    "description": "Antique Cuirass is a Tier 3 Defense item in Mobile Legends costing 2170 gold. +920 HP, +40 Physical Defense. Deter: When hit by a skill, reduces the attacker's Physical Damage by 4% for 2s (this effect stacks up to 3 times).",
+    "faq": [
+      {
+        "question": "What does Antique Cuirass do in Mobile Legends?",
+        "answer": "Antique Cuirass is a Tier 3 Defense item that provides +920 HP, +40 Physical Defense. Its passive ability \"Deter\" When hit by a skill, reduces the attacker's Physical Damage by 4% for 2s (this effect stacks up to 3 times)."
+      },
+      {
+        "question": "How do I build Antique Cuirass?",
+        "answer": "Combine 2 components: Dreadnaught Armor, Ares Belt. Component cost totals 1430 gold and a 740g combine fee, for a final cost of 2170 gold."
+      },
+      {
+        "question": "Who should buy Antique Cuirass?",
+        "answer": "Antique Cuirass is designed for frontliners who need to survive (tanks, fighters, bruisers). 14 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Antique Cuirass cost?",
+        "answer": "Antique Cuirass costs 2170 gold in total: 1430 gold for its 2 components, plus a 740 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "arcane-boots",
+    "url": "https://mlbbhub.com/items/arcane-boots",
+    "description": "Arcane Boots is a Tier 3 Movement item in Mobile Legends costing 720 gold. +15 Magic Power, +40 Movement Speed.",
+    "faq": [
+      {
+        "question": "What does Arcane Boots do in Mobile Legends?",
+        "answer": "Arcane Boots is a Tier 3 Movement item that provides +15 Magic Power, +40 Movement Speed."
+      },
+      {
+        "question": "How do I build Arcane Boots?",
+        "answer": "Combine 2 components: Boots, Mystery Codex. Component cost totals 550 gold and a 170g combine fee, for a final cost of 720 gold."
+      },
+      {
+        "question": "Who should buy Arcane Boots?",
+        "answer": "Arcane Boots is designed for any hero who needs a boot slot, with the enchant chosen by role. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Arcane Boots build into?",
+        "answer": "Arcane Boots is a component used in 7 higher-tier items: Bloody Retribution, Conceal, Dire Hit, Encourage, Favor, Flame Retribution, Ice Retribution. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Arcane Boots cost?",
+        "answer": "Arcane Boots costs 720 gold in total: 550 gold for its 2 components, plus a 170 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "ares-belt",
+    "url": "https://mlbbhub.com/items/ares-belt",
+    "description": "Ares Belt is a Tier 2 Defense item in Mobile Legends costing 700 gold. +600 HP.",
+    "faq": [
+      {
+        "question": "What does Ares Belt do in Mobile Legends?",
+        "answer": "Ares Belt is a Tier 2 Defense item that provides +600 HP."
+      },
+      {
+        "question": "How do I build Ares Belt?",
+        "answer": "Combine 1 component: Vitality Crystal. Component cost totals 300 gold and a 400g combine fee, for a final cost of 700 gold."
+      },
+      {
+        "question": "Who should buy Ares Belt?",
+        "answer": "Ares Belt is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Ares Belt build into?",
+        "answer": "Ares Belt is a component used in 8 higher-tier items: Antique Cuirass, Brute Force Breastplate, Chastise Pauldron, Cursed Helmet, Guardian Helmet, Immortality, Queen's Wings, Thunder Belt. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Ares Belt cost?",
+        "answer": "Ares Belt costs 700 gold in total: 300 gold for its 1 component, plus a 400 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "athenas-shield",
+    "url": "https://mlbbhub.com/items/athenas-shield",
+    "description": "Athena's Shield is a Tier 3 Defense item in Mobile Legends costing 2150 gold. +900 HP, +48 Magic Defense. Shield: Upon taking Magic Damage from enemy hero skills or Basic Attacks, reduces Magic Damage taken by 25% for 3s (in...",
+    "faq": [
+      {
+        "question": "What does Athena's Shield do in Mobile Legends?",
+        "answer": "Athena's Shield is a Tier 3 Defense item that provides +900 HP, +48 Magic Defense. Its passive ability \"Shield\" Upon taking Magic Damage from enemy hero skills or Basic Attacks, reduces Magic Damage taken by 25% for 3s (including the damage that triggers the effect). Regains this effect 5s after leaving combat."
+      },
+      {
+        "question": "How do I build Athena's Shield?",
+        "answer": "Combine 2 components: Silence Robe, Vitality Crystal. Component cost totals 1320 gold and a 830g combine fee, for a final cost of 2150 gold."
+      },
+      {
+        "question": "Who should buy Athena's Shield?",
+        "answer": "Athena's Shield is designed for frontliners who need to survive (tanks, fighters, bruisers). 11 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Athena's Shield cost?",
+        "answer": "Athena's Shield costs 2150 gold in total: 1320 gold for its 2 components, plus a 830 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "azure-blade",
+    "url": "https://mlbbhub.com/items/azure-blade",
+    "description": "Azure Blade is a Tier 2 Magic item in Mobile Legends costing 600 gold. +5% Cooldown Reduction. Judgement: After casting a skill, the next Basic Attack within 3s deals 50 extra True Damage (1.5s cooldown).",
+    "faq": [
+      {
+        "question": "What does Azure Blade do in Mobile Legends?",
+        "answer": "Azure Blade is a Tier 2 Magic item that provides +5% Cooldown Reduction. Its passive ability \"Judgement\" After casting a skill, the next Basic Attack within 3s deals 50 extra True Damage (1.5s cooldown)."
+      },
+      {
+        "question": "How do I build Azure Blade?",
+        "answer": "Combine 2 components: Magic Necklace, Magic Necklace. Component cost totals 240 gold and a 360g combine fee, for a final cost of 600 gold."
+      },
+      {
+        "question": "Who should buy Azure Blade?",
+        "answer": "Azure Blade is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Azure Blade build into?",
+        "answer": "Azure Blade is a component used in 2 higher-tier items: Endless Battle, Starlium Scythe. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Azure Blade cost?",
+        "answer": "Azure Blade costs 600 gold in total: 240 gold for its 2 components, plus a 360 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "berserkers-fury",
+    "url": "https://mlbbhub.com/items/berserkers-fury",
+    "description": "Berserker's Fury is a Tier 3 Attack item in Mobile Legends costing 2390 gold. +60 Physical Attack, +25% Crit Chance. Doom: When Basic Attacks Crit, they deal extra True Damage equal to 12% of the damage before reduction.",
+    "faq": [
+      {
+        "question": "What does Berserker's Fury do in Mobile Legends?",
+        "answer": "Berserker's Fury is a Tier 3 Attack item that provides +60 Physical Attack, +25% Crit Chance. Its passive ability \"Doom\" When Basic Attacks Crit, they deal extra True Damage equal to 12% of the damage before reduction. It also carries a unique attribute of 30% Critical Damage."
+      },
+      {
+        "question": "How do I build Berserker's Fury?",
+        "answer": "Combine 3 components: Legion Sword, Javelin, Javelin. Component cost totals 1550 gold and a 840g combine fee, for a final cost of 2390 gold."
+      },
+      {
+        "question": "Who should buy Berserker's Fury?",
+        "answer": "Berserker's Fury is designed for physical damage carries (marksmen, physical fighters, physical assassins). 12 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Berserker's Fury cost?",
+        "answer": "Berserker's Fury costs 2390 gold in total: 1550 gold for its 3 components, plus a 840 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "black-ice-shield",
+    "url": "https://mlbbhub.com/items/black-ice-shield",
+    "description": "Black Ice Shield is a Tier 2 Defense item in Mobile Legends costing 780 gold. +20 Physical Defense, +20 Magic Defense. Fortress Shield: For each enemy hero within 5 units, Physical & Magic Defense is increased by 4, up to 20.",
+    "faq": [
+      {
+        "question": "What does Black Ice Shield do in Mobile Legends?",
+        "answer": "Black Ice Shield is a Tier 2 Defense item that provides +20 Physical Defense, +20 Magic Defense. Its passive ability \"Fortress Shield\" For each enemy hero within 5 units, Physical & Magic Defense is increased by 4, up to 20."
+      },
+      {
+        "question": "How do I build Black Ice Shield?",
+        "answer": "Combine 2 components: Leather Jerkin, Magic Resist Cloak. Component cost totals 440 gold and a 340g combine fee, for a final cost of 780 gold."
+      },
+      {
+        "question": "Who should buy Black Ice Shield?",
+        "answer": "Black Ice Shield is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Black Ice Shield build into?",
+        "answer": "Black Ice Shield is a component used in 1 higher-tier item: Dominance Ice. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Black Ice Shield cost?",
+        "answer": "Black Ice Shield costs 780 gold in total: 440 gold for its 2 components, plus a 340 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "blade-armor",
+    "url": "https://mlbbhub.com/items/blade-armor",
+    "description": "Blade Armor is a Tier 3 Defense item in Mobile Legends costing 1910 gold. +80 Physical Defense. Bladed Armor: When struck by a Basic Attack, deals Physical Damage equal to 30 (+2% Total Physical Defense)% of the incoming...",
+    "faq": [
+      {
+        "question": "What does Blade Armor do in Mobile Legends?",
+        "answer": "Blade Armor is a Tier 3 Defense item that provides +80 Physical Defense. Its passive ability \"Bladed Armor\" When struck by a Basic Attack, deals Physical Damage equal to 30 (+2% Total Physical Defense)% of the incoming damage (calculated before Damage Reduction) to the attacker and slows them by 15% for 1s. It also carries a unique attribute of 20% Critical Damage Reduction."
+      },
+      {
+        "question": "How do I build Blade Armor?",
+        "answer": "Combine 3 components: Steel Legplates, Leather Jerkin, Leather Jerkin. Component cost totals 1070 gold and a 840g combine fee, for a final cost of 1910 gold."
+      },
+      {
+        "question": "Who should buy Blade Armor?",
+        "answer": "Blade Armor is designed for frontliners who need to survive (tanks, fighters, bruisers). 10 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Blade Armor cost?",
+        "answer": "Blade Armor costs 1910 gold in total: 1070 gold for its 3 components, plus a 840 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "blade-of-despair",
+    "url": "https://mlbbhub.com/items/blade-of-despair",
+    "description": "Blade of Despair is a Tier 3 Attack item in Mobile Legends costing 3010 gold. +160 Physical Attack. Despair: Dealing damage to non-Minion enemies below 50% HP increases Physical Attack by 25% for 2s (takes effect before...",
+    "faq": [
+      {
+        "question": "What does Blade of Despair do in Mobile Legends?",
+        "answer": "Blade of Despair is a Tier 3 Attack item that provides +160 Physical Attack. Its passive ability \"Despair\" Dealing damage to non-Minion enemies below 50% HP increases Physical Attack by 25% for 2s (takes effect before the damage is dealt)."
+      },
+      {
+        "question": "How do I build Blade of Despair?",
+        "answer": "Combine 2 components: Legion Sword, Legion Sword. Component cost totals 1820 gold and a 1190g combine fee, for a final cost of 3010 gold."
+      },
+      {
+        "question": "Who should buy Blade of Despair?",
+        "answer": "Blade of Despair is designed for physical damage carries (marksmen, physical fighters, physical assassins). 13 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Blade of Despair cost?",
+        "answer": "Blade of Despair costs 3010 gold in total: 1820 gold for its 2 components, plus a 1190 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "blade-of-the-heptaseas",
+    "url": "https://mlbbhub.com/items/blade-of-the-heptaseas",
+    "description": "Blade of the Heptaseas is a Tier 3 Attack item in Mobile Legends costing 1950 gold. +70 Physical Attack, +250 HP. Ambush: If no damage is taken or dealt within 5s (excluding from Minions or Creeps), the next Basic Attack will deal a...",
+    "faq": [
+      {
+        "question": "What does Blade of the Heptaseas do in Mobile Legends?",
+        "answer": "Blade of the Heptaseas is a Tier 3 Attack item that provides +70 Physical Attack, +250 HP. Its passive ability \"Ambush\" If no damage is taken or dealt within 5s (excluding from Minions or Creeps), the next Basic Attack will deal an additional 160 (+40% Total Physical Attack) Physical Damage and slow the target by 40% for 1.5s. It also carries a unique attribute of 15 Physical Penetration."
+      },
+      {
+        "question": "How do I build Blade of the Heptaseas?",
+        "answer": "Combine 2 components: Fury Hammer, Ogre Tomahawk. Component cost totals 1480 gold and a 470g combine fee, for a final cost of 1950 gold."
+      },
+      {
+        "question": "Who should buy Blade of the Heptaseas?",
+        "answer": "Blade of the Heptaseas is designed for physical damage carries (marksmen, physical fighters, physical assassins). 19 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Blade of the Heptaseas cost?",
+        "answer": "Blade of the Heptaseas costs 1950 gold in total: 1480 gold for its 2 components, plus a 470 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "blood-wings",
+    "url": "https://mlbbhub.com/items/blood-wings",
+    "description": "Blood Wings is a Tier 3 Magic item in Mobile Legends costing 2100 gold. +90 Magic Power. Guard: Gains a 800 (+100% Total Magic Power) Shield that will regenerate 20s after being damaged. The Shield also gra...",
+    "faq": [
+      {
+        "question": "What does Blood Wings do in Mobile Legends?",
+        "answer": "Blood Wings is a Tier 3 Magic item that provides +90 Magic Power. Its passive ability \"Guard\" Gains a 800 (+100% Total Magic Power) Shield that will regenerate 20s after being damaged. The Shield also grants 30 Movement Speed while it lasts and 150 Movement Speed for 1s after it breaks."
+      },
+      {
+        "question": "How do I build Blood Wings?",
+        "answer": "Combine 2 components: Magic Wand, Magic Wand. Component cost totals 1640 gold and a 460g combine fee, for a final cost of 2100 gold."
+      },
+      {
+        "question": "Who should buy Blood Wings?",
+        "answer": "Blood Wings is designed for magic damage dealers (mages and magic fighters). 5 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Blood Wings cost?",
+        "answer": "Blood Wings costs 2100 gold in total: 1640 gold for its 2 components, plus a 460 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "bloody-retribution",
+    "url": "https://mlbbhub.com/items/bloody-retribution",
+    "description": "Bloody Retribution is a Tier 1 Jungling item in Mobile Legends costing 0 gold. Hunter: After dealing damage to a Creep, deal 40 (+3*Hero Level) + (+1% Max HP) True Damage to the target over 3s (dam...",
+    "faq": [
+      {
+        "question": "What does Bloody Retribution do in Mobile Legends?",
+        "answer": "Bloody Retribution is a Tier 1 Jungling item that provides no base stats. Its passive ability \"Hunter\" After dealing damage to a Creep, deal 40 (+3*Hero Level) + (+1% Max HP) True Damage to the target over 3s (damage is increased by 100% for non-Marksmen heroes)."
+      },
+      {
+        "question": "How do I build Bloody Retribution?",
+        "answer": "Bloody Retribution is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Bloody Retribution?",
+        "answer": "Bloody Retribution is designed for the jungler who needs Retribution and jungle sustain. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Bloody Retribution cost?",
+        "answer": "Bloody Retribution costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "book-of-sages",
+    "url": "https://mlbbhub.com/items/book-of-sages",
+    "description": "Book of Sages is a Tier 1 Magic item in Mobile Legends costing 450 gold. +8 Magic Power, +5% Cooldown Reduction.",
+    "faq": [
+      {
+        "question": "What does Book of Sages do in Mobile Legends?",
+        "answer": "Book of Sages is a Tier 1 Magic item that provides +8 Magic Power, +5% Cooldown Reduction."
+      },
+      {
+        "question": "How do I build Book of Sages?",
+        "answer": "Book of Sages is a base component and can be purchased directly from the shop for 450 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Book of Sages?",
+        "answer": "Book of Sages is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Book of Sages build into?",
+        "answer": "Book of Sages is a component used in 7 higher-tier items: Clock of Destiny, Feather of Heaven, Flask of the Oasis, Lightning Truncheon, Starlium Scythe, Tome of Evil, Wishing Lantern. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Book of Sages cost?",
+        "answer": "Book of Sages costs 450 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "boots",
+    "url": "https://mlbbhub.com/items/boots",
+    "description": "Boots is a Tier 1 Movement item in Mobile Legends costing 250 gold. +20 Movement Speed.",
+    "faq": [
+      {
+        "question": "What does Boots do in Mobile Legends?",
+        "answer": "Boots is a Tier 1 Movement item that provides +20 Movement Speed."
+      },
+      {
+        "question": "How do I build Boots?",
+        "answer": "Boots is a base component and can be purchased directly from the shop for 250 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Boots?",
+        "answer": "Boots is designed for any hero who needs a boot slot, with the enchant chosen by role. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Boots build into?",
+        "answer": "Boots is a component used in 7 higher-tier items: Arcane Boots, Demon Boots, Magic Boots, Rapid Boots, Swift Boots, Tough Boots, Warrior Boots. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Boots cost?",
+        "answer": "Boots costs 250 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "broken-heart",
+    "url": "https://mlbbhub.com/items/broken-heart",
+    "description": "Broken Heart is a Tier 1 Movement item in Mobile Legends costing 0 gold. Heart Broken: Become immune to allied Cecilion's Moonlit Waltz in this match.",
+    "faq": [
+      {
+        "question": "What does Broken Heart do in Mobile Legends?",
+        "answer": "Broken Heart is a Tier 1 Movement item that provides no base stats. Its passive ability \"Heart Broken\" Become immune to allied Cecilion's Moonlit Waltz in this match."
+      },
+      {
+        "question": "How do I build Broken Heart?",
+        "answer": "Broken Heart is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Broken Heart?",
+        "answer": "Broken Heart is designed for any hero who needs a boot slot, with the enchant chosen by role. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Broken Heart cost?",
+        "answer": "Broken Heart costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "brute-force-breastplate",
+    "url": "https://mlbbhub.com/items/brute-force-breastplate",
+    "description": "Brute Force Breastplate is a Tier 3 Defense item in Mobile Legends costing 2070 gold. +800 HP, +20 Physical Defense, +10% Cooldown Reduction. Brute Force: After dealing damage, gain 1 stack every second for 4s, up to 6 stacks. Each stack grants 8 Adaptive Attack an...",
+    "faq": [
+      {
+        "question": "What does Brute Force Breastplate do in Mobile Legends?",
+        "answer": "Brute Force Breastplate is a Tier 3 Defense item that provides +800 HP, +20 Physical Defense, +10% Cooldown Reduction. Its passive ability \"Brute Force\" After dealing damage, gain 1 stack every second for 4s, up to 6 stacks. Each stack grants 8 Adaptive Attack and 2% Movement Speed. At full stacks, gain extra 25% Control Duration Reduction."
+      },
+      {
+        "question": "How do I build Brute Force Breastplate?",
+        "answer": "Combine 3 components: Ares Belt, Hero's Ring, Leather Jerkin. Component cost totals 1370 gold and a 700g combine fee, for a final cost of 2070 gold."
+      },
+      {
+        "question": "Who should buy Brute Force Breastplate?",
+        "answer": "Brute Force Breastplate is designed for frontliners who need to survive (tanks, fighters, bruisers). 16 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Brute Force Breastplate cost?",
+        "answer": "Brute Force Breastplate costs 2070 gold in total: 1370 gold for its 3 components, plus a 700 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "chastise-pauldron",
+    "url": "https://mlbbhub.com/items/chastise-pauldron",
+    "description": "Chastise Pauldron is a Tier 3 Defense item in Mobile Legends costing 2100 gold. +900 HP, +40 Physical Defense. Chastise: Taking damage will reduce the Attack Speed and Attack Speed cap of the attacker to 75% of normal for 2s.",
+    "faq": [
+      {
+        "question": "What does Chastise Pauldron do in Mobile Legends?",
+        "answer": "Chastise Pauldron is a Tier 3 Defense item that provides +900 HP, +40 Physical Defense. Its passive ability \"Chastise\" Taking damage will reduce the Attack Speed and Attack Speed cap of the attacker to 75% of normal for 2s."
+      },
+      {
+        "question": "How do I build Chastise Pauldron?",
+        "answer": "Combine 2 components: Steel Legplates, Ares Belt. Component cost totals 1330 gold and a 770g combine fee, for a final cost of 2100 gold."
+      },
+      {
+        "question": "Who should buy Chastise Pauldron?",
+        "answer": "Chastise Pauldron is designed for frontliners who need to survive (tanks, fighters, bruisers). 3 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Chastise Pauldron cost?",
+        "answer": "Chastise Pauldron costs 2100 gold in total: 1330 gold for its 2 components, plus a 770 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "clock-of-destiny",
+    "url": "https://mlbbhub.com/items/clock-of-destiny",
+    "description": "Clock of Destiny is a Tier 3 Magic item in Mobile Legends costing 2030 gold. +45 Magic Power, +400 HP, +10% Cooldown Reduction. Destiny: Gains 4.5 (+0.5*Hero Level) Hybrid Defense for 5s when dealing Magic Damage to enemy heroes, stacking up to 6 ...",
+    "faq": [
+      {
+        "question": "What does Clock of Destiny do in Mobile Legends?",
+        "answer": "Clock of Destiny is a Tier 3 Magic item that provides +45 Magic Power, +400 HP, +10% Cooldown Reduction. Its passive ability \"Destiny\" Gains 4.5 (+0.5*Hero Level) Hybrid Defense for 5s when dealing Magic Damage to enemy heroes, stacking up to 6 times (can gain 1 stack every 0.4s)."
+      },
+      {
+        "question": "How do I build Clock of Destiny?",
+        "answer": "Combine 3 components: Elegant Gem, Book of Sages, Book of Sages. Component cost totals 1600 gold and a 430g combine fee, for a final cost of 2030 gold."
+      },
+      {
+        "question": "Who should buy Clock of Destiny?",
+        "answer": "Clock of Destiny is designed for magic damage dealers (mages and magic fighters). 12 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Clock of Destiny cost?",
+        "answer": "Clock of Destiny costs 2030 gold in total: 1600 gold for its 3 components, plus a 430 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "conceal",
+    "url": "https://mlbbhub.com/items/conceal",
+    "description": "Conceal is a Tier 1 Roaming item in Mobile Legends costing 0 gold. Active - Conceal: Active: Conceals you and nearby allied heroes, granting 40% extra Movement Speed for 5s, or until taking or de...",
+    "faq": [
+      {
+        "question": "What does Conceal do in Mobile Legends?",
+        "answer": "Conceal is a Tier 1 Roaming item that provides no base stats. Its active ability \"Active - Conceal\" Active: Conceals you and nearby allied heroes, granting 40% extra Movement Speed for 5s, or until taking or dealing damage.\n\nWhen near allied heroes, you gain 30% EXP and Gold from minions and creeps. Dealing damage to enemy heroes (Cooldown: 15s) or revealing enemies also grants EXP and Gold. This skill can only be unlocked after accumulating 1000 Gold from Thriving."
+      },
+      {
+        "question": "How do I build Conceal?",
+        "answer": "Conceal is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Conceal?",
+        "answer": "Conceal is designed for tank and support roamers who buy the Roam mastery. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Conceal cost?",
+        "answer": "Conceal costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "concentrated-energy",
+    "url": "https://mlbbhub.com/items/concentrated-energy",
+    "description": "Concentrated Energy is a Tier 3 Magic item in Mobile Legends costing 2020 gold. +75 Magic Power, +400 HP. Recharge: Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 st...",
+    "faq": [
+      {
+        "question": "What does Concentrated Energy do in Mobile Legends?",
+        "answer": "Concentrated Energy is a Tier 3 Magic item that provides +75 Magic Power, +400 HP. Its passive ability \"Recharge\" Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4s). When reaching full stacks, increases Magic Damage by 12% for 5s. It also carries a unique attribute of 20% Hybrid Lifesteal."
+      },
+      {
+        "question": "How do I build Concentrated Energy?",
+        "answer": "Combine 3 components: Mystic Container, Magic Wand, Vitality Crystal. Component cost totals 1620 gold and a 400g combine fee, for a final cost of 2020 gold."
+      },
+      {
+        "question": "Who should buy Concentrated Energy?",
+        "answer": "Concentrated Energy is designed for magic damage dealers (mages and magic fighters). 11 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Concentrated Energy cost?",
+        "answer": "Concentrated Energy costs 2020 gold in total: 1620 gold for its 3 components, plus a 400 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "corrosion-scythe",
+    "url": "https://mlbbhub.com/items/corrosion-scythe",
+    "description": "Corrosion Scythe is a Tier 3 Attack item in Mobile Legends costing 2050 gold. +30 Physical Attack, +30% Attack Speed. Corrosion: Basic Attacks gain 80 extra Physical Damage and slow the target by 8% (halved for ranged Basic Attacks) for 1....",
+    "faq": [
+      {
+        "question": "What does Corrosion Scythe do in Mobile Legends?",
+        "answer": "Corrosion Scythe is a Tier 3 Attack item that provides +30 Physical Attack, +30% Attack Speed. Its passive ability \"Corrosion\" Basic Attacks gain 80 extra Physical Damage and slow the target by 8% (halved for ranged Basic Attacks) for 1.5s. Stacks up to 5 times."
+      },
+      {
+        "question": "How do I build Corrosion Scythe?",
+        "answer": "Combine 2 components: Swift Crossbow, Regular Spear. Component cost totals 1600 gold and a 450g combine fee, for a final cost of 2050 gold."
+      },
+      {
+        "question": "Who should buy Corrosion Scythe?",
+        "answer": "Corrosion Scythe is designed for physical damage carries (marksmen, physical fighters, physical assassins). 22 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Corrosion Scythe cost?",
+        "answer": "Corrosion Scythe costs 2050 gold in total: 1600 gold for its 2 components, plus a 450 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "cursed-helmet",
+    "url": "https://mlbbhub.com/items/cursed-helmet",
+    "description": "Cursed Helmet is a Tier 3 Defense item in Mobile Legends costing 1910 gold. +1200 HP, +20 Magic Defense. Burning Soul: Deals (0.6% Max HP) Magic Damage to nearby enemies per second. This damage is increased by 125 (+15*Hero Level...",
+    "faq": [
+      {
+        "question": "What does Cursed Helmet do in Mobile Legends?",
+        "answer": "Cursed Helmet is a Tier 3 Defense item that provides +1200 HP, +20 Magic Defense. Its passive ability \"Burning Soul\" Deals (0.6% Max HP) Magic Damage to nearby enemies per second. This damage is increased by 125 (+15*Hero Level)% against creeps and minions."
+      },
+      {
+        "question": "How do I build Cursed Helmet?",
+        "answer": "Combine 3 components: Molten Essence, Ares Belt, Magic Resist Cloak. Component cost totals 1720 gold and a 190g combine fee, for a final cost of 1910 gold."
+      },
+      {
+        "question": "Who should buy Cursed Helmet?",
+        "answer": "Cursed Helmet is designed for frontliners who need to survive (tanks, fighters, bruisers). 14 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Cursed Helmet cost?",
+        "answer": "Cursed Helmet costs 1910 gold in total: 1720 gold for its 3 components, plus a 190 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "dagger",
+    "url": "https://mlbbhub.com/items/dagger",
+    "description": "Dagger is a Tier 1 Attack item in Mobile Legends costing 250 gold. +15 Physical Attack.",
+    "faq": [
+      {
+        "question": "What does Dagger do in Mobile Legends?",
+        "answer": "Dagger is a Tier 1 Attack item that provides +15 Physical Attack."
+      },
+      {
+        "question": "How do I build Dagger?",
+        "answer": "Dagger is a base component and can be purchased directly from the shop for 250 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Dagger?",
+        "answer": "Dagger is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Dagger build into?",
+        "answer": "Dagger is a component used in 8 higher-tier items: Fury Hammer, Golden Staff, Haas's Claws, Hunter Strike, Legion Sword, Magic Blade, Ogre Tomahawk, Regular Spear. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Dagger cost?",
+        "answer": "Dagger costs 250 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "demon-boots",
+    "url": "https://mlbbhub.com/items/demon-boots",
+    "description": "Demon Boots is a Tier 3 Movement item in Mobile Legends costing 720 gold. +40 Movement Speed. Mysticism: Getting a kill or assist on an enemy Minion will restore 4% Mana. (An assist occurs when a Minion dies within ...",
+    "faq": [
+      {
+        "question": "What does Demon Boots do in Mobile Legends?",
+        "answer": "Demon Boots is a Tier 3 Movement item that provides +40 Movement Speed. Its passive ability \"Mysticism\" Getting a kill or assist on an enemy Minion will restore 4% Mana. (An assist occurs when a Minion dies within 2s after taking damage from the hero.)."
+      },
+      {
+        "question": "How do I build Demon Boots?",
+        "answer": "Combine 3 components: Boots, Magic Necklace, Magic Necklace. Component cost totals 490 gold and a 230g combine fee, for a final cost of 720 gold."
+      },
+      {
+        "question": "Who should buy Demon Boots?",
+        "answer": "Demon Boots is designed for any hero who needs a boot slot, with the enchant chosen by role. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Demon Boots build into?",
+        "answer": "Demon Boots is a component used in 7 higher-tier items: Bloody Retribution, Conceal, Dire Hit, Encourage, Favor, Flame Retribution, Ice Retribution. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Demon Boots cost?",
+        "answer": "Demon Boots costs 720 gold in total: 490 gold for its 3 components, plus a 230 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "demon-hunter-sword",
+    "url": "https://mlbbhub.com/items/demon-hunter-sword",
+    "description": "Demon Hunter Sword is a Tier 3 Attack item in Mobile Legends costing 2180 gold. +35 Physical Attack, +20% Attack Speed. Engulf: Basic Attacks deal 8% of the target's current HP as extra Physical Damage (capped at 60 against minions).",
+    "faq": [
+      {
+        "question": "What does Demon Hunter Sword do in Mobile Legends?",
+        "answer": "Demon Hunter Sword is a Tier 3 Attack item that provides +35 Physical Attack, +20% Attack Speed. Its passive ability \"Engulf\" Basic Attacks deal 8% of the target's current HP as extra Physical Damage (capped at 60 against minions)."
+      },
+      {
+        "question": "How do I build Demon Hunter Sword?",
+        "answer": "Combine 3 components: Regular Spear, Vampire Mallet, Knife. Component cost totals 1280 gold and a 900g combine fee, for a final cost of 2180 gold."
+      },
+      {
+        "question": "Who should buy Demon Hunter Sword?",
+        "answer": "Demon Hunter Sword is designed for physical damage carries (marksmen, physical fighters, physical assassins). 23 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Demon Hunter Sword cost?",
+        "answer": "Demon Hunter Sword costs 2180 gold in total: 1280 gold for its 3 components, plus a 900 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "dire-hit",
+    "url": "https://mlbbhub.com/items/dire-hit",
+    "description": "Dire Hit is a Tier 1 Roaming item in Mobile Legends costing 0 gold. Passive - Dire Hit: Passive: Gains Force while moving, gradually increasing Movement Speed (up to 40). Upon reaching 20 stacks, th...",
+    "faq": [
+      {
+        "question": "What does Dire Hit do in Mobile Legends?",
+        "answer": "Dire Hit is a Tier 1 Roaming item that provides no base stats. Its passive ability \"Passive - Dire Hit\" Passive: Gains Force while moving, gradually increasing Movement Speed (up to 40). Upon reaching 20 stacks, the next hit consumes all stacks to deal extra True Damage based on the number of stacks.\n\nWhen near allied heroes, you gain 30% EXP and Gold from minions and creeps. Dealing damage to enemy heroes (Cooldown: 15s) or revealing enemies also grants EXP and Gold. This skill can only be unlocked after getting 1000 Gold from Thriving."
+      },
+      {
+        "question": "How do I build Dire Hit?",
+        "answer": "Dire Hit is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Dire Hit?",
+        "answer": "Dire Hit is designed for tank and support roamers who buy the Roam mastery. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Dire Hit cost?",
+        "answer": "Dire Hit costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "divine-glaive",
+    "url": "https://mlbbhub.com/items/divine-glaive",
+    "description": "Divine Glaive is a Tier 3 Magic item in Mobile Legends costing 1970 gold. +60 Magic Power. Spellbreaker: When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense, cappe...",
+    "faq": [
+      {
+        "question": "What does Divine Glaive do in Mobile Legends?",
+        "answer": "Divine Glaive is a Tier 3 Magic item that provides +60 Magic Power. Its passive ability \"Spellbreaker\" When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense, capped at 20%. It also carries a unique attribute of 40% Magic Penetration."
+      },
+      {
+        "question": "How do I build Divine Glaive?",
+        "answer": "Combine 1 component: Magic Wand. Component cost totals 820 gold and a 1150g combine fee, for a final cost of 1970 gold."
+      },
+      {
+        "question": "Who should buy Divine Glaive?",
+        "answer": "Divine Glaive is designed for magic damage dealers (mages and magic fighters). 12 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Divine Glaive cost?",
+        "answer": "Divine Glaive costs 1970 gold in total: 820 gold for its 1 component, plus a 1150 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "dominance-ice",
+    "url": "https://mlbbhub.com/items/dominance-ice",
+    "description": "Dominance Ice is a Tier 3 Defense item in Mobile Legends costing 2010 gold. +40 Physical Defense, +40 Magic Defense. Fortress Shield: For each enemy hero within 5 units, Physical & Magic Defense is increased by 4, up to 20.",
+    "faq": [
+      {
+        "question": "What does Dominance Ice do in Mobile Legends?",
+        "answer": "Dominance Ice is a Tier 3 Defense item that provides +40 Physical Defense, +40 Magic Defense. Its passive ability \"Fortress Shield\" For each enemy hero within 5 units, Physical & Magic Defense is increased by 4, up to 20."
+      },
+      {
+        "question": "How do I build Dominance Ice?",
+        "answer": "Combine 3 components: Black Ice Shield, Leather Jerkin, Magic Resist Cloak. Component cost totals 1220 gold and a 790g combine fee, for a final cost of 2010 gold."
+      },
+      {
+        "question": "Who should buy Dominance Ice?",
+        "answer": "Dominance Ice is designed for frontliners who need to survive (tanks, fighters, bruisers). 42 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Dominance Ice cost?",
+        "answer": "Dominance Ice costs 2010 gold in total: 1220 gold for its 3 components, plus a 790 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "dreadnaught-armor",
+    "url": "https://mlbbhub.com/items/dreadnaught-armor",
+    "description": "Dreadnaught Armor is a Tier 2 Defense item in Mobile Legends costing 730 gold. +30 Physical Defense. Deter: When hit by a skill, reduces the attacker's Physical Damage by 4% for 2s (this effect stacks up to 3 times).",
+    "faq": [
+      {
+        "question": "What does Dreadnaught Armor do in Mobile Legends?",
+        "answer": "Dreadnaught Armor is a Tier 2 Defense item that provides +30 Physical Defense. Its passive ability \"Deter\" When hit by a skill, reduces the attacker's Physical Damage by 4% for 2s (this effect stacks up to 3 times)."
+      },
+      {
+        "question": "How do I build Dreadnaught Armor?",
+        "answer": "Combine 2 components: Leather Jerkin, Leather Jerkin. Component cost totals 440 gold and a 290g combine fee, for a final cost of 730 gold."
+      },
+      {
+        "question": "Who should buy Dreadnaught Armor?",
+        "answer": "Dreadnaught Armor is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Dreadnaught Armor build into?",
+        "answer": "Dreadnaught Armor is a component used in 1 higher-tier item: Antique Cuirass. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Dreadnaught Armor cost?",
+        "answer": "Dreadnaught Armor costs 730 gold in total: 440 gold for its 2 components, plus a 290 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "elegant-gem",
+    "url": "https://mlbbhub.com/items/elegant-gem",
+    "description": "Elegant Gem is a Tier 2 Magic item in Mobile Legends costing 700 gold. +300 HP. Gift: When HP drops below 50%, recovers 15% of HP over the next 3s. When Mana drops below 50%, restores 15% of Mana ...",
+    "faq": [
+      {
+        "question": "What does Elegant Gem do in Mobile Legends?",
+        "answer": "Elegant Gem is a Tier 2 Magic item that provides +300 HP. Its passive ability \"Gift\" When HP drops below 50%, recovers 15% of HP over the next 3s. When Mana drops below 50%, restores 15% of Mana over the next 3s. Cooldown: 60s."
+      },
+      {
+        "question": "How do I build Elegant Gem?",
+        "answer": "Combine 2 components: Power Crystal, Vitality Crystal. Component cost totals 520 gold and a 180g combine fee, for a final cost of 700 gold."
+      },
+      {
+        "question": "Who should buy Elegant Gem?",
+        "answer": "Elegant Gem is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Elegant Gem build into?",
+        "answer": "Elegant Gem is a component used in 1 higher-tier item: Clock of Destiny. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Elegant Gem cost?",
+        "answer": "Elegant Gem costs 700 gold in total: 520 gold for its 2 components, plus a 180 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "enchanted-talisman",
+    "url": "https://mlbbhub.com/items/enchanted-talisman",
+    "description": "Enchanted Talisman is a Tier 3 Magic item in Mobile Legends costing 2070 gold. +75 Magic Power, +300 HP, +15% Cooldown Reduction. Mana Spring: Regenerates 15% Max Mana every 10s.",
+    "faq": [
+      {
+        "question": "What does Enchanted Talisman do in Mobile Legends?",
+        "answer": "Enchanted Talisman is a Tier 3 Magic item that provides +75 Magic Power, +300 HP, +15% Cooldown Reduction. Its passive ability \"Mana Spring\" Regenerates 15% Max Mana every 10s."
+      },
+      {
+        "question": "How do I build Enchanted Talisman?",
+        "answer": "Combine 3 components: Tome of Evil, Magic Necklace, Magic Wand. Component cost totals 1890 gold and a 180g combine fee, for a final cost of 2070 gold."
+      },
+      {
+        "question": "Who should buy Enchanted Talisman?",
+        "answer": "Enchanted Talisman is designed for magic damage dealers (mages and magic fighters). 22 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Enchanted Talisman cost?",
+        "answer": "Enchanted Talisman costs 2070 gold in total: 1890 gold for its 3 components, plus a 180 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "encourage",
+    "url": "https://mlbbhub.com/items/encourage",
+    "description": "Encourage is a Tier 1 Roaming item in Mobile Legends costing 0 gold. Passive - Encourage: Passive: Grants you and nearby allied heroes 20 extra Hybrid Defense.\n\nWhen near allied heroes, you gain 30% E...",
+    "faq": [
+      {
+        "question": "What does Encourage do in Mobile Legends?",
+        "answer": "Encourage is a Tier 1 Roaming item that provides no base stats. Its passive ability \"Passive - Encourage\" Passive: Grants you and nearby allied heroes 20 extra Hybrid Defense.\n\nWhen near allied heroes, you gain 30% EXP and Gold from minions and creeps. Dealing damage to enemy heroes (Cooldown: 15s) or revealing enemies also grants EXP and Gold. This skill can only be unlocked after accumulating 1000 Gold from Thriving."
+      },
+      {
+        "question": "How do I build Encourage?",
+        "answer": "Encourage is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Encourage?",
+        "answer": "Encourage is designed for tank and support roamers who buy the Roam mastery. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Encourage cost?",
+        "answer": "Encourage costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "endless-battle",
+    "url": "https://mlbbhub.com/items/endless-battle",
+    "description": "Endless Battle is a Tier 3 Attack item in Mobile Legends costing 2330 gold. +60 Physical Attack, +250 HP, +10% Cooldown Reduction. Divine Justice: After casting a skill, the next Basic Attack within 3s deals (60% Total Physical Attack) extra True Damage and...",
+    "faq": [
+      {
+        "question": "What does Endless Battle do in Mobile Legends?",
+        "answer": "Endless Battle is a Tier 3 Attack item that provides +60 Physical Attack, +250 HP, +10% Cooldown Reduction. Its passive ability \"Divine Justice\" After casting a skill, the next Basic Attack within 3s deals (60% Total Physical Attack) extra True Damage and recovers 80 (+40% Total Physical Attack) HP (1.5s cooldown)."
+      },
+      {
+        "question": "How do I build Endless Battle?",
+        "answer": "Combine 3 components: Azure Blade, Iron Hunting Bow, Ogre Tomahawk. Component cost totals 1700 gold and a 630g combine fee, for a final cost of 2330 gold."
+      },
+      {
+        "question": "Who should buy Endless Battle?",
+        "answer": "Endless Battle is designed for physical damage carries (marksmen, physical fighters, physical assassins). 20 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Endless Battle cost?",
+        "answer": "Endless Battle costs 2330 gold in total: 1700 gold for its 3 components, plus a 630 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "exotic-veil",
+    "url": "https://mlbbhub.com/items/exotic-veil",
+    "description": "Exotic Veil is a Tier 2 Magic item in Mobile Legends costing 600 gold. +30 Magic Power.",
+    "faq": [
+      {
+        "question": "What does Exotic Veil do in Mobile Legends?",
+        "answer": "Exotic Veil is a Tier 2 Magic item that provides +30 Magic Power."
+      },
+      {
+        "question": "How do I build Exotic Veil?",
+        "answer": "Combine 1 component: Mystery Codex. Component cost totals 300 gold and a 300g combine fee, for a final cost of 600 gold."
+      },
+      {
+        "question": "Who should buy Exotic Veil?",
+        "answer": "Exotic Veil is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Exotic Veil build into?",
+        "answer": "Exotic Veil is a component used in 3 higher-tier items: Genius Wand, Glowing Wand, Ice Queen Wand. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Exotic Veil cost?",
+        "answer": "Exotic Veil costs 600 gold in total: 300 gold for its 1 component, plus a 300 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "expert-gloves",
+    "url": "https://mlbbhub.com/items/expert-gloves",
+    "description": "Expert Gloves is a Tier 1 Attack / Magic item in Mobile Legends costing 500 gold.",
+    "faq": [
+      {
+        "question": "What does Expert Gloves do in Mobile Legends?",
+        "answer": "Expert Gloves is a Tier 1 Attack / Magic item that provides no base stats."
+      },
+      {
+        "question": "How do I build Expert Gloves?",
+        "answer": "Expert Gloves is a base component and can be purchased directly from the shop for 500 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Expert Gloves?",
+        "answer": "Expert Gloves is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Expert Gloves build into?",
+        "answer": "Expert Gloves is a component used in 4 higher-tier items: Fleeting Time, Queen's Wings, Sky Piercer, Winter Crown. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Expert Gloves cost?",
+        "answer": "Expert Gloves costs 500 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "favor",
+    "url": "https://mlbbhub.com/items/favor",
+    "description": "Favor is a Tier 1 Roaming item in Mobile Legends costing 0 gold. Passive - Favor: Passive: Every 15s, your next healing or shield skill recovers 400 extra HP to the lowest-HP allied hero withi...",
+    "faq": [
+      {
+        "question": "What does Favor do in Mobile Legends?",
+        "answer": "Favor is a Tier 1 Roaming item that provides no base stats. Its passive ability \"Passive - Favor\" Passive: Every 15s, your next healing or shield skill recovers 400 extra HP to the lowest-HP allied hero within 5 units (including yourself). Skills that only take effect on yourself cannot trigger this effect.\n\nWhen near allied heroes, you gain 30% EXP and Gold from minions and creeps. Dealing damage to enemy heroes (Cooldown: 15s) or revealing enemies also grants EXP and Gold. This skill can only be unlocked after accumulating 1000 Gold from Thriving."
+      },
+      {
+        "question": "How do I build Favor?",
+        "answer": "Favor is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Favor?",
+        "answer": "Favor is designed for tank and support roamers who buy the Roam mastery. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Favor cost?",
+        "answer": "Favor costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "feather-of-heaven",
+    "url": "https://mlbbhub.com/items/feather-of-heaven",
+    "description": "Feather of Heaven is a Tier 3 Magic item in Mobile Legends costing 2030 gold. +60 Magic Power, +20% Attack Speed, +5% Cooldown Reduction. Affliction: Each Basic Attack deals extra 50 (+30% Total Magic Power) Magic Damage.",
+    "faq": [
+      {
+        "question": "What does Feather of Heaven do in Mobile Legends?",
+        "answer": "Feather of Heaven is a Tier 3 Magic item that provides +60 Magic Power, +20% Attack Speed, +5% Cooldown Reduction. Its passive ability \"Affliction\" Each Basic Attack deals extra 50 (+30% Total Magic Power) Magic Damage."
+      },
+      {
+        "question": "How do I build Feather of Heaven?",
+        "answer": "Combine 2 components: Swift Crossbow, Book of Sages. Component cost totals 1450 gold and a 580g combine fee, for a final cost of 2030 gold."
+      },
+      {
+        "question": "Who should buy Feather of Heaven?",
+        "answer": "Feather of Heaven is designed for magic damage dealers (mages and magic fighters). 9 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Feather of Heaven cost?",
+        "answer": "Feather of Heaven costs 2030 gold in total: 1450 gold for its 2 components, plus a 580 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "flame-retribution",
+    "url": "https://mlbbhub.com/items/flame-retribution",
+    "description": "Flame Retribution is a Tier 1 Jungling item in Mobile Legends costing 0 gold. Hunter: After dealing damage to a Creep, deal 40 (+3*Hero Level) + (+1% Max HP) True Damage to the target over 3s (dam...",
+    "faq": [
+      {
+        "question": "What does Flame Retribution do in Mobile Legends?",
+        "answer": "Flame Retribution is a Tier 1 Jungling item that provides no base stats. Its passive ability \"Hunter\" After dealing damage to a Creep, deal 40 (+3*Hero Level) + (+1% Max HP) True Damage to the target over 3s (damage is increased by 100% for non-Marksmen heroes)."
+      },
+      {
+        "question": "How do I build Flame Retribution?",
+        "answer": "Flame Retribution is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Flame Retribution?",
+        "answer": "Flame Retribution is designed for the jungler who needs Retribution and jungle sustain. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Flame Retribution cost?",
+        "answer": "Flame Retribution costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "flask-of-the-oasis",
+    "url": "https://mlbbhub.com/items/flask-of-the-oasis",
+    "description": "Flask of the Oasis is a Tier 3 Magic item in Mobile Legends costing 1850 gold. +60 Magic Power, +300 HP, +10% Cooldown Reduction. Blessing: When casting a healing or shield skill, if the target's HP is below 35% or falls below 35% within 3s, they wil...",
+    "faq": [
+      {
+        "question": "What does Flask of the Oasis do in Mobile Legends?",
+        "answer": "Flask of the Oasis is a Tier 3 Magic item that provides +60 Magic Power, +300 HP, +10% Cooldown Reduction. Its passive ability \"Blessing\" When casting a healing or shield skill, if the target's HP is below 35% or falls below 35% within 3s, they will get a (100*Hero Level) shield that lasts 3s. When this effect triggers, it also reduces the cooldown of the caster's skills by 2s.\nThis effect can only trigger once every 60s on the same target, and will not trigger on self-only healing and shield skills. It also carries a unique attribute of 12% Healing Effect."
+      },
+      {
+        "question": "How do I build Flask of the Oasis?",
+        "answer": "Combine 3 components: Magic Wand, Book of Sages, Vitality Crystal. Component cost totals 1570 gold and a 280g combine fee, for a final cost of 1850 gold."
+      },
+      {
+        "question": "Who should buy Flask of the Oasis?",
+        "answer": "Flask of the Oasis is designed for magic damage dealers (mages and magic fighters). 9 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Flask of the Oasis cost?",
+        "answer": "Flask of the Oasis costs 1850 gold in total: 1570 gold for its 3 components, plus a 280 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "fleeting-time",
+    "url": "https://mlbbhub.com/items/fleeting-time",
+    "description": "Fleeting Time is a Tier 3 Attack / Magic / Defense item in Mobile Legends costing 2050 gold. +600 HP, +15% Cooldown Reduction. Timestream: Hero kills or assists reduce the Ultimate's current cooldown by 30%.",
+    "faq": [
+      {
+        "question": "What does Fleeting Time do in Mobile Legends?",
+        "answer": "Fleeting Time is a Tier 3 Attack / Magic / Defense item that provides +600 HP, +15% Cooldown Reduction. Its passive ability \"Timestream\" Hero kills or assists reduce the Ultimate's current cooldown by 30%."
+      },
+      {
+        "question": "How do I build Fleeting Time?",
+        "answer": "Combine 3 components: Hero's Ring, Hero's Ring, Expert Gloves. Component cost totals 1400 gold and a 650g combine fee, for a final cost of 2050 gold."
+      },
+      {
+        "question": "Who should buy Fleeting Time?",
+        "answer": "Fleeting Time is designed for physical damage carries (marksmen, physical fighters, physical assassins). 25 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Fleeting Time cost?",
+        "answer": "Fleeting Time costs 2050 gold in total: 1400 gold for its 3 components, plus a 650 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "flower-of-hope",
+    "url": "https://mlbbhub.com/items/flower-of-hope",
+    "description": "Flower of Hope is a Tier 1 Magic item in Mobile Legends costing 0 gold. Flower of Hope: Every 6s, the next skill or Basic Attack deals an additional 100 (+40% Total Physical Attack) (+30% Total Magi...",
+    "faq": [
+      {
+        "question": "What does Flower of Hope do in Mobile Legends?",
+        "answer": "Flower of Hope is a Tier 1 Magic item that provides no base stats. Its passive ability \"Flower of Hope\" Every 6s, the next skill or Basic Attack deals an additional 100 (+40% Total Physical Attack) (+30% Total Magic Power) Magic Damage."
+      },
+      {
+        "question": "How do I build Flower of Hope?",
+        "answer": "Flower of Hope is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Flower of Hope?",
+        "answer": "Flower of Hope is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "Is Flower of Hope available every match?",
+        "answer": "No. Flower of Hope is a special Magic item only available to Floryn. If the condition isn't met, the item cannot be purchased from the shop for this match."
+      },
+      {
+        "question": "How much does Flower of Hope cost?",
+        "answer": "Flower of Hope costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "fury-hammer",
+    "url": "https://mlbbhub.com/items/fury-hammer",
+    "description": "Fury Hammer is a Tier 2 Attack item in Mobile Legends costing 830 gold. +35 Physical Attack.",
+    "faq": [
+      {
+        "question": "What does Fury Hammer do in Mobile Legends?",
+        "answer": "Fury Hammer is a Tier 2 Attack item that provides +35 Physical Attack. It also carries a unique attribute of 12 Physical Penetration."
+      },
+      {
+        "question": "How do I build Fury Hammer?",
+        "answer": "Combine 1 component: Dagger. Component cost totals 250 gold and a 580g combine fee, for a final cost of 830 gold."
+      },
+      {
+        "question": "Who should buy Fury Hammer?",
+        "answer": "Fury Hammer is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Fury Hammer build into?",
+        "answer": "Fury Hammer is a component used in 3 higher-tier items: Blade of the Heptaseas, Hunter Strike, Malefic Gun. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Fury Hammer cost?",
+        "answer": "Fury Hammer costs 830 gold in total: 250 gold for its 1 component, plus a 580 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "genius-wand",
+    "url": "https://mlbbhub.com/items/genius-wand",
+    "description": "Genius Wand is a Tier 3 Magic item in Mobile Legends costing 2000 gold. +75 Magic Power. Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 2.5 (+0.5*Hero Level) for 2s. Stacks u...",
+    "faq": [
+      {
+        "question": "What does Genius Wand do in Mobile Legends?",
+        "answer": "Genius Wand is a Tier 3 Magic item that provides +75 Magic Power. Its passive ability \"Magic\" Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 2.5 (+0.5*Hero Level) for 2s. Stacks up to 3 times. It also carries a unique attribute of 10 Magic Penetration."
+      },
+      {
+        "question": "How do I build Genius Wand?",
+        "answer": "Combine 2 components: Exotic Veil, Magic Wand. Component cost totals 1420 gold and a 580g combine fee, for a final cost of 2000 gold."
+      },
+      {
+        "question": "Who should buy Genius Wand?",
+        "answer": "Genius Wand is designed for magic damage dealers (mages and magic fighters). 23 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Genius Wand cost?",
+        "answer": "Genius Wand costs 2000 gold in total: 1420 gold for its 2 components, plus a 580 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "glowing-wand",
+    "url": "https://mlbbhub.com/items/glowing-wand",
+    "description": "Glowing Wand is a Tier 3 Magic item in Mobile Legends costing 2050 gold. +60 Magic Power, +300 HP. Scorch: Dealing Magic Damage burns the targets for 3s, also dealing extra Magic Damage equal to 1% of the target's Max...",
+    "faq": [
+      {
+        "question": "What does Glowing Wand do in Mobile Legends?",
+        "answer": "Glowing Wand is a Tier 3 Magic item that provides +60 Magic Power, +300 HP. Its passive ability \"Scorch\" Dealing Magic Damage burns the targets for 3s, also dealing extra Magic Damage equal to 1% of the target's Max HP per second."
+      },
+      {
+        "question": "How do I build Glowing Wand?",
+        "answer": "Combine 3 components: Exotic Veil, Mystery Codex, Vitality Crystal. Component cost totals 1200 gold and a 850g combine fee, for a final cost of 2050 gold."
+      },
+      {
+        "question": "Who should buy Glowing Wand?",
+        "answer": "Glowing Wand is designed for magic damage dealers (mages and magic fighters). 29 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Glowing Wand cost?",
+        "answer": "Glowing Wand costs 2050 gold in total: 1200 gold for its 3 components, plus a 850 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "golden-staff",
+    "url": "https://mlbbhub.com/items/golden-staff",
+    "description": "Golden Staff is a Tier 3 Attack item in Mobile Legends costing 2000 gold. +55 Physical Attack, +15% Attack Speed. Swift: Every 1% extra Crit Chance gained is converted into 1% extra Attack Speed.",
+    "faq": [
+      {
+        "question": "What does Golden Staff do in Mobile Legends?",
+        "answer": "Golden Staff is a Tier 3 Attack item that provides +55 Physical Attack, +15% Attack Speed. Its passive ability \"Swift\" Every 1% extra Crit Chance gained is converted into 1% extra Attack Speed."
+      },
+      {
+        "question": "How do I build Golden Staff?",
+        "answer": "Combine 3 components: Regular Spear, Dagger, Dagger. Component cost totals 1100 gold and a 900g combine fee, for a final cost of 2000 gold."
+      },
+      {
+        "question": "Who should buy Golden Staff?",
+        "answer": "Golden Staff is designed for physical damage carries (marksmen, physical fighters, physical assassins). 19 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Golden Staff cost?",
+        "answer": "Golden Staff costs 2000 gold in total: 1100 gold for its 3 components, plus a 900 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "great-dragon-spear",
+    "url": "https://mlbbhub.com/items/great-dragon-spear",
+    "description": "Great Dragon Spear is a Tier 3 Attack item in Mobile Legends costing 2140 gold. +70 Physical Attack, +20% Crit Chance, +10% Cooldown Reduction. Supreme Warrior: After casting an Ultimate, increase Movement Speed by 30% for 7.5s. This effect has a 15s cooldown.",
+    "faq": [
+      {
+        "question": "What does Great Dragon Spear do in Mobile Legends?",
+        "answer": "Great Dragon Spear is a Tier 3 Attack item that provides +70 Physical Attack, +20% Crit Chance, +10% Cooldown Reduction. Its passive ability \"Supreme Warrior\" After casting an Ultimate, increase Movement Speed by 30% for 7.5s. This effect has a 15s cooldown."
+      },
+      {
+        "question": "How do I build Great Dragon Spear?",
+        "answer": "Combine 3 components: Legion Sword, Iron Hunting Bow, Javelin. Component cost totals 1680 gold and a 460g combine fee, for a final cost of 2140 gold."
+      },
+      {
+        "question": "Who should buy Great Dragon Spear?",
+        "answer": "Great Dragon Spear is designed for physical damage carries (marksmen, physical fighters, physical assassins). 3 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Great Dragon Spear cost?",
+        "answer": "Great Dragon Spear costs 2140 gold in total: 1680 gold for its 3 components, plus a 460 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "guardian-helmet",
+    "url": "https://mlbbhub.com/items/guardian-helmet",
+    "description": "Guardian Helmet is a Tier 3 Defense item in Mobile Legends costing 2500 gold. +1800 HP. Recovery: After 5s out of combat, recover (2.5% Max HP) HP per second.",
+    "faq": [
+      {
+        "question": "What does Guardian Helmet do in Mobile Legends?",
+        "answer": "Guardian Helmet is a Tier 3 Defense item that provides +1800 HP. Its passive ability \"Recovery\" After 5s out of combat, recover (2.5% Max HP) HP per second."
+      },
+      {
+        "question": "How do I build Guardian Helmet?",
+        "answer": "Combine 3 components: Ares Belt, Ares Belt, Ares Belt. Component cost totals 2100 gold and a 400g combine fee, for a final cost of 2500 gold."
+      },
+      {
+        "question": "Who should buy Guardian Helmet?",
+        "answer": "Guardian Helmet is designed for frontliners who need to survive (tanks, fighters, bruisers). 7 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Guardian Helmet cost?",
+        "answer": "Guardian Helmet costs 2500 gold in total: 2100 gold for its 3 components, plus a 400 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "haass-claws",
+    "url": "https://mlbbhub.com/items/haass-claws",
+    "description": "Haas's Claws is a Tier 3 Attack item in Mobile Legends costing 2020 gold. +40 Physical Attack, +15% Attack Speed, +20% Crit Chance. Frenzy: Critical strikes grant 20% Attack Speed for 2s.",
+    "faq": [
+      {
+        "question": "What does Haas's Claws do in Mobile Legends?",
+        "answer": "Haas's Claws is a Tier 3 Attack item that provides +40 Physical Attack, +15% Attack Speed, +20% Crit Chance. Its passive ability \"Frenzy\" Critical strikes grant 20% Attack Speed for 2s. It also carries a unique attribute of 20% Lifesteal."
+      },
+      {
+        "question": "How do I build Haas's Claws?",
+        "answer": "Combine 3 components: Vampire Mallet, Rogue Meteor, Dagger. Component cost totals 1550 gold and a 470g combine fee, for a final cost of 2020 gold."
+      },
+      {
+        "question": "Who should buy Haas's Claws?",
+        "answer": "Haas's Claws is designed for physical damage carries (marksmen, physical fighters, physical assassins). 9 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Haas's Claws cost?",
+        "answer": "Haas's Claws costs 2020 gold in total: 1550 gold for its 3 components, plus a 470 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "healing-necklace",
+    "url": "https://mlbbhub.com/items/healing-necklace",
+    "description": "Healing Necklace is a Tier 1 Defense item in Mobile Legends costing 140 gold.",
+    "faq": [
+      {
+        "question": "What does Healing Necklace do in Mobile Legends?",
+        "answer": "Healing Necklace is a Tier 1 Defense item that provides no base stats."
+      },
+      {
+        "question": "How do I build Healing Necklace?",
+        "answer": "Healing Necklace is a base component and can be purchased directly from the shop for 140 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Healing Necklace?",
+        "answer": "Healing Necklace is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Healing Necklace build into?",
+        "answer": "Healing Necklace is a component used in 2 higher-tier items: Radiant Armor, Rapid Boots. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Healing Necklace cost?",
+        "answer": "Healing Necklace costs 140 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "heros-ring",
+    "url": "https://mlbbhub.com/items/heros-ring",
+    "description": "Hero's Ring is a Tier 1 Defense item in Mobile Legends costing 450 gold. +150 HP, +5% Cooldown Reduction.",
+    "faq": [
+      {
+        "question": "What does Hero's Ring do in Mobile Legends?",
+        "answer": "Hero's Ring is a Tier 1 Defense item that provides +150 HP, +5% Cooldown Reduction."
+      },
+      {
+        "question": "How do I build Hero's Ring?",
+        "answer": "Hero's Ring is a base component and can be purchased directly from the shop for 450 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Hero's Ring?",
+        "answer": "Hero's Ring is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Hero's Ring build into?",
+        "answer": "Hero's Ring is a component used in 7 higher-tier items: Brute Force Breastplate, Fleeting Time, Magic Boots, Oracle, Queen's Wings, War Axe, Winter Crown. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Hero's Ring cost?",
+        "answer": "Hero's Ring costs 450 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "holy-crystal",
+    "url": "https://mlbbhub.com/items/holy-crystal",
+    "description": "Holy Crystal is a Tier 3 Magic item in Mobile Legends costing 3000 gold. +165 Magic Power. Mystery: Gains 21%-35% extra Magic Power (scales with level).",
+    "faq": [
+      {
+        "question": "What does Holy Crystal do in Mobile Legends?",
+        "answer": "Holy Crystal is a Tier 3 Magic item that provides +165 Magic Power. Its passive ability \"Mystery\" Gains 21%-35% extra Magic Power (scales with level)."
+      },
+      {
+        "question": "How do I build Holy Crystal?",
+        "answer": "Combine 3 components: Magic Wand, Magic Wand, Magic Wand. Component cost totals 2460 gold and a 540g combine fee, for a final cost of 3000 gold."
+      },
+      {
+        "question": "Who should buy Holy Crystal?",
+        "answer": "Holy Crystal is designed for magic damage dealers (mages and magic fighters). 23 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Holy Crystal cost?",
+        "answer": "Holy Crystal costs 3000 gold in total: 2460 gold for its 3 components, plus a 540 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "hunter-strike",
+    "url": "https://mlbbhub.com/items/hunter-strike",
+    "description": "Hunter Strike is a Tier 3 Attack item in Mobile Legends costing 2010 gold. +80 Physical Attack, +10% Cooldown Reduction. Retribution: Dealing damage to the same enemy hero or creep 5 times in a row grants 50% extra Movement Speed that decays ov...",
+    "faq": [
+      {
+        "question": "What does Hunter Strike do in Mobile Legends?",
+        "answer": "Hunter Strike is a Tier 3 Attack item that provides +80 Physical Attack, +10% Cooldown Reduction. Its passive ability \"Retribution\" Dealing damage to the same enemy hero or creep 5 times in a row grants 50% extra Movement Speed that decays over 3s (8s cooldown). It also carries a unique attribute of 15 Physical Penetration."
+      },
+      {
+        "question": "How do I build Hunter Strike?",
+        "answer": "Combine 3 components: Fury Hammer, Iron Hunting Bow, Dagger. Component cost totals 1530 gold and a 480g combine fee, for a final cost of 2010 gold."
+      },
+      {
+        "question": "Who should buy Hunter Strike?",
+        "answer": "Hunter Strike is designed for physical damage carries (marksmen, physical fighters, physical assassins). 32 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Hunter Strike cost?",
+        "answer": "Hunter Strike costs 2010 gold in total: 1530 gold for its 3 components, plus a 480 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "ice-queen-wand",
+    "url": "https://mlbbhub.com/items/ice-queen-wand",
+    "description": "Ice Queen Wand is a Tier 3 Magic item in Mobile Legends costing 2040 gold. +60 Magic Power, +300 HP. Ice Bound: When a skill deals damage to an enemy hero, it will also slow them by 10% for 2s (stacks up to 3 times). This ...",
+    "faq": [
+      {
+        "question": "What does Ice Queen Wand do in Mobile Legends?",
+        "answer": "Ice Queen Wand is a Tier 3 Magic item that provides +60 Magic Power, +300 HP. Its passive ability \"Ice Bound\" When a skill deals damage to an enemy hero, it will also slow them by 10% for 2s (stacks up to 3 times). This effect has a 0.4s cooldown."
+      },
+      {
+        "question": "How do I build Ice Queen Wand?",
+        "answer": "Combine 3 components: Mystic Container, Exotic Veil, Mystery Codex. Component cost totals 1400 gold and a 640g combine fee, for a final cost of 2040 gold."
+      },
+      {
+        "question": "Who should buy Ice Queen Wand?",
+        "answer": "Ice Queen Wand is designed for magic damage dealers (mages and magic fighters). 12 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Ice Queen Wand cost?",
+        "answer": "Ice Queen Wand costs 2040 gold in total: 1400 gold for its 3 components, plus a 640 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "ice-retribution",
+    "url": "https://mlbbhub.com/items/ice-retribution",
+    "description": "Ice Retribution is a Tier 1 Jungling item in Mobile Legends costing 0 gold. Hunter: After dealing damage to a Creep, deal 40 (+3*Hero Level) + (+1% Max HP) True Damage to the target over 3s (dam...",
+    "faq": [
+      {
+        "question": "What does Ice Retribution do in Mobile Legends?",
+        "answer": "Ice Retribution is a Tier 1 Jungling item that provides no base stats. Its passive ability \"Hunter\" After dealing damage to a Creep, deal 40 (+3*Hero Level) + (+1% Max HP) True Damage to the target over 3s (damage is increased by 100% for non-Marksmen heroes)."
+      },
+      {
+        "question": "How do I build Ice Retribution?",
+        "answer": "Ice Retribution is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Ice Retribution?",
+        "answer": "Ice Retribution is designed for the jungler who needs Retribution and jungle sustain. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Ice Retribution cost?",
+        "answer": "Ice Retribution costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "immortality",
+    "url": "https://mlbbhub.com/items/immortality",
+    "description": "Immortality is a Tier 3 Defense item in Mobile Legends costing 2120 gold. +850 HP, +15 Physical Defense. Immortal: Resurrect 2.5s upon death and get 16% HP and a shield that can absorb 150 (+70*Hero Level) damage. Shield last...",
+    "faq": [
+      {
+        "question": "What does Immortality do in Mobile Legends?",
+        "answer": "Immortality is a Tier 3 Defense item that provides +850 HP, +15 Physical Defense. Its passive ability \"Immortal\" Resurrect 2.5s upon death and get 16% HP and a shield that can absorb 150 (+70*Hero Level) damage. Shield lasts 3s. This effect has a 210s cooldown."
+      },
+      {
+        "question": "How do I build Immortality?",
+        "answer": "Combine 3 components: Ares Belt, Vitality Crystal, Leather Jerkin. Component cost totals 1220 gold and a 900g combine fee, for a final cost of 2120 gold."
+      },
+      {
+        "question": "Who should buy Immortality?",
+        "answer": "Immortality is designed for frontliners who need to survive (tanks, fighters, bruisers). 4 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Immortality cost?",
+        "answer": "Immortality costs 2120 gold in total: 1220 gold for its 3 components, plus a 900 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "iron-hunting-bow",
+    "url": "https://mlbbhub.com/items/iron-hunting-bow",
+    "description": "Iron Hunting Bow is a Tier 1 Attack item in Mobile Legends costing 450 gold. +10 Physical Attack, +5% Cooldown Reduction.",
+    "faq": [
+      {
+        "question": "What does Iron Hunting Bow do in Mobile Legends?",
+        "answer": "Iron Hunting Bow is a Tier 1 Attack item that provides +10 Physical Attack, +5% Cooldown Reduction."
+      },
+      {
+        "question": "How do I build Iron Hunting Bow?",
+        "answer": "Iron Hunting Bow is a base component and can be purchased directly from the shop for 450 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Iron Hunting Bow?",
+        "answer": "Iron Hunting Bow is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Iron Hunting Bow build into?",
+        "answer": "Iron Hunting Bow is a component used in 4 higher-tier items: Endless Battle, Great Dragon Spear, Hunter Strike, War Axe. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Iron Hunting Bow cost?",
+        "answer": "Iron Hunting Bow costs 450 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "javelin",
+    "url": "https://mlbbhub.com/items/javelin",
+    "description": "Javelin is a Tier 1 Attack item in Mobile Legends costing 320 gold. +8% Crit Chance.",
+    "faq": [
+      {
+        "question": "What does Javelin do in Mobile Legends?",
+        "answer": "Javelin is a Tier 1 Attack item that provides +8% Crit Chance."
+      },
+      {
+        "question": "How do I build Javelin?",
+        "answer": "Javelin is a base component and can be purchased directly from the shop for 320 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Javelin?",
+        "answer": "Javelin is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Javelin build into?",
+        "answer": "Javelin is a component used in 3 higher-tier items: Berserker's Fury, Great Dragon Spear, Rogue Meteor. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Javelin cost?",
+        "answer": "Javelin costs 320 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "knife",
+    "url": "https://mlbbhub.com/items/knife",
+    "description": "Knife is a Tier 1 Attack item in Mobile Legends costing 280 gold. +10% Attack Speed.",
+    "faq": [
+      {
+        "question": "What does Knife do in Mobile Legends?",
+        "answer": "Knife is a Tier 1 Attack item that provides +10% Attack Speed."
+      },
+      {
+        "question": "How do I build Knife?",
+        "answer": "Knife is a base component and can be purchased directly from the shop for 280 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Knife?",
+        "answer": "Knife is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Knife build into?",
+        "answer": "Knife is a component used in 8 higher-tier items: Demon Hunter Sword, Malefic Gun, Regular Spear, Rogue Meteor, Rose Gold Meteor, Swift Boots, Swift Crossbow, Windtalker. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Knife cost?",
+        "answer": "Knife costs 280 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "lantern-of-hope",
+    "url": "https://mlbbhub.com/items/lantern-of-hope",
+    "description": "Lantern of Hope is a Tier 1 Magic item in Mobile Legends costing 0 gold. +20 Magic Power, +2% Cooldown Reduction. Lantern of Hope: The equipment's attributes scale with hero level.",
+    "faq": [
+      {
+        "question": "What does Lantern of Hope do in Mobile Legends?",
+        "answer": "Lantern of Hope is a Tier 1 Magic item that provides +20 Magic Power, +2% Cooldown Reduction. Its passive ability \"Lantern of Hope\" The equipment's attributes scale with hero level."
+      },
+      {
+        "question": "How do I build Lantern of Hope?",
+        "answer": "Lantern of Hope is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Lantern of Hope?",
+        "answer": "Lantern of Hope is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "Is Lantern of Hope available every match?",
+        "answer": "No. Lantern of Hope is a special Magic item only available to Floryn. If the condition isn't met, the item cannot be purchased from the shop for this match."
+      },
+      {
+        "question": "How much does Lantern of Hope cost?",
+        "answer": "Lantern of Hope costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "leather-jerkin",
+    "url": "https://mlbbhub.com/items/leather-jerkin",
+    "description": "Leather Jerkin is a Tier 1 Defense item in Mobile Legends costing 220 gold. +14 Physical Defense.",
+    "faq": [
+      {
+        "question": "What does Leather Jerkin do in Mobile Legends?",
+        "answer": "Leather Jerkin is a Tier 1 Defense item that provides +14 Physical Defense."
+      },
+      {
+        "question": "How do I build Leather Jerkin?",
+        "answer": "Leather Jerkin is a base component and can be purchased directly from the shop for 220 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Leather Jerkin?",
+        "answer": "Leather Jerkin is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Leather Jerkin build into?",
+        "answer": "Leather Jerkin is a component used in 9 higher-tier items: Black Ice Shield, Blade Armor, Brute Force Breastplate, Dominance Ice, Dreadnaught Armor, Immortality, Steel Legplates, Thunder Belt, Warrior Boots. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Leather Jerkin cost?",
+        "answer": "Leather Jerkin costs 220 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "legion-sword",
+    "url": "https://mlbbhub.com/items/legion-sword",
+    "description": "Legion Sword is a Tier 2 Attack item in Mobile Legends costing 910 gold. +60 Physical Attack.",
+    "faq": [
+      {
+        "question": "What does Legion Sword do in Mobile Legends?",
+        "answer": "Legion Sword is a Tier 2 Attack item that provides +60 Physical Attack."
+      },
+      {
+        "question": "How do I build Legion Sword?",
+        "answer": "Combine 2 components: Dagger, Dagger. Component cost totals 500 gold and a 410g combine fee, for a final cost of 910 gold."
+      },
+      {
+        "question": "Who should buy Legion Sword?",
+        "answer": "Legion Sword is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Legion Sword build into?",
+        "answer": "Legion Sword is a component used in 5 higher-tier items: Berserker's Fury, Blade of Despair, Great Dragon Spear, Malefic Roar, Sea Halberd. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Legion Sword cost?",
+        "answer": "Legion Sword costs 910 gold in total: 500 gold for its 2 components, plus a 410 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "lightning-truncheon",
+    "url": "https://mlbbhub.com/items/lightning-truncheon",
+    "description": "Lightning Truncheon is a Tier 3 Magic item in Mobile Legends costing 2250 gold. +75 Magic Power, +10% Cooldown Reduction. Resonate: Every 6s, the next skill echoes, dealing 255 (+85% Total Magic Power) extra Magic Damage to all enemies in ran...",
+    "faq": [
+      {
+        "question": "What does Lightning Truncheon do in Mobile Legends?",
+        "answer": "Lightning Truncheon is a Tier 3 Magic item that provides +75 Magic Power, +10% Cooldown Reduction. Its passive ability \"Resonate\" Every 6s, the next skill echoes, dealing 255 (+85% Total Magic Power) extra Magic Damage to all enemies in range."
+      },
+      {
+        "question": "How do I build Lightning Truncheon?",
+        "answer": "Combine 3 components: Magic Wand, Book of Sages, Power Crystal. Component cost totals 1490 gold and a 760g combine fee, for a final cost of 2250 gold."
+      },
+      {
+        "question": "Who should buy Lightning Truncheon?",
+        "answer": "Lightning Truncheon is designed for magic damage dealers (mages and magic fighters). 16 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Lightning Truncheon cost?",
+        "answer": "Lightning Truncheon costs 2250 gold in total: 1490 gold for its 3 components, plus a 760 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "magic-blade",
+    "url": "https://mlbbhub.com/items/magic-blade",
+    "description": "Magic Blade is a Tier 2 Attack item in Mobile Legends costing 1050 gold. +25 Physical Attack, +10% Lifesteal. Lifeline: When taking damage that reduces HP below 30%, gain a (60*Hero Level) shield and 50% Movement Speed that rapidl...",
+    "faq": [
+      {
+        "question": "What does Magic Blade do in Mobile Legends?",
+        "answer": "Magic Blade is a Tier 2 Attack item that provides +25 Physical Attack, +10% Lifesteal. Its passive ability \"Lifeline\" When taking damage that reduces HP below 30%, gain a (60*Hero Level) shield and 50% Movement Speed that rapidly decays over 3s. This effect has a 60s cooldown."
+      },
+      {
+        "question": "How do I build Magic Blade?",
+        "answer": "Combine 2 components: Dagger, Vampire Mallet. Component cost totals 650 gold and a 400g combine fee, for a final cost of 1050 gold."
+      },
+      {
+        "question": "Who should buy Magic Blade?",
+        "answer": "Magic Blade is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Magic Blade build into?",
+        "answer": "Magic Blade is a component used in 1 higher-tier item: Rose Gold Meteor. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Magic Blade cost?",
+        "answer": "Magic Blade costs 1050 gold in total: 650 gold for its 2 components, plus a 400 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "magic-boots",
+    "url": "https://mlbbhub.com/items/magic-boots",
+    "description": "Magic Boots is a Tier 3 Movement item in Mobile Legends costing 720 gold. +150 HP, +10% Cooldown Reduction, +40 Movement Speed.",
+    "faq": [
+      {
+        "question": "What does Magic Boots do in Mobile Legends?",
+        "answer": "Magic Boots is a Tier 3 Movement item that provides +150 HP, +10% Cooldown Reduction, +40 Movement Speed."
+      },
+      {
+        "question": "How do I build Magic Boots?",
+        "answer": "Combine 2 components: Boots, Hero's Ring. Component cost totals 700 gold and a 20g combine fee, for a final cost of 720 gold."
+      },
+      {
+        "question": "Who should buy Magic Boots?",
+        "answer": "Magic Boots is designed for any hero who needs a boot slot, with the enchant chosen by role. 1 hero currently cores it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Magic Boots build into?",
+        "answer": "Magic Boots is a component used in 7 higher-tier items: Bloody Retribution, Conceal, Dire Hit, Encourage, Favor, Flame Retribution, Ice Retribution. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Magic Boots cost?",
+        "answer": "Magic Boots costs 720 gold in total: 700 gold for its 2 components, plus a 20 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "magic-necklace",
+    "url": "https://mlbbhub.com/items/magic-necklace",
+    "description": "Magic Necklace is a Tier 1 Magic item in Mobile Legends costing 120 gold.",
+    "faq": [
+      {
+        "question": "What does Magic Necklace do in Mobile Legends?",
+        "answer": "Magic Necklace is a Tier 1 Magic item that provides no base stats."
+      },
+      {
+        "question": "How do I build Magic Necklace?",
+        "answer": "Magic Necklace is a base component and can be purchased directly from the shop for 120 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Magic Necklace?",
+        "answer": "Magic Necklace is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Magic Necklace build into?",
+        "answer": "Magic Necklace is a component used in 4 higher-tier items: Azure Blade, Demon Boots, Enchanted Talisman, Tome of Evil. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Magic Necklace cost?",
+        "answer": "Magic Necklace costs 120 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "magic-potion",
+    "url": "https://mlbbhub.com/items/magic-potion",
+    "description": "Magic Potion is a Tier 3 Magic item in Mobile Legends costing 1500 gold. Increase Power: Upon purchase, grants 30 extra Magic Power and 10% Cooldown Reduction for 120s.",
+    "faq": [
+      {
+        "question": "What does Magic Potion do in Mobile Legends?",
+        "answer": "Magic Potion is a Tier 3 Magic item that provides no base stats. Its passive ability \"Increase Power\" Upon purchase, grants 30 extra Magic Power and 10% Cooldown Reduction for 120s."
+      },
+      {
+        "question": "How do I build Magic Potion?",
+        "answer": "Magic Potion is a base component and can be purchased directly from the shop for 1500 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Magic Potion?",
+        "answer": "Magic Potion is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Magic Potion cost?",
+        "answer": "Magic Potion costs 1500 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "magic-resist-cloak",
+    "url": "https://mlbbhub.com/items/magic-resist-cloak",
+    "description": "Magic Resist Cloak is a Tier 1 Defense item in Mobile Legends costing 220 gold. +14 Magic Defense.",
+    "faq": [
+      {
+        "question": "What does Magic Resist Cloak do in Mobile Legends?",
+        "answer": "Magic Resist Cloak is a Tier 1 Defense item that provides +14 Magic Defense."
+      },
+      {
+        "question": "How do I build Magic Resist Cloak?",
+        "answer": "Magic Resist Cloak is a base component and can be purchased directly from the shop for 220 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Magic Resist Cloak?",
+        "answer": "Magic Resist Cloak is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Magic Resist Cloak build into?",
+        "answer": "Magic Resist Cloak is a component used in 7 higher-tier items: Black Ice Shield, Cursed Helmet, Dominance Ice, Radiant Armor, Silence Robe, Thunder Belt, Tough Boots. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Magic Resist Cloak cost?",
+        "answer": "Magic Resist Cloak costs 220 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "magic-wand",
+    "url": "https://mlbbhub.com/items/magic-wand",
+    "description": "Magic Wand is a Tier 1 Magic item in Mobile Legends costing 820 gold. +45 Magic Power.",
+    "faq": [
+      {
+        "question": "What does Magic Wand do in Mobile Legends?",
+        "answer": "Magic Wand is a Tier 1 Magic item that provides +45 Magic Power."
+      },
+      {
+        "question": "How do I build Magic Wand?",
+        "answer": "Combine 1 component: Mystery Codex. Component cost totals 300 gold and a 520g combine fee, for a final cost of 820 gold."
+      },
+      {
+        "question": "Who should buy Magic Wand?",
+        "answer": "Magic Wand is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Magic Wand build into?",
+        "answer": "Magic Wand is a component used in 10 higher-tier items: Blood Wings, Concentrated Energy, Divine Glaive, Enchanted Talisman, Flask of the Oasis, Genius Wand, Holy Crystal, Lightning Truncheon, Starlium Scythe, Wishing Lantern. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Magic Wand cost?",
+        "answer": "Magic Wand costs 820 gold in total: 300 gold for its 1 component, plus a 520 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "malefic-gun",
+    "url": "https://mlbbhub.com/items/malefic-gun",
+    "description": "Malefic Gun is a Tier 3 Attack item in Mobile Legends costing 2120 gold. +40 Physical Attack, +20% Attack Speed. Armor Buster: Increase Physical Penetration by 30%.",
+    "faq": [
+      {
+        "question": "What does Malefic Gun do in Mobile Legends?",
+        "answer": "Malefic Gun is a Tier 3 Attack item that provides +40 Physical Attack, +20% Attack Speed. Its passive ability \"Armor Buster\" Increase Physical Penetration by 30%."
+      },
+      {
+        "question": "How do I build Malefic Gun?",
+        "answer": "Combine 3 components: Fury Hammer, Knife, Knife. Component cost totals 1390 gold and a 730g combine fee, for a final cost of 2120 gold."
+      },
+      {
+        "question": "Who should buy Malefic Gun?",
+        "answer": "Malefic Gun is designed for physical damage carries (marksmen, physical fighters, physical assassins). 3 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Malefic Gun cost?",
+        "answer": "Malefic Gun costs 2120 gold in total: 1390 gold for its 3 components, plus a 730 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "malefic-roar",
+    "url": "https://mlbbhub.com/items/malefic-roar",
+    "description": "Malefic Roar is a Tier 3 Attack item in Mobile Legends costing 2060 gold. +60 Physical Attack. Armor Buster: Increase Physical Penetration by 30%.",
+    "faq": [
+      {
+        "question": "What does Malefic Roar do in Mobile Legends?",
+        "answer": "Malefic Roar is a Tier 3 Attack item that provides +60 Physical Attack. Its passive ability \"Armor Buster\" Increase Physical Penetration by 30%."
+      },
+      {
+        "question": "How do I build Malefic Roar?",
+        "answer": "Combine 1 component: Legion Sword. Component cost totals 910 gold and a 1150g combine fee, for a final cost of 2060 gold."
+      },
+      {
+        "question": "Who should buy Malefic Roar?",
+        "answer": "Malefic Roar is designed for physical damage carries (marksmen, physical fighters, physical assassins). 14 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Malefic Roar cost?",
+        "answer": "Malefic Roar costs 2060 gold in total: 910 gold for its 1 component, plus a 1150 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "molten-essence",
+    "url": "https://mlbbhub.com/items/molten-essence",
+    "description": "Molten Essence is a Tier 2 Defense item in Mobile Legends costing 800 gold. +540 HP. Burning Soul: Deals (0.6% Max HP) Magic Damage to nearby enemies per second. This damage is increased by 125 (+15*Hero Level...",
+    "faq": [
+      {
+        "question": "What does Molten Essence do in Mobile Legends?",
+        "answer": "Molten Essence is a Tier 2 Defense item that provides +540 HP. Its passive ability \"Burning Soul\" Deals (0.6% Max HP) Magic Damage to nearby enemies per second. This damage is increased by 125 (+15*Hero Level)% against creeps and minions."
+      },
+      {
+        "question": "How do I build Molten Essence?",
+        "answer": "Combine 1 component: Vitality Crystal. Component cost totals 300 gold and a 500g combine fee, for a final cost of 800 gold."
+      },
+      {
+        "question": "Who should buy Molten Essence?",
+        "answer": "Molten Essence is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Molten Essence build into?",
+        "answer": "Molten Essence is a component used in 1 higher-tier item: Cursed Helmet. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Molten Essence cost?",
+        "answer": "Molten Essence costs 800 gold in total: 300 gold for its 1 component, plus a 500 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "mystery-codex",
+    "url": "https://mlbbhub.com/items/mystery-codex",
+    "description": "Mystery Codex is a Tier 1 Magic item in Mobile Legends costing 300 gold. +15 Magic Power.",
+    "faq": [
+      {
+        "question": "What does Mystery Codex do in Mobile Legends?",
+        "answer": "Mystery Codex is a Tier 1 Magic item that provides +15 Magic Power."
+      },
+      {
+        "question": "How do I build Mystery Codex?",
+        "answer": "Mystery Codex is a base component and can be purchased directly from the shop for 300 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Mystery Codex?",
+        "answer": "Mystery Codex is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Mystery Codex build into?",
+        "answer": "Mystery Codex is a component used in 6 higher-tier items: Arcane Boots, Exotic Veil, Glowing Wand, Ice Queen Wand, Magic Wand, Mystic Container. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Mystery Codex cost?",
+        "answer": "Mystery Codex costs 300 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "mystic-container",
+    "url": "https://mlbbhub.com/items/mystic-container",
+    "description": "Mystic Container is a Tier 2 Magic item in Mobile Legends costing 500 gold. +15 Magic Power.",
+    "faq": [
+      {
+        "question": "What does Mystic Container do in Mobile Legends?",
+        "answer": "Mystic Container is a Tier 2 Magic item that provides +15 Magic Power."
+      },
+      {
+        "question": "How do I build Mystic Container?",
+        "answer": "Combine 1 component: Mystery Codex. Component cost totals 300 gold and a 200g combine fee, for a final cost of 500 gold."
+      },
+      {
+        "question": "Who should buy Mystic Container?",
+        "answer": "Mystic Container is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Mystic Container build into?",
+        "answer": "Mystic Container is a component used in 2 higher-tier items: Concentrated Energy, Ice Queen Wand. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Mystic Container cost?",
+        "answer": "Mystic Container costs 500 gold in total: 300 gold for its 1 component, plus a 200 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "ogre-tomahawk",
+    "url": "https://mlbbhub.com/items/ogre-tomahawk",
+    "description": "Ogre Tomahawk is a Tier 2 Attack item in Mobile Legends costing 650 gold. +25 Physical Attack, +230 HP.",
+    "faq": [
+      {
+        "question": "What does Ogre Tomahawk do in Mobile Legends?",
+        "answer": "Ogre Tomahawk is a Tier 2 Attack item that provides +25 Physical Attack, +230 HP."
+      },
+      {
+        "question": "How do I build Ogre Tomahawk?",
+        "answer": "Combine 2 components: Dagger, Vitality Crystal. Component cost totals 550 gold and a 100g combine fee, for a final cost of 650 gold."
+      },
+      {
+        "question": "Who should buy Ogre Tomahawk?",
+        "answer": "Ogre Tomahawk is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Ogre Tomahawk build into?",
+        "answer": "Ogre Tomahawk is a component used in 3 higher-tier items: Blade of the Heptaseas, Endless Battle, War Axe. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Ogre Tomahawk cost?",
+        "answer": "Ogre Tomahawk costs 650 gold in total: 550 gold for its 2 components, plus a 100 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "oracle",
+    "url": "https://mlbbhub.com/items/oracle",
+    "description": "Oracle is a Tier 3 Defense item in Mobile Legends costing 1860 gold. +850 HP, +20 Physical Defense, +20 Magic Defense. Bless: Received Shield and HP Regen effects are increased by 25%.",
+    "faq": [
+      {
+        "question": "What does Oracle do in Mobile Legends?",
+        "answer": "Oracle is a Tier 3 Defense item that provides +850 HP, +20 Physical Defense, +20 Magic Defense. Its passive ability \"Bless\" Received Shield and HP Regen effects are increased by 25%."
+      },
+      {
+        "question": "How do I build Oracle?",
+        "answer": "Combine 3 components: Hero's Ring, Hero's Ring, Vitality Crystal. Component cost totals 1200 gold and a 660g combine fee, for a final cost of 1860 gold."
+      },
+      {
+        "question": "Who should buy Oracle?",
+        "answer": "Oracle is designed for frontliners who need to survive (tanks, fighters, bruisers). 24 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Oracle cost?",
+        "answer": "Oracle costs 1860 gold in total: 1200 gold for its 3 components, plus a 660 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "power-crystal",
+    "url": "https://mlbbhub.com/items/power-crystal",
+    "description": "Power Crystal is a Tier 1 Magic item in Mobile Legends costing 220 gold.",
+    "faq": [
+      {
+        "question": "What does Power Crystal do in Mobile Legends?",
+        "answer": "Power Crystal is a Tier 1 Magic item that provides no base stats."
+      },
+      {
+        "question": "How do I build Power Crystal?",
+        "answer": "Power Crystal is a base component and can be purchased directly from the shop for 220 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Power Crystal?",
+        "answer": "Power Crystal is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Power Crystal build into?",
+        "answer": "Power Crystal is a component used in 3 higher-tier items: Elegant Gem, Lightning Truncheon, Wishing Lantern. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Power Crystal cost?",
+        "answer": "Power Crystal costs 220 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "power-potion",
+    "url": "https://mlbbhub.com/items/power-potion",
+    "description": "Power Potion is a Tier 3 Attack item in Mobile Legends costing 1500 gold. Increase Power: Upon purchase, grants 30 Physical Attack and 15% Lifesteal for 120s.",
+    "faq": [
+      {
+        "question": "What does Power Potion do in Mobile Legends?",
+        "answer": "Power Potion is a Tier 3 Attack item that provides no base stats. Its passive ability \"Increase Power\" Upon purchase, grants 30 Physical Attack and 15% Lifesteal for 120s."
+      },
+      {
+        "question": "How do I build Power Potion?",
+        "answer": "Power Potion is a base component and can be purchased directly from the shop for 1500 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Power Potion?",
+        "answer": "Power Potion is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Power Potion cost?",
+        "answer": "Power Potion costs 1500 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "queens-wings",
+    "url": "https://mlbbhub.com/items/queens-wings",
+    "description": "Queen's Wings is a Tier 3 Defense item in Mobile Legends costing 2250 gold. +750 HP, +10% Cooldown Reduction. Demonize: When HP drops below 40%, gains 30% Damage Reduction for 3s and reduces skill cooldowns by 2s. The effect has a...",
+    "faq": [
+      {
+        "question": "What does Queen's Wings do in Mobile Legends?",
+        "answer": "Queen's Wings is a Tier 3 Defense item that provides +750 HP, +10% Cooldown Reduction. Its passive ability \"Demonize\" When HP drops below 40%, gains 30% Damage Reduction for 3s and reduces skill cooldowns by 2s. The effect has a 60s cooldown."
+      },
+      {
+        "question": "How do I build Queen's Wings?",
+        "answer": "Combine 3 components: Ares Belt, Hero's Ring, Expert Gloves. Component cost totals 1650 gold and a 600g combine fee, for a final cost of 2250 gold."
+      },
+      {
+        "question": "Who should buy Queen's Wings?",
+        "answer": "Queen's Wings is designed for frontliners who need to survive (tanks, fighters, bruisers). 21 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Queen's Wings cost?",
+        "answer": "Queen's Wings costs 2250 gold in total: 1650 gold for its 3 components, plus a 600 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "radiant-armor",
+    "url": "https://mlbbhub.com/items/radiant-armor",
+    "description": "Radiant Armor is a Tier 3 Defense item in Mobile Legends costing 1880 gold. +950 HP, +40 Magic Defense. Holy Blessing: Taking Magic Damage grants 5 (+1*Hero Level) Magic Defense for 5s, up to 6 stacks (can only gain 1 stack(s) ev...",
+    "faq": [
+      {
+        "question": "What does Radiant Armor do in Mobile Legends?",
+        "answer": "Radiant Armor is a Tier 3 Defense item that provides +950 HP, +40 Magic Defense. Its passive ability \"Holy Blessing\" Taking Magic Damage grants 5 (+1*Hero Level) Magic Defense for 5s, up to 6 stacks (can only gain 1 stack(s) every 0.4s)."
+      },
+      {
+        "question": "How do I build Radiant Armor?",
+        "answer": "Combine 3 components: Silence Robe, Magic Resist Cloak, Healing Necklace. Component cost totals 1380 gold and a 500g combine fee, for a final cost of 1880 gold."
+      },
+      {
+        "question": "Who should buy Radiant Armor?",
+        "answer": "Radiant Armor is designed for frontliners who need to survive (tanks, fighters, bruisers). 3 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Radiant Armor cost?",
+        "answer": "Radiant Armor costs 1880 gold in total: 1380 gold for its 3 components, plus a 500 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "rapid-boots",
+    "url": "https://mlbbhub.com/items/rapid-boots",
+    "description": "Rapid Boots is a Tier 3 Movement item in Mobile Legends costing 720 gold. +55 Movement Speed.",
+    "faq": [
+      {
+        "question": "What does Rapid Boots do in Mobile Legends?",
+        "answer": "Rapid Boots is a Tier 3 Movement item that provides +55 Movement Speed."
+      },
+      {
+        "question": "How do I build Rapid Boots?",
+        "answer": "Combine 3 components: Boots, Healing Necklace, Healing Necklace. Component cost totals 530 gold and a 190g combine fee, for a final cost of 720 gold."
+      },
+      {
+        "question": "Who should buy Rapid Boots?",
+        "answer": "Rapid Boots is designed for any hero who needs a boot slot, with the enchant chosen by role. 2 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Rapid Boots build into?",
+        "answer": "Rapid Boots is a component used in 7 higher-tier items: Bloody Retribution, Conceal, Dire Hit, Encourage, Favor, Flame Retribution, Ice Retribution. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Rapid Boots cost?",
+        "answer": "Rapid Boots costs 720 gold in total: 530 gold for its 3 components, plus a 190 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "regular-spear",
+    "url": "https://mlbbhub.com/items/regular-spear",
+    "description": "Regular Spear is a Tier 2 Attack item in Mobile Legends costing 600 gold. +20 Physical Attack, +10% Attack Speed.",
+    "faq": [
+      {
+        "question": "What does Regular Spear do in Mobile Legends?",
+        "answer": "Regular Spear is a Tier 2 Attack item that provides +20 Physical Attack, +10% Attack Speed."
+      },
+      {
+        "question": "How do I build Regular Spear?",
+        "answer": "Combine 2 components: Knife, Dagger. Component cost totals 530 gold and a 70g combine fee, for a final cost of 600 gold."
+      },
+      {
+        "question": "Who should buy Regular Spear?",
+        "answer": "Regular Spear is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Regular Spear build into?",
+        "answer": "Regular Spear is a component used in 5 higher-tier items: Corrosion Scythe, Demon Hunter Sword, Golden Staff, Sea Halberd, Wind of Nature. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Regular Spear cost?",
+        "answer": "Regular Spear costs 600 gold in total: 530 gold for its 2 components, plus a 70 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "rock-potion",
+    "url": "https://mlbbhub.com/items/rock-potion",
+    "description": "Rock Potion is a Tier 3 Defense item in Mobile Legends costing 1500 gold. Increase Power: Upon purchase, grants 500 Max HP and 5% Damage Reduction for 120s.",
+    "faq": [
+      {
+        "question": "What does Rock Potion do in Mobile Legends?",
+        "answer": "Rock Potion is a Tier 3 Defense item that provides no base stats. Its passive ability \"Increase Power\" Upon purchase, grants 500 Max HP and 5% Damage Reduction for 120s."
+      },
+      {
+        "question": "How do I build Rock Potion?",
+        "answer": "Rock Potion is a base component and can be purchased directly from the shop for 1500 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Rock Potion?",
+        "answer": "Rock Potion is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Rock Potion cost?",
+        "answer": "Rock Potion costs 1500 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "rogue-meteor",
+    "url": "https://mlbbhub.com/items/rogue-meteor",
+    "description": "Rogue Meteor is a Tier 2 Attack item in Mobile Legends costing 900 gold. +15% Attack Speed, +10% Crit Chance.",
+    "faq": [
+      {
+        "question": "What does Rogue Meteor do in Mobile Legends?",
+        "answer": "Rogue Meteor is a Tier 2 Attack item that provides +15% Attack Speed, +10% Crit Chance."
+      },
+      {
+        "question": "How do I build Rogue Meteor?",
+        "answer": "Combine 2 components: Knife, Javelin. Component cost totals 600 gold and a 300g combine fee, for a final cost of 900 gold."
+      },
+      {
+        "question": "Who should buy Rogue Meteor?",
+        "answer": "Rogue Meteor is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Rogue Meteor build into?",
+        "answer": "Rogue Meteor is a component used in 2 higher-tier items: Haas's Claws, Windtalker. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Rogue Meteor cost?",
+        "answer": "Rogue Meteor costs 900 gold in total: 600 gold for its 2 components, plus a 300 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "rose-gold-meteor",
+    "url": "https://mlbbhub.com/items/rose-gold-meteor",
+    "description": "Rose Gold Meteor is a Tier 3 Attack item in Mobile Legends costing 2030 gold. +30 Physical Attack, +20% Attack Speed, +10% Lifesteal. Dragon Scale: Every 4 extra Physical Attack increases Hybrid Defense by 1, up to 50 (effect is halved if Main Role is not Fi...",
+    "faq": [
+      {
+        "question": "What does Rose Gold Meteor do in Mobile Legends?",
+        "answer": "Rose Gold Meteor is a Tier 3 Attack item that provides +30 Physical Attack, +20% Attack Speed, +10% Lifesteal. Its passive ability \"Dragon Scale\" Every 4 extra Physical Attack increases Hybrid Defense by 1, up to 50 (effect is halved if Main Role is not Fighter)."
+      },
+      {
+        "question": "How do I build Rose Gold Meteor?",
+        "answer": "Combine 2 components: Magic Blade, Knife. Component cost totals 1330 gold and a 700g combine fee, for a final cost of 2030 gold."
+      },
+      {
+        "question": "Who should buy Rose Gold Meteor?",
+        "answer": "Rose Gold Meteor is designed for physical damage carries (marksmen, physical fighters, physical assassins). 2 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Rose Gold Meteor cost?",
+        "answer": "Rose Gold Meteor costs 2030 gold in total: 1330 gold for its 2 components, plus a 700 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "sea-halberd",
+    "url": "https://mlbbhub.com/items/sea-halberd",
+    "description": "Sea Halberd is a Tier 3 Attack item in Mobile Legends costing 2050 gold. +80 Physical Attack, +20% Attack Speed. Lifebane: Dealing damage to a target will reduce the Shield and HP Regen effects on them to 60% of normal for 3s.",
+    "faq": [
+      {
+        "question": "What does Sea Halberd do in Mobile Legends?",
+        "answer": "Sea Halberd is a Tier 3 Attack item that provides +80 Physical Attack, +20% Attack Speed. Its passive ability \"Lifebane\" Dealing damage to a target will reduce the Shield and HP Regen effects on them to 60% of normal for 3s."
+      },
+      {
+        "question": "How do I build Sea Halberd?",
+        "answer": "Combine 2 components: Legion Sword, Regular Spear. Component cost totals 1510 gold and a 540g combine fee, for a final cost of 2050 gold."
+      },
+      {
+        "question": "Who should buy Sea Halberd?",
+        "answer": "Sea Halberd is designed for physical damage carries (marksmen, physical fighters, physical assassins). 5 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Sea Halberd cost?",
+        "answer": "Sea Halberd costs 2050 gold in total: 1510 gold for its 2 components, plus a 540 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "silence-robe",
+    "url": "https://mlbbhub.com/items/silence-robe",
+    "description": "Silence Robe is a Tier 2 Defense item in Mobile Legends costing 1020 gold. +540 HP, +23 Magic Defense.",
+    "faq": [
+      {
+        "question": "What does Silence Robe do in Mobile Legends?",
+        "answer": "Silence Robe is a Tier 2 Defense item that provides +540 HP, +23 Magic Defense."
+      },
+      {
+        "question": "How do I build Silence Robe?",
+        "answer": "Combine 2 components: Vitality Crystal, Magic Resist Cloak. Component cost totals 520 gold and a 500g combine fee, for a final cost of 1020 gold."
+      },
+      {
+        "question": "Who should buy Silence Robe?",
+        "answer": "Silence Robe is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Silence Robe build into?",
+        "answer": "Silence Robe is a component used in 2 higher-tier items: Athena's Shield, Radiant Armor. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Silence Robe cost?",
+        "answer": "Silence Robe costs 1020 gold in total: 520 gold for its 2 components, plus a 500 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "sky-piercer",
+    "url": "https://mlbbhub.com/items/sky-piercer",
+    "description": "Sky Piercer is a Tier 3 Attack / Magic item in Mobile Legends costing 1500 gold. +15 Movement Speed. Lethality: After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Le...",
+    "faq": [
+      {
+        "question": "What does Sky Piercer do in Mobile Legends?",
+        "answer": "Sky Piercer is a Tier 3 Attack / Magic item that provides +15 Movement Speed. Its passive ability \"Lethality\" After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% of current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up to 80 times."
+      },
+      {
+        "question": "How do I build Sky Piercer?",
+        "answer": "Combine 2 components: Expert Gloves, Expert Gloves. Component cost totals 1000 gold and a 500g combine fee, for a final cost of 1500 gold."
+      },
+      {
+        "question": "Who should buy Sky Piercer?",
+        "answer": "Sky Piercer is designed for physical damage carries (marksmen, physical fighters, physical assassins). 17 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Sky Piercer cost?",
+        "answer": "Sky Piercer costs 1500 gold in total: 1000 gold for its 2 components, plus a 500 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "starlium-scythe",
+    "url": "https://mlbbhub.com/items/starlium-scythe",
+    "description": "Starlium Scythe is a Tier 3 Magic item in Mobile Legends costing 2120 gold. +75 Magic Power, +10% Cooldown Reduction. Crisis: After casting a skill, the next Basic Attack within 3s deals 90 (+60% Total Magic Power) extra True Damage and...",
+    "faq": [
+      {
+        "question": "What does Starlium Scythe do in Mobile Legends?",
+        "answer": "Starlium Scythe is a Tier 3 Magic item that provides +75 Magic Power, +10% Cooldown Reduction. Its passive ability \"Crisis\" After casting a skill, the next Basic Attack within 3s deals 90 (+60% Total Magic Power) extra True Damage and reduces the target's Movement Speed by 15% for 1.5s (1.5s cooldown)."
+      },
+      {
+        "question": "How do I build Starlium Scythe?",
+        "answer": "Combine 3 components: Azure Blade, Book of Sages, Magic Wand. Component cost totals 1870 gold and a 250g combine fee, for a final cost of 2120 gold."
+      },
+      {
+        "question": "Who should buy Starlium Scythe?",
+        "answer": "Starlium Scythe is designed for magic damage dealers (mages and magic fighters). 11 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Starlium Scythe cost?",
+        "answer": "Starlium Scythe costs 2120 gold in total: 1870 gold for its 3 components, plus a 250 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "steel-legplates",
+    "url": "https://mlbbhub.com/items/steel-legplates",
+    "description": "Steel Legplates is a Tier 2 Defense item in Mobile Legends costing 630 gold. +35 Physical Defense.",
+    "faq": [
+      {
+        "question": "What does Steel Legplates do in Mobile Legends?",
+        "answer": "Steel Legplates is a Tier 2 Defense item that provides +35 Physical Defense."
+      },
+      {
+        "question": "How do I build Steel Legplates?",
+        "answer": "Combine 1 component: Leather Jerkin. Component cost totals 220 gold and a 410g combine fee, for a final cost of 630 gold."
+      },
+      {
+        "question": "Who should buy Steel Legplates?",
+        "answer": "Steel Legplates is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Steel Legplates build into?",
+        "answer": "Steel Legplates is a component used in 2 higher-tier items: Blade Armor, Chastise Pauldron. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Steel Legplates cost?",
+        "answer": "Steel Legplates costs 630 gold in total: 220 gold for its 1 component, plus a 410 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "swift-boots",
+    "url": "https://mlbbhub.com/items/swift-boots",
+    "description": "Swift Boots is a Tier 3 Movement item in Mobile Legends costing 720 gold. +15% Attack Speed, +40 Movement Speed.",
+    "faq": [
+      {
+        "question": "What does Swift Boots do in Mobile Legends?",
+        "answer": "Swift Boots is a Tier 3 Movement item that provides +15% Attack Speed, +40 Movement Speed."
+      },
+      {
+        "question": "How do I build Swift Boots?",
+        "answer": "Combine 2 components: Boots, Knife. Component cost totals 530 gold and a 190g combine fee, for a final cost of 720 gold."
+      },
+      {
+        "question": "Who should buy Swift Boots?",
+        "answer": "Swift Boots is designed for any hero who needs a boot slot, with the enchant chosen by role. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Swift Boots build into?",
+        "answer": "Swift Boots is a component used in 7 higher-tier items: Bloody Retribution, Conceal, Dire Hit, Encourage, Favor, Flame Retribution, Ice Retribution. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Swift Boots cost?",
+        "answer": "Swift Boots costs 720 gold in total: 530 gold for its 2 components, plus a 190 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "swift-crossbow",
+    "url": "https://mlbbhub.com/items/swift-crossbow",
+    "description": "Swift Crossbow is a Tier 2 Attack item in Mobile Legends costing 1000 gold. +20% Attack Speed. Crossbow: Each Basic Attack deals 40 extra Adaptive Damage.",
+    "faq": [
+      {
+        "question": "What does Swift Crossbow do in Mobile Legends?",
+        "answer": "Swift Crossbow is a Tier 2 Attack item that provides +20% Attack Speed. Its passive ability \"Crossbow\" Each Basic Attack deals 40 extra Adaptive Damage."
+      },
+      {
+        "question": "How do I build Swift Crossbow?",
+        "answer": "Combine 2 components: Knife, Knife. Component cost totals 560 gold and a 440g combine fee, for a final cost of 1000 gold."
+      },
+      {
+        "question": "Who should buy Swift Crossbow?",
+        "answer": "Swift Crossbow is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Swift Crossbow build into?",
+        "answer": "Swift Crossbow is a component used in 2 higher-tier items: Corrosion Scythe, Feather of Heaven. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Swift Crossbow cost?",
+        "answer": "Swift Crossbow costs 1000 gold in total: 560 gold for its 2 components, plus a 440 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "throw-forbidden",
+    "url": "https://mlbbhub.com/items/throw-forbidden",
+    "description": "Throw Forbidden is a Tier 1 Movement item in Mobile Legends costing 0 gold. Heavy Mountain: Become immune to allied Jawhead's Ejector in this match.",
+    "faq": [
+      {
+        "question": "What does Throw Forbidden do in Mobile Legends?",
+        "answer": "Throw Forbidden is a Tier 1 Movement item that provides no base stats. Its passive ability \"Heavy Mountain\" Become immune to allied Jawhead's Ejector in this match."
+      },
+      {
+        "question": "How do I build Throw Forbidden?",
+        "answer": "Throw Forbidden is a base component and can be purchased directly from the shop for 0 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Throw Forbidden?",
+        "answer": "Throw Forbidden is designed for any hero who needs a boot slot, with the enchant chosen by role. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Throw Forbidden cost?",
+        "answer": "Throw Forbidden costs 0 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "thunder-belt",
+    "url": "https://mlbbhub.com/items/thunder-belt",
+    "description": "Thunder Belt is a Tier 3 Defense item in Mobile Legends costing 1820 gold. +600 HP, +15 Physical Defense, +15 Magic Defense. Thunderbolt: Every 4s, the next Basic Attack deals 50 (+100% Extra Physical Defense)(100% Extra Magic Defense) extra True D...",
+    "faq": [
+      {
+        "question": "What does Thunder Belt do in Mobile Legends?",
+        "answer": "Thunder Belt is a Tier 3 Defense item that provides +600 HP, +15 Physical Defense, +15 Magic Defense. Its passive ability \"Thunderbolt\" Every 4s, the next Basic Attack deals 50 (+100% Extra Physical Defense)(100% Extra Magic Defense) extra True Damage to the target and enemies around them, and briefly slows them by 99%. Hybrid Defense permanently increases by 1 each time the attack hits an enemy hero.\nThis effect is reduced to 50% for Marksmen, Mages, and Assassins."
+      },
+      {
+        "question": "How do I build Thunder Belt?",
+        "answer": "Combine 3 components: Ares Belt, Leather Jerkin, Magic Resist Cloak. Component cost totals 1140 gold and a 680g combine fee, for a final cost of 1820 gold."
+      },
+      {
+        "question": "Who should buy Thunder Belt?",
+        "answer": "Thunder Belt is designed for frontliners who need to survive (tanks, fighters, bruisers). 24 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Thunder Belt cost?",
+        "answer": "Thunder Belt costs 1820 gold in total: 1140 gold for its 3 components, plus a 680 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "tome-of-evil",
+    "url": "https://mlbbhub.com/items/tome-of-evil",
+    "description": "Tome of Evil is a Tier 2 Magic item in Mobile Legends costing 950 gold. +30 Magic Power, +10% Cooldown Reduction.",
+    "faq": [
+      {
+        "question": "What does Tome of Evil do in Mobile Legends?",
+        "answer": "Tome of Evil is a Tier 2 Magic item that provides +30 Magic Power, +10% Cooldown Reduction."
+      },
+      {
+        "question": "How do I build Tome of Evil?",
+        "answer": "Combine 2 components: Magic Necklace, Book of Sages. Component cost totals 570 gold and a 380g combine fee, for a final cost of 950 gold."
+      },
+      {
+        "question": "Who should buy Tome of Evil?",
+        "answer": "Tome of Evil is designed for magic damage dealers (mages and magic fighters). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Tome of Evil build into?",
+        "answer": "Tome of Evil is a component used in 1 higher-tier item: Enchanted Talisman. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Tome of Evil cost?",
+        "answer": "Tome of Evil costs 950 gold in total: 570 gold for its 2 components, plus a 380 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "tough-boots",
+    "url": "https://mlbbhub.com/items/tough-boots",
+    "description": "Tough Boots is a Tier 3 Movement item in Mobile Legends costing 720 gold. +18 Magic Defense, +40 Movement Speed. Fortitude: CC and Slow Duration reduced by 25%",
+    "faq": [
+      {
+        "question": "What does Tough Boots do in Mobile Legends?",
+        "answer": "Tough Boots is a Tier 3 Movement item that provides +18 Magic Defense, +40 Movement Speed. Its passive ability \"Fortitude\" CC and Slow Duration reduced by 25%."
+      },
+      {
+        "question": "How do I build Tough Boots?",
+        "answer": "Combine 2 components: Boots, Magic Resist Cloak. Component cost totals 470 gold and a 250g combine fee, for a final cost of 720 gold."
+      },
+      {
+        "question": "Who should buy Tough Boots?",
+        "answer": "Tough Boots is designed for any hero who needs a boot slot, with the enchant chosen by role. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Tough Boots build into?",
+        "answer": "Tough Boots is a component used in 7 higher-tier items: Bloody Retribution, Conceal, Dire Hit, Encourage, Favor, Flame Retribution, Ice Retribution. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Tough Boots cost?",
+        "answer": "Tough Boots costs 720 gold in total: 470 gold for its 2 components, plus a 250 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "vampire-mallet",
+    "url": "https://mlbbhub.com/items/vampire-mallet",
+    "description": "Vampire Mallet is a Tier 1 Attack item in Mobile Legends costing 400 gold. +8 Physical Attack, +8% Lifesteal.",
+    "faq": [
+      {
+        "question": "What does Vampire Mallet do in Mobile Legends?",
+        "answer": "Vampire Mallet is a Tier 1 Attack item that provides +8 Physical Attack, +8% Lifesteal."
+      },
+      {
+        "question": "How do I build Vampire Mallet?",
+        "answer": "Vampire Mallet is a base component and can be purchased directly from the shop for 400 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Vampire Mallet?",
+        "answer": "Vampire Mallet is designed for physical damage carries (marksmen, physical fighters, physical assassins). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Vampire Mallet build into?",
+        "answer": "Vampire Mallet is a component used in 4 higher-tier items: Demon Hunter Sword, Haas's Claws, Magic Blade, Wind of Nature. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Vampire Mallet cost?",
+        "answer": "Vampire Mallet costs 400 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "vitality-crystal",
+    "url": "https://mlbbhub.com/items/vitality-crystal",
+    "description": "Vitality Crystal is a Tier 1 Defense item in Mobile Legends costing 300 gold. +230 HP.",
+    "faq": [
+      {
+        "question": "What does Vitality Crystal do in Mobile Legends?",
+        "answer": "Vitality Crystal is a Tier 1 Defense item that provides +230 HP."
+      },
+      {
+        "question": "How do I build Vitality Crystal?",
+        "answer": "Vitality Crystal is a base component and can be purchased directly from the shop for 300 gold. You don't combine other items into it."
+      },
+      {
+        "question": "Who should buy Vitality Crystal?",
+        "answer": "Vitality Crystal is designed for frontliners who need to survive (tanks, fighters, bruisers). Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Vitality Crystal build into?",
+        "answer": "Vitality Crystal is a component used in 12 higher-tier items: Ares Belt, Athena's Shield, Concentrated Energy, Elegant Gem, Flask of the Oasis, Glowing Wand, Immortality, Molten Essence, Ogre Tomahawk, Oracle, Silence Robe, Winter Crown. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Vitality Crystal cost?",
+        "answer": "Vitality Crystal costs 300 gold. It has no recipe, so there is no combine fee on top of that."
+      }
+    ]
+  },
+  {
+    "slug": "war-axe",
+    "url": "https://mlbbhub.com/items/war-axe",
+    "description": "War Axe is a Tier 3 Attack item in Mobile Legends costing 2100 gold. +35 Physical Attack, +400 HP, +10% Cooldown Reduction. Fighting Spirit: Attacks grant 12 extra Physical Attack per second for 4s, up to 6 stacks. Deals extra 10% True Damage based on...",
+    "faq": [
+      {
+        "question": "What does War Axe do in Mobile Legends?",
+        "answer": "War Axe is a Tier 3 Attack item that provides +35 Physical Attack, +400 HP, +10% Cooldown Reduction. Its passive ability \"Fighting Spirit\" Attacks grant 12 extra Physical Attack per second for 4s, up to 6 stacks. Deals extra 10% True Damage based on the damage dealt (no damage reduction counted) at full stacks.\nMarksmen, Mages, and Supports only receive 50% of these stacked effects."
+      },
+      {
+        "question": "How do I build War Axe?",
+        "answer": "Combine 3 components: Ogre Tomahawk, Iron Hunting Bow, Hero's Ring. Component cost totals 1550 gold and a 550g combine fee, for a final cost of 2100 gold."
+      },
+      {
+        "question": "Who should buy War Axe?",
+        "answer": "War Axe is designed for physical damage carries (marksmen, physical fighters, physical assassins). 39 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does War Axe cost?",
+        "answer": "War Axe costs 2100 gold in total: 1550 gold for its 3 components, plus a 550 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "warrior-boots",
+    "url": "https://mlbbhub.com/items/warrior-boots",
+    "description": "Warrior Boots is a Tier 3 Movement item in Mobile Legends costing 720 gold. +18 Physical Defense, +40 Movement Speed. Valor: Gain 4 extra Physical Defense for 3s when taking Physical Damage, up to 20.",
+    "faq": [
+      {
+        "question": "What does Warrior Boots do in Mobile Legends?",
+        "answer": "Warrior Boots is a Tier 3 Movement item that provides +18 Physical Defense, +40 Movement Speed. Its passive ability \"Valor\" Gain 4 extra Physical Defense for 3s when taking Physical Damage, up to 20."
+      },
+      {
+        "question": "How do I build Warrior Boots?",
+        "answer": "Combine 2 components: Boots, Leather Jerkin. Component cost totals 470 gold and a 250g combine fee, for a final cost of 720 gold."
+      },
+      {
+        "question": "Who should buy Warrior Boots?",
+        "answer": "Warrior Boots is designed for any hero who needs a boot slot, with the enchant chosen by role. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "What items does Warrior Boots build into?",
+        "answer": "Warrior Boots is a component used in 7 higher-tier items: Bloody Retribution, Conceal, Dire Hit, Encourage, Favor, Flame Retribution, Ice Retribution. Buying it early lets you commit to whichever path suits the match state."
+      },
+      {
+        "question": "How much does Warrior Boots cost?",
+        "answer": "Warrior Boots costs 720 gold in total: 470 gold for its 2 components, plus a 250 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "wind-of-nature",
+    "url": "https://mlbbhub.com/items/wind-of-nature",
+    "description": "Wind of Nature is a Tier 3 Attack item in Mobile Legends costing 1910 gold. +30 Physical Attack, +20% Attack Speed, +10% Lifesteal. Wind Chant: Become immune to all Physical Damage for 2s (duration is halved if Main Role is not Marksman; 90s cooldown).",
+    "faq": [
+      {
+        "question": "What does Wind of Nature do in Mobile Legends?",
+        "answer": "Wind of Nature is a Tier 3 Attack item that provides +30 Physical Attack, +20% Attack Speed, +10% Lifesteal. Its active ability \"Wind Chant\" Become immune to all Physical Damage for 2s (duration is halved if Main Role is not Marksman; 90s cooldown)."
+      },
+      {
+        "question": "How do I build Wind of Nature?",
+        "answer": "Combine 2 components: Regular Spear, Vampire Mallet. Component cost totals 1000 gold and a 910g combine fee, for a final cost of 1910 gold."
+      },
+      {
+        "question": "Who should buy Wind of Nature?",
+        "answer": "Wind of Nature is designed for physical damage carries (marksmen, physical fighters, physical assassins). 1 hero currently cores it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Wind of Nature cost?",
+        "answer": "Wind of Nature costs 1910 gold in total: 1000 gold for its 2 components, plus a 910 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "windtalker",
+    "url": "https://mlbbhub.com/items/windtalker",
+    "description": "Windtalker is a Tier 3 Attack item in Mobile Legends costing 1880 gold. +35% Attack Speed, +20% Crit Chance, +20 Movement Speed. Typhoon: Every 5-2s (reduced by 0.2s for each Basic Attack), the next Basic Attack will hit up to 3 enemy units for 150...",
+    "faq": [
+      {
+        "question": "What does Windtalker do in Mobile Legends?",
+        "answer": "Windtalker is a Tier 3 Attack item that provides +35% Attack Speed, +20% Crit Chance, +20 Movement Speed. Its passive ability \"Typhoon\" Every 5-2s (reduced by 0.2s for each Basic Attack), the next Basic Attack will hit up to 3 enemy units for 150-362 Magic Damage. (This attack can Crit and the damage increases to 200% against Minions.)."
+      },
+      {
+        "question": "How do I build Windtalker?",
+        "answer": "Combine 2 components: Rogue Meteor, Knife. Component cost totals 1180 gold and a 700g combine fee, for a final cost of 1880 gold."
+      },
+      {
+        "question": "Who should buy Windtalker?",
+        "answer": "Windtalker is designed for physical damage carries (marksmen, physical fighters, physical assassins). 5 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Windtalker cost?",
+        "answer": "Windtalker costs 1880 gold in total: 1180 gold for its 2 components, plus a 700 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "winter-crown",
+    "url": "https://mlbbhub.com/items/winter-crown",
+    "description": "Winter Crown is a Tier 3 Attack / Magic item in Mobile Legends costing 1910 gold. +400 HP, +5% Cooldown Reduction. Frozen: Becomes frozen, untargetable, and immune to damage for 2s (100s cooldown). Cannot move or cast skills while fr...",
+    "faq": [
+      {
+        "question": "What does Winter Crown do in Mobile Legends?",
+        "answer": "Winter Crown is a Tier 3 Attack / Magic item that provides +400 HP, +5% Cooldown Reduction. Its active ability \"Frozen\" Becomes frozen, untargetable, and immune to damage for 2s (100s cooldown). Cannot move or cast skills while frozen, but skills already cast won't be interrupted."
+      },
+      {
+        "question": "How do I build Winter Crown?",
+        "answer": "Combine 3 components: Expert Gloves, Hero's Ring, Vitality Crystal. Component cost totals 1250 gold and a 660g combine fee, for a final cost of 1910 gold."
+      },
+      {
+        "question": "Who should buy Winter Crown?",
+        "answer": "Winter Crown is designed for physical damage carries (marksmen, physical fighters, physical assassins). 17 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Winter Crown cost?",
+        "answer": "Winter Crown costs 1910 gold in total: 1250 gold for its 3 components, plus a 660 gold combine fee."
+      }
+    ]
+  },
+  {
+    "slug": "wishing-lantern",
+    "url": "https://mlbbhub.com/items/wishing-lantern",
+    "description": "Wishing Lantern is a Tier 3 Magic item in Mobile Legends costing 2250 gold. +75 Magic Power, +10% Cooldown Reduction. Butterfly Goddess: For every 900 Magic Damage dealt to an enemy hero (calculated before Damage Reduction), a Butterfly Goddess is...",
+    "faq": [
+      {
+        "question": "What does Wishing Lantern do in Mobile Legends?",
+        "answer": "Wishing Lantern is a Tier 3 Magic item that provides +75 Magic Power, +10% Cooldown Reduction. Its passive ability \"Butterfly Goddess\" For every 900 Magic Damage dealt to an enemy hero (calculated before Damage Reduction), a Butterfly Goddess is summoned to attack the enemy hero, dealing Magic Damage equal to 8% of their current HP."
+      },
+      {
+        "question": "How do I build Wishing Lantern?",
+        "answer": "Combine 3 components: Magic Wand, Book of Sages, Power Crystal. Component cost totals 1490 gold and a 760g combine fee, for a final cost of 2250 gold."
+      },
+      {
+        "question": "Who should buy Wishing Lantern?",
+        "answer": "Wishing Lantern is designed for magic damage dealers (mages and magic fighters). 13 heroes currently core it in our editorial loadouts. Stats and passives should match the damage type, defense needs, and mobility budget of the hero buying it."
+      },
+      {
+        "question": "How much does Wishing Lantern cost?",
+        "answer": "Wishing Lantern costs 2250 gold in total: 1490 gold for its 3 components, plus a 760 gold combine fee."
+      }
+    ]
+  }
+]

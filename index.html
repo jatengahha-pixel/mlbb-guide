@@ -256,14 +256,15 @@ main{padding:12px}
 <div class="stat"><b id="heroCount">-</b><small>Hero</small></div>
 <div class="stat"><b id="itemCount">-</b><small>Item</small></div>
 <div class="stat"><b id="buildCount">-</b><small>Build</small></div>
+
 </div>
 <nav id="nav">
 <button class="active" onclick="show('hero',this)">Hero</button>
 <button onclick="show('item',this)">Item</button>
-<button onclick="show('build',this)">Build</button>
+
 <button onclick="show('counter',this)">Counter</button>
 <button onclick="show('draft',this)">Draft Pick</button>
-<button onclick="show('emblem',this)">Emblem</button>
+
 <button onclick="show('meta',this)">Meta</button>
 </nav>
 <main>
@@ -272,7 +273,7 @@ main{padding:12px}
 </main>
 <footer>MLBB Ultimate Guide • Database komunitas</footer>
 <script>
-let heroes=[],items=[],builds=[],emblems=[],meta={},apiHeroes=[];
+let heroes=[],items=[],builds=[],meta={},apiHeroes=[],itemDetails=[];
 let page='hero';
 
 const $=id=>document.getElementById(id);
@@ -281,14 +282,14 @@ const norm=s=>String(s??'').toLowerCase().trim();
 
 async function load(){
  try{
-  const files=['heroes.json','items.json','builds.json','emblem.json','meta.json','api-heroes.json'];
+  const files=['heroes.json','items.json','builds.json','meta.json','api-heroes.json','item-details.json'];
   const data=await Promise.all(files.map(async f=>{
    const r=await fetch(f);
    if(!r.ok)throw Error('Gagal membaca '+f);
    return JSON.parse((await r.text()).replace(/^\uFEFF/,''));
   }));
   heroes=data[0];items=data[1];builds=data[2];
-  emblems=data[3].emblems||[];meta=data[4];apiHeroes=(data[5].data.records||[]).map(r=>r.data);
+  meta=data[3];apiHeroes=(data[4].data.records||[]).map(r=>r.data);itemDetails=data[5];
   $('heroCount').textContent=heroes.length;
   $('itemCount').textContent=items.length;
   $('buildCount').textContent=builds.length;
@@ -325,7 +326,7 @@ function render(){
  if(page==='item'){
   title='Database Semua Equipment';
   html=items.filter(i=>norm(i['name-equipment']).includes(q)).map(i=>
-   card(i['name-equipment'],`<img src="logo-equipment/${esc(i['logo-equipment'])}" alt="${esc(i['name-equipment'])}" style="width:100%;height:110px;object-fit:contain" loading="lazy"><div class="itemrow"><span class="muted">ID ${esc(i.id_equip)}</span><b class="price">${Number(i['prize-gold']).toLocaleString('id-ID')} Gold</b></div>`)
+   card(i['name-equipment'],`<img src="logo-equipment/${esc(i['logo-equipment'])}" alt="${esc(i['name-equipment'])}" style="width:100%;height:110px;object-fit:contain" loading="lazy"><div class="itemrow"><span class="muted">ID ${esc(i.id_equip)}</span><b class="price">${Number(i['prize-gold']).toLocaleString('id-ID')} Gold</b></div><button onclick="openItem(${Number(i.id_equip)})">Lihat Detail Item →</button>`)
   ).join('');
  }
 
@@ -401,13 +402,6 @@ function render(){
    <button onclick="analyzeDraft()">Analisis Draft Pick</button>
    <div id="draftResult" class="detail">Pilih hero lalu tekan Analisis Draft Pick.</div>
   </div></div>`;
- }
-
- if(page==='emblem'){
-  title='Database Emblem & Talent';
-  html=emblems.filter(e=>norm(e.name+' '+JSON.stringify(e)).includes(q)).map(e=>
-   card(e.name,`<p><b>Atribut:</b></p>${Object.entries(e.attributes||{}).map(([k,v])=>`<span class="tag">${esc(k)}: ${esc(v)}</span>`).join('')}<div class="detail"><b>Standard Talent</b>${(e.standard_talents||[]).map(t=>`<p><b>${esc(t.name)}</b><br><span class="muted">${esc(t.description)}</span></p>`).join('')}<b>Core Talent</b>${(e.core_talents||[]).map(t=>`<p><b>${esc(t.name)}</b><br><span class="muted">${esc(t.description)}</span></p>`).join('')}</div>`)
-  ).join('');
  }
 
  if(page==='meta'){
@@ -763,6 +757,120 @@ async function loadHeroDetailCounters(name){
  }catch(e){
   out.innerHTML='<h3>Data counter terkait</h3><p style="color:#ff9b9b">Gagal mengambil data: '+esc(e.message)+'</p>';
  }
+}
+
+
+function findItemDetail(item){
+ const clean=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+ return itemDetails.find(d=>{
+  const q=d.faq?.[0]?.question||'';
+  const m=q.match(/^What does (.+) do in Mobile Legends\?$/i);
+  return m && clean(m[1])===clean(item['name-equipment']);
+ });
+}
+
+function itemAnswer(detail,start){
+ return detail?.faq?.find(f=>f.question.toLowerCase().startsWith(start))?.answer||'Belum tersedia.';
+}
+
+function backToItems(){
+ page='item';
+ document.querySelectorAll('nav button').forEach(b=>{
+  b.classList.toggle('active',b.textContent.trim().toLowerCase()==='item');
+ });
+ render();
+ window.scrollTo(0,0);
+}
+
+function openItem(id){
+ const item=items.find(x=>Number(x.id_equip)===Number(id));
+ if(!item)return;
+
+ const detail=findItemDetail(item);
+ if(!detail){
+  $('content').innerHTML='<h2>Detail Item</h2><p>Data detail item belum tersedia.</p><button onclick="backToItems()">← Kembali ke Item</button>';
+  return;
+ }
+
+ const desc=detail.description||'';
+ const stats=[...desc.matchAll(/([+-]\d+(?:\.\d+)?%?)\s+([^,.]+)/g)]
+  .map(m=>({value:m[1],name:m[2].trim()}));
+
+ const recipe=itemAnswer(detail,'how do i build');
+ const users=itemAnswer(detail,'who should buy');
+ const price=itemAnswer(detail,'how much does');
+
+ const t=desc.toLowerCase();
+ let counterNames=[];
+ if(/critical|crit chance|critical damage/.test(t))
+  counterNames.push('Blade Armor');
+ if(/lifesteal|spell vamp|healing|regen/.test(t))
+  counterNames.push('Dominance Ice','Sea Halberd');
+ if(/physical attack|physical damage|basic attack/.test(t))
+  counterNames.push('Antique Cuirass','Blade Armor');
+ if(/magic power|magic damage/.test(t))
+  counterNames.push("Athena's Shield",'Radiant Armor');
+ if(/attack speed/.test(t))
+  counterNames.push('Dominance Ice');
+
+ counterNames=[...new Set(counterNames)]
+  .filter(n=>n.toLowerCase()!==item['name-equipment'].toLowerCase());
+
+ const counterHtml=counterNames.map(name=>{
+  const found=items.find(x=>x['name-equipment'].toLowerCase()===name.toLowerCase());
+  return found?`<div class="itemrow">
+   <div style="display:flex;align-items:center;gap:10px">
+    <img src="logo-equipment/${esc(found['logo-equipment'])}" style="width:48px;height:48px;object-fit:contain" alt="${esc(name)}">
+    <b>${esc(name)}</b>
+   </div>
+   <span class="price">${Number(found['prize-gold']).toLocaleString('id-ID')} Gold</span>
+  </div>`:'';
+ }).join('');
+
+ const statsHtml=stats.length?stats.map(x=>
+  `<div class="itemrow"><b>${esc(x.name)}</b><strong class="price">${esc(x.value)}</strong></div>`
+ ).join(''):'<p>Statistik belum tersedia.</p>';
+
+ $('content').innerHTML=`
+  <h2>Detail Item</h2>
+  <div class="card">
+   <div style="display:flex;align-items:center;gap:16px">
+    <img src="logo-equipment/${esc(item['logo-equipment'])}" alt="${esc(item['name-equipment'])}" style="width:105px;height:105px;object-fit:contain">
+    <div>
+     <h3>${esc(item['name-equipment'])}</h3>
+     <b class="price">${Number(item['prize-gold']).toLocaleString('id-ID')} Gold</b>
+     <p class="muted">ID Item: ${esc(item.id_equip)}</p>
+    </div>
+   </div>
+   <button onclick="backToItems()">← Kembali ke Item</button>
+  </div>
+  <div class="detail">
+   <h3>Statistik Item</h3>
+   ${statsHtml}
+  </div>
+  <div class="detail">
+   <h3>Deskripsi & Efek Pasif</h3>
+   <p>${esc(desc)}</p>
+  </div>
+  <div class="detail">
+   <h3>Resep Item</h3>
+   <p>${esc(recipe)}</p>
+  </div>
+  <div class="detail">
+   <h3>Hero yang Cocok Menggunakan</h3>
+   <p>${esc(users)}</p>
+  </div>
+  <div class="detail">
+   <h3>Informasi Harga</h3>
+   <p>${esc(price)}</p>
+  </div>
+  <div class="detail">
+   <h3>Counter Item</h3>
+   <p class="muted">Pilihan penangkal berdasarkan efek item ini. Sesuaikan dengan situasi pertandingan.</p>
+   ${counterHtml||'<p>Belum ada rekomendasi counter otomatis untuk item ini.</p>'}
+  </div>
+ `;
+ window.scrollTo(0,0);
 }
 
 function renderTree(v){
