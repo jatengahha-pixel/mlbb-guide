@@ -148,6 +148,93 @@ header h1{font-size:22px}
 main{padding:12px}
 }
 
+
+/* PORTRAIT GAMING HERO */
+.hero-card{
+ position:relative;
+ background:linear-gradient(155deg,#10294b,#080e1d 75%);
+ border:1px solid #087cff88;
+ border-radius:16px;
+ overflow:hidden;
+ box-shadow:0 5px 22px #0008,0 0 14px #087cff20;
+}
+.hero-card h3{
+ color:#00e5ff;
+ font-size:19px;
+ letter-spacing:1px;
+ text-align:center;
+ text-shadow:0 0 12px #087cff;
+ margin:0;
+ padding:14px 8px 10px;
+}
+.hero-card > img{
+ display:block;
+ width:100%!important;
+ height:220px!important;
+ object-fit:contain!important;
+ padding:8px;
+ background:radial-gradient(ellipse at center,#123d69 0%,#0a1830 58%,#080e1d 100%);
+ border-top:1px solid #168cff55;
+ border-bottom:1px solid #168cff55;
+}
+.hero-card .tag{
+ display:inline-block;
+ margin:10px 10px 2px;
+ background:#07365a;
+ border:1px solid #00cfff;
+ color:#8ef5ff;
+ box-shadow:0 0 9px #087cff33;
+}
+.hero-card .muted,.hero-card p{
+ margin-left:10px;
+ margin-right:10px;
+}
+.hero-card button{
+ width:calc(100% - 20px);
+ margin:4px 10px 12px;
+ background:linear-gradient(110deg,#0751b8,#087cff);
+ border:1px solid #00e5ff;
+ box-shadow:0 0 12px #087cff55;
+}
+
+/* FUTURISTIC EQUIPMENT CARDS */
+.item-card{
+ background:linear-gradient(145deg,#122442,#080e1d 80%);
+ border:1px solid #1762a0;
+ border-radius:15px;
+ box-shadow:0 5px 20px #0008,0 0 12px #087cff20;
+}
+.item-card h3{
+ color:#00e5ff;
+ font-size:15px;
+ text-align:center;
+ letter-spacing:.7px;
+ text-shadow:0 0 10px #087cff99;
+}
+.item-card img{
+ display:block;
+ width:100%!important;
+ height:125px!important;
+ object-fit:contain!important;
+ padding:12px;
+ background:radial-gradient(circle,#164574 0%,#0a1830 65%,#080e1d 100%);
+ border:1px solid #1762a055;
+ border-radius:11px;
+}
+.item-card .itemrow{
+ margin-top:12px;
+ padding-top:10px;
+ border-top:1px solid #1762a077;
+}
+.item-card .price{
+ color:#ffd36b;
+ text-shadow:0 0 9px #ffb52e55;
+}
+@media(max-width:420px){
+ .hero-card > img{height:185px!important}
+ .item-card img{height:105px!important}
+}
+
 </style>
 <meta name="google-site-verification" content="mfixhoj0V0ntm_HZzNYXvYHCLHtgDZMcJdGCqcB5uYY" />
 </head>
@@ -211,7 +298,7 @@ function show(p,b){
 }
 
 function card(title,body){
- return `<div class="card"><h3>${esc(title)}</h3>${body}</div>`;
+ return `<div class="card ${page==="hero"?"hero-card":page==="item"?"item-card":""}"><h3>${esc(title)}</h3>${body}</div>`;
 }
 
 function render(){
