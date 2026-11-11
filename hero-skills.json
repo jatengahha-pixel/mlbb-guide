@@ -222,19 +222,23 @@
     "skills": [
       {
         "name": "Warmonger",
-        "description": "Pasif — Malice Energy memberikan 30% Critical Chance awal. Serangan Critical Argus berubah menjadi Demonic Slash yang mengabaikan 30% Physical Defense lawan, memberikan 90 (+25% Total Physical Attack) Physical Damage, dan memulihkan 140 HP. Demonic Slash tidak bisa menghasilkan Critical, tetapi tetap dapat memicu efek terkait Critical."
+        "description": "Pasif — Malice Energy memberikan 30% Critical Chance awal. Serangan Critical Argus berubah menjadi Demonic Slash yang mengabaikan 30% Physical Defense lawan, memberikan 90 (+25% Total Physical Attack) Physical Damage, dan memulihkan 140 HP. Demonic Slash tidak bisa menghasilkan Critical, tetapi tetap dapat memicu efek terkait Critical.",
+        "translation_done": true
       },
       {
         "name": "Demonic Grip",
-        "description": "Argus mengulurkan tangan iblis ke arah target, memberikan 125 (+60% Extra Physical Attack) Physical Damage kepada hero atau Creep pertama yang terkena dan memberikan efek stun selama 0,7 detik. Argus dan target saling tertarik, lalu target terkena slow 40% selama 2 detik. Jika tidak mengenai musuh, Argus tertarik menuju lokasi tangan. Gunakan kembali untuk dash dan menebas lawan, memberikan 175 (+100% Extra Physical Attack) Physical Damage."
+        "description": "Argus mengulurkan tangan iblis ke arah target, memberikan 125 (+60% Extra Physical Attack) Physical Damage kepada hero atau Creep pertama yang terkena dan memberikan efek stun selama 0,7 detik. Argus dan target saling tertarik, lalu target terkena slow 40% selama 2 detik. Jika tidak mengenai musuh, Argus tertarik menuju lokasi tangan. Gunakan kembali untuk dash dan menebas lawan, memberikan 175 (+100% Extra Physical Attack) Physical Damage.",
+        "translation_done": true
       },
       {
         "name": "Meteoric Sword",
-        "description": "Setelah mengisi serangan singkat, Argus menusukkan Meteoric Sword ke arah target dan memberikan 120 (+100% Total Physical Attack) Physical Damage. Jika mengenai hero lawan, target terkena stun singkat dan Argus memperoleh 30% Attack Speed selama 3 detik. Damage skill ini memperoleh peningkatan berdasarkan 40% Critical Chance dan Critical Damage. Serangan ini dihitung sebagai Basic Attack dan dapat memicu efek serangan. Attack Speed mempercepat waktu pengisian."
+        "description": "Setelah mengisi serangan singkat, Argus menusukkan Meteoric Sword ke arah target dan memberikan 120 (+100% Total Physical Attack) Physical Damage. Jika mengenai hero lawan, target terkena stun singkat dan Argus memperoleh 30% Attack Speed selama 3 detik. Damage skill ini memperoleh peningkatan berdasarkan 40% Critical Chance dan Critical Damage. Serangan ini dihitung sebagai Basic Attack dan dapat memicu efek serangan. Attack Speed mempercepat waktu pengisian.",
+        "translation_done": true
       },
       {
         "name": "Eternal Evil",
-        "description": "Argus menghapus seluruh efek kontrol, memperoleh kekebalan terhadap kematian selama 4 detik, dan memberikan 300 (+180% Extra Physical Attack) Physical Damage kepada musuh di sekitar. Damage meningkat hingga 50% ketika HP Argus di bawah 30%. Saat efek berakhir, Argus memulihkan HP sebesar total damage yang diberikan kepada hero lawan selama durasi tersebut. Pasif: Jika Argus menerima damage fatal saat Ultimate tidak dalam cooldown, kekebalan kematian aktif secara otomatis."
+        "description": "Argus menghapus seluruh efek kontrol, memperoleh kekebalan terhadap kematian selama 4 detik, dan memberikan 300 (+180% Extra Physical Attack) Physical Damage kepada musuh di sekitar. Damage meningkat hingga 50% ketika HP Argus di bawah 30%. Saat efek berakhir, Argus memulihkan HP sebesar total damage yang diberikan kepada hero lawan selama durasi tersebut. Pasif: Jika Argus menerima damage fatal saat Ultimate tidak dalam cooldown, kekebalan kematian aktif secara otomatis.",
+        "translation_done": true
       }
     ],
     "status": "tersedia",

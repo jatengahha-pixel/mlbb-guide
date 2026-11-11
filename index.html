@@ -618,7 +618,7 @@ function filterHeroPicker(){
  const list=heroPickerItems.filter(h=>norm(h.name).includes(q));
  $('heroPickerGrid').innerHTML=list.map(h=>`
   <button type="button" class="hero-pick ${h.name===selected?'selected':''}"
-   onclick="chooseHero('${esc(h.name)}')">
+   onclick="chooseHero(this.dataset.hero)" data-hero="${esc(h.name)}">
    <img src="${esc(h.img)}" alt="${esc(h.name)}" loading="lazy">
    <span>${esc(h.name)}</span>
   </button>`).join('')||'<p class="muted">Hero tidak ditemukan.</p>';
@@ -842,7 +842,7 @@ function renderTierList(data){
     <div class="tier-role-grid">
      ${list.map(h=>{
       const head=apiHeroes.find(x=>norm(x.hero?.data?.name)===norm(h.hero_name))?.hero?.data?.head||'';
-      return `<div class="tier-hero-card" onclick="openHero('${esc(h.hero_name)}')">
+      return `<div class="tier-hero-card" onclick="openHero(this.dataset.hero)" data-hero="${esc(h.hero_name)}">
        <img src="${esc(head)}" alt="${esc(h.hero_name)}" loading="lazy">
        <b>${esc(h.hero_name)}</b>
       </div>`;
@@ -898,7 +898,7 @@ function render(){
    </div>
    <div class="hero-grid">${filtered.map(h=>{
     let b=builds.find(x=>norm(x.hero_name)===norm(h.name_hero));
-    return card(h.name_hero,`<img src="images-hero/${esc(h['images-hero'])}" alt="${esc(h.name_hero)}" loading="lazy"><span class="tag">${esc((h.role||[]).join(', '))}</span><p class="muted">${getHeroLane(h.name_hero)||'Lane belum dipetakan'}</p><button onclick="toggleFavorite('${esc(h.name_hero)}')">${favoriteHeroes.includes(h.name_hero)?'⭐ Hapus Favorit':'☆ Tambah Favorit'}</button><button onclick="openHero('${esc(h.name_hero)}')">Detail Hero →</button>`);
+    return card(h.name_hero,`<img src="images-hero/${esc(h['images-hero'])}" alt="${esc(h.name_hero)}" loading="lazy"><span class="tag">${esc((h.role||[]).join(', '))}</span><p class="muted">${getHeroLane(h.name_hero)||'Lane belum dipetakan'}</p><button onclick="toggleFavorite(this.dataset.hero)" data-hero="${esc(h.name_hero)}">${favoriteHeroes.includes(h.name_hero)?'⭐ Hapus Favorit':'☆ Tambah Favorit'}</button><button onclick="openHero(this.dataset.hero)" data-hero="${esc(h.name_hero)}">Detail Hero →</button>`);
    }).join('')}</div>`;
  }
 
