@@ -1,0 +1,2020 @@
+[
+  {
+    "hero_name": "Aamon",
+    "combos": [
+      {
+        "name": "Burst Damage",
+        "sequence": [
+          "Skill 2 (Slayer Shards)",
+          "Skill 1 (Soul Shards)",
+          "Basic Attack diperkuat",
+          "Ultimate (Endless Shards)"
+        ],
+        "situation": "Menghabisi hero lawan",
+        "description": "Mendekati dan perlambat lawan dengan Slayer Shards. Lanjutkan Soul Shards untuk melempar pecahan. Manfaatkan kamuflase dan serangan dasar yang diperkuat untuk mengumpulkan pecahan, lalu gunakan Endless Shards saat pecahan terkumpul dan HP lawan mulai rendah."
+      }
+    ]
+  },
+  {
+    "hero_name": "Argus",
+    "combos": [
+      {
+        "name": "Engage dan Duel",
+        "sequence": [
+          "Skill 1 (Demonic Grip)",
+          "Gunakan kembali Skill 1",
+          "Skill 2 (Meteoric Sword)",
+          "Basic Attack",
+          "Ultimate (Eternal Evil)"
+        ],
+        "situation": "Mengejar dan melawan hero musuh",
+        "description": "Tarik dan stun lawan dengan Demonic Grip, gunakan kembali untuk menerjang dan menebas. Lanjutkan Meteoric Sword dan serangan dasar. Aktifkan Eternal Evil saat menghadapi risiko menerima damage fatal agar dapat terus menyerang."
+      }
+    ]
+  },
+  {
+    "hero_name": "Layla",
+    "combos": [
+      {
+        "name": "Serangan Jarak Jauh",
+        "sequence": [
+          "Skill 2 (Void Projectile)",
+          "Basic Attack",
+          "Skill 1 (Malefic Bomb)",
+          "Basic Attack",
+          "Ultimate (Destruction Rush)"
+        ],
+        "situation": "Poke dan menghabisi lawan",
+        "description": "Berikan tanda dengan Void Projectile. Serang target bertanda untuk memicu damage area dan stun singkat. Gunakan Malefic Bomb untuk memperkuat jangkauan serangan dasar dan memperoleh tambahan kecepatan gerak, lalu akhiri dengan Destruction Rush jika lawan berada dalam garis tembak."
+      }
+    ]
+  },
+  {
+    "hero_name": "Fanny",
+    "combos": [
+      {
+        "name": "Serangan Udara",
+        "sequence": [
+          "Skill 2 (Steel Cable) berulang",
+          "Skill 1 (Tornado Strike) otomatis",
+          "Ultimate (Cut Throat)"
+        ],
+        "situation": "Menyergap hero lawan",
+        "description": "Gunakan Steel Cable berulang untuk bergerak dan menyerang. Tornado Strike dapat terpicu otomatis saat Fanny mengenai musuh di udara. Kumpulkan Prey Mark, lalu gunakan Cut Throat untuk memanfaatkan bonus damage dari tanda tersebut. Perhatikan energi."
+      }
+    ]
+  },
+  {
+    "hero_name": "Akai",
+    "combos": [
+      {
+        "name": "Inisiasi dan Dorong Lawan",
+        "sequence": [
+          "Skill 1 (Headbutt)",
+          "Skill 2 (Body Slam)",
+          "Ultimate (Heavy Spin)",
+          "Skill 2 (atur posisi)"
+        ],
+        "situation": "Membuka pertarungan dan memisahkan hero lawan",
+        "description": "Dekati dan buat lawan terpental menggunakan Headbutt. Perlambat musuh dengan Body Slam, lalu aktifkan Heavy Spin untuk mendorong mereka menjauh dari posisi tim. Gunakan Headbutt kembali selama Ultimate untuk menyesuaikan arah dorongan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Aldous",
+    "combos": [
+      {
+        "name": "Perburuan Target",
+        "sequence": [
+          "Ultimate (Chase Fate)",
+          "Skill 2 (Contract: Explosion)",
+          "Skill 1 (Contract: Soul Steal)",
+          "Basic Attack diperkuat"
+        ],
+        "situation": "Mengejar dan menghabisi hero lawan",
+        "description": "Gunakan Chase Fate untuk menemukan dan mengejar target. Aktifkan Contract: Explosion untuk mengurangi damage dan menahan lawan. Akhiri dengan Soul Steal dan serangan dasar yang diperkuat. Pastikan tumpukan Soul Steal sudah cukup."
+      }
+    ]
+  },
+  {
+    "hero_name": "Alice",
+    "combos": [
+      {
+        "name": "Terjun ke Team Fight",
+        "sequence": [
+          "Skill 1 (Crimson Gleam)",
+          "Gunakan kembali untuk teleport",
+          "Skill 2 (Doom Waltz)",
+          "Ultimate (Throne of Ruin)"
+        ],
+        "situation": "Masuk ke tengah pertarungan tim",
+        "description": "Arahkan Crimson Gleam ke area musuh, lalu gunakan kembali untuk berpindah ke lokasi energi darah. Lanjutkan Doom Waltz untuk memberikan damage dan slow. Gunakan Throne of Ruin untuk memperoleh perlindungan sebelum menghantam area musuh."
+      }
+    ]
+  },
+  {
+    "hero_name": "Alpha",
+    "combos": [
+      {
+        "name": "Stun dan Pemulihan",
+        "sequence": [
+          "Ultimate (Spear of Alpha)",
+          "Skill 1 (Rotary Impact)",
+          "Skill 2 (Force Swing)",
+          "Basic Attack"
+        ],
+        "situation": "Menyerang dan bertahan dalam duel",
+        "description": "Mulai dengan Spear of Alpha untuk menerjang dan membuat lawan terkena stun. Lanjutkan Rotary Impact untuk memberikan damage dan slow. Gunakan Force Swing untuk menyerang sekaligus memulihkan HP, lalu lanjutkan serangan dasar."
+      }
+    ]
+  },
+  {
+    "hero_name": "Alucard",
+    "combos": [
+      {
+        "name": "Mengejar dan Burst Damage",
+        "sequence": [
+          "Skill 1 (Groundsplitter)",
+          "Basic Attack diperkuat",
+          "Skill 2 (Whirling Smash)",
+          "Ultimate (Fission Wave)",
+          "Gunakan kembali Ultimate"
+        ],
+        "situation": "Mengejar dan menghabisi target",
+        "description": "Dekati lawan dengan Groundsplitter dan manfaatkan serangan dasar yang diperkuat setelah menggunakan skill. Lanjutkan Whirling Smash, lalu aktifkan Fission Wave untuk mengurangi pertahanan lawan. Gunakan kembali Ultimate untuk melepaskan gelombang kejut."
+      }
+    ]
+  },
+  {
+    "hero_name": "Angela",
+    "combos": [
+      {
+        "name": "Melindungi dan Membantu Tim",
+        "sequence": [
+          "Ultimate (Heartguard)",
+          "Skill 2 (Puppet-on-a-String)",
+          "Skill 1 (Love Waves)"
+        ],
+        "situation": "Mendukung rekan saat team fight",
+        "description": "Gunakan Heartguard pada rekan yang sedang bertarung untuk memberikan perlindungan dan menempel padanya. Ikat lawan dengan Puppet-on-a-String, lalu gunakan Love Waves untuk memberikan damage kepada musuh sekaligus memulihkan HP rekan yang terkena."
+      }
+    ]
+  },
+  {
+    "hero_name": "Arlott",
+    "combos": [
+      {
+        "name": "Kontrol dan Serangan Beruntun",
+        "sequence": [
+          "Ultimate (Final Slash)",
+          "Skill 1 (Dauntless Strike)",
+          "Skill 2 (Vengeance) berulang"
+        ],
+        "situation": "Mengunci dan menyerang beberapa hero",
+        "description": "Gunakan Final Slash untuk mengumpulkan dan mendorong posisi lawan. Lanjutkan Dauntless Strike untuk memberikan stun. Serang target yang memiliki tanda Demon Gaze menggunakan Vengeance. Manfaatkan reset cooldown dan pemulihan HP untuk menyerang kembali."
+      }
+    ]
+  },
+  {
+    "hero_name": "Atlas",
+    "combos": [
+      {
+        "name": "Inisiasi Team Fight",
+        "sequence": [
+          "Skill 2 (Perfect Match)",
+          "Ultimate (Fatal Links)",
+          "Gunakan kembali Ultimate",
+          "Skill 1 (Annihilate)"
+        ],
+        "situation": "Mengumpulkan dan mengendalikan banyak lawan",
+        "description": "Gunakan Perfect Match untuk mendekati musuh dan memberikan stun saat Atlas kembali menyatu dengan Mecha. Lempar Fatal Links ke arah beberapa hero lawan, lalu gunakan kembali untuk menarik mereka ke lokasi yang ditentukan. Akhiri dengan Annihilate."
+      }
+    ]
+  },
+  {
+    "hero_name": "Bane",
+    "combos": [
+      {
+        "name": "Serangan Hiu",
+        "sequence": [
+          "Ultimate (Deadly Catch)",
+          "Skill 1 (Crab Claw Cannon)",
+          "Skill 2 (Ale)",
+          "Basic Attack"
+        ],
+        "situation": "Membuka serangan dan memberikan damage area",
+        "description": "Mulai dengan Deadly Catch untuk menerjang dan mengangkat musuh. Lanjutkan Crab Claw Cannon untuk memberikan damage dan slow. Gunakan Ale untuk memulihkan HP sekaligus menyerang kembali dengan racun. Manfaatkan serangan dasar yang diperkuat oleh energi pasang surut."
+      }
+    ]
+  },
+  {
+    "hero_name": "Belerick",
+    "combos": [
+      {
+        "name": "Taunt dan Lindungi Tim",
+        "sequence": [
+          "Skill 2 (Nature’s Strike)",
+          "Skill 1 (Ancient Seed)",
+          "Ultimate (Wrath of Dryad)"
+        ],
+        "situation": "Menghentikan pergerakan dan serangan lawan",
+        "description": "Gunakan Nature’s Strike untuk mendekati musuh dengan cepat. Lepaskan Ancient Seed untuk memberikan slow dan memancing perhatian lawan. Aktifkan Wrath of Dryad untuk memberikan damage sekaligus memancing serangan musuh di sekitar."
+      }
+    ]
+  },
+  {
+    "hero_name": "Benedetta",
+    "combos": [
+      {
+        "name": "Serangan Pedang Bayangan",
+        "sequence": [
+          "Ultimate (Alecto: Final Blow)",
+          "Skill 1 (Phantom Slash)",
+          "Basic Attack diperkuat",
+          "Skill 2 (An Eye for An Eye) jika diperlukan"
+        ],
+        "situation": "Menerobos barisan musuh dan menghindari kontrol",
+        "description": "Terobos area lawan menggunakan Alecto: Final Blow. Lanjutkan Phantom Slash untuk memberikan damage besar jika bayangan mengenai target. Manfaatkan Swordout Slash dari pasif saat Sword Intent penuh. Simpan An Eye for An Eye untuk menangkis damage atau efek kontrol."
+      }
+    ]
+  },
+  {
+    "hero_name": "Brody",
+    "combos": [
+      {
+        "name": "Burst Abyss Mark",
+        "sequence": [
+          "Skill 2 (Corrosive Strike)",
+          "Skill 1 (Abyss Impact)",
+          "Basic Attack",
+          "Ultimate (Torn-Apart Memory)"
+        ],
+        "situation": "Mengunci satu target dan menghabisinya",
+        "description": "Terjang target menggunakan Corrosive Strike untuk memberikan stun dan Abyss Mark. Lanjutkan Abyss Impact untuk menambah tanda. Berikan serangan dasar hingga tumpukan Abyss Mark terkumpul, kemudian gunakan Torn-Apart Memory untuk menghasilkan damage berdasarkan jumlah tanda."
+      }
+    ]
+  },
+  {
+    "hero_name": "Bruno",
+    "combos": [
+      {
+        "name": "Powerball Stun",
+        "sequence": [
+          "Skill 1 (Volley Shot)",
+          "Skill 2 (Flying Tackle)",
+          "Basic Attack",
+          "Ultimate (Worldie)"
+        ],
+        "situation": "Menyerang dan mengunci hero lawan",
+        "description": "Siapkan Powerball dengan Volley Shot, lalu gunakan Flying Tackle untuk menerjang dan memberikan stun. Ambil kembali Powerball untuk mempercepat cooldown Flying Tackle. Lanjutkan serangan dasar dan akhiri dengan Worldie agar bola memantul di antara musuh."
+      }
+    ]
+  },
+  {
+    "hero_name": "Carmilla",
+    "combos": [
+      {
+        "name": "Blood Curse Team Fight",
+        "sequence": [
+          "Ultimate (Curse of Blood)",
+          "Skill 1 (Crimson Flower)",
+          "Skill 2 (Bloodbath)"
+        ],
+        "situation": "Mengendalikan beberapa hero lawan sekaligus",
+        "description": "Arahkan Curse of Blood ke kelompok musuh agar mereka terhubung. Aktifkan Crimson Flower untuk memberikan damage dan memulihkan HP. Gunakan Bloodbath untuk mendekati target dan lepaskan energinya agar lawan terkena damage serta immobilize. Damage dan efek kontrol dapat menyebar melalui ikatan Ultimate."
+      }
+    ]
+  },
+  {
+    "hero_name": "Cecilion",
+    "combos": [
+      {
+        "name": "Blood Bat Burst",
+        "sequence": [
+          "Skill 2 (Sanguine Claws)",
+          "Skill 1 (Bat Impact)",
+          "Ultimate (Bats Feast)"
+        ],
+        "situation": "Mengunci lawan dan memberikan damage jarak jauh",
+        "description": "Gunakan Sanguine Claws untuk menarik dan melumpuhkan musuh. Arahkan Bat Impact ketika target sulit bergerak. Aktifkan Bats Feast untuk memberikan damage berulang kepada musuh di sekitar sekaligus memperoleh pemulihan HP. Perhatikan penggunaan mana agar tidak cepat kehabisan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Chang'e",
+    "combos": [
+      {
+        "name": "Meteor Shower",
+        "sequence": [
+          "Skill 2 (Crescent Moon)",
+          "Skill 1 (Starmoon Shockwave)",
+          "Ultimate (Meteor Shower)"
+        ],
+        "situation": "Memberikan damage jarak jauh dan area",
+        "description": "Aktifkan Crescent Moon untuk memperoleh perisai dan memperkuat serangan dasar serta skill. Gunakan Starmoon Shockwave untuk memberikan damage dan slow. Lanjutkan Meteor Shower saat posisi lawan sudah tepat agar meteor dan serangan Crescent Moon mengenai target."
+      }
+    ]
+  },
+  {
+    "hero_name": "Chip",
+    "combos": [
+      {
+        "name": "Portal Surprise",
+        "sequence": [
+          "Ultimate (Shortcut)",
+          "Skill 1 (Crash Course)",
+          "Basic Attack",
+          "Skill 2 (Overtime)"
+        ],
+        "situation": "Menyergap lawan dan membantu rotasi tim",
+        "description": "Gunakan Shortcut untuk menempatkan portal dan mengganggu posisi hero lawan. Dekati target dengan Crash Course untuk memberikan Chip’s Mark. Lanjutkan serangan dasar jarak jauh untuk meledakkan tanda dan memberikan efek immobilize. Gunakan Overtime untuk mengejar atau mengatur ulang posisi."
+      }
+    ]
+  },
+  {
+    "hero_name": "Chou",
+    "combos": [
+      {
+        "name": "Kick Combo",
+        "sequence": [
+          "Skill 1 (Jeet Kune Do) 3 kali",
+          "Skill 2 (Shunpo)",
+          "Ultimate (The Way of Dragon)"
+        ],
+        "situation": "Mengunci dan menendang target ke arah tim",
+        "description": "Gunakan Jeet Kune Do sebanyak tiga kali hingga serangan terakhir mengangkat lawan. Aktifkan Shunpo untuk menerjang dengan perlindungan dari efek kontrol dan mendapatkan perisai. Akhiri dengan The Way of Dragon untuk menendang target menjauh atau ke arah rekan satu tim."
+      }
+    ]
+  },
+  {
+    "hero_name": "Claude",
+    "combos": [
+      {
+        "name": "Blazing Duet",
+        "sequence": [
+          "Skill 2 (Battle Mirror Image)",
+          "Skill 1 (Art of Thievery)",
+          "Ultimate (Blazing Duet)"
+        ],
+        "situation": "Menyerang kelompok musuh dalam team fight",
+        "description": "Tempatkan Battle Mirror Image untuk mengatur posisi dan menyediakan jalur berpindah. Gunakan Art of Thievery untuk mencuri kecepatan gerak dan serangan. Aktifkan Blazing Duet saat berada dekat beberapa musuh agar tembakannya mengenai banyak target."
+      }
+    ]
+  },
+  {
+    "hero_name": "Clint",
+    "combos": [
+      {
+        "name": "Quick Draw Burst",
+        "sequence": [
+          "Skill 2 (Trapping Recoil)",
+          "Basic Attack diperkuat",
+          "Skill 1 (Quick Draw)",
+          "Basic Attack diperkuat",
+          "Ultimate (Grenade Bombardment)"
+        ],
+        "situation": "Memberikan burst damage dari jarak aman",
+        "description": "Gunakan Trapping Recoil untuk melumpuhkan target. Lanjutkan dengan serangan dasar yang diperkuat pasif Double Shot. Gunakan Quick Draw lalu serangan dasar berikutnya. Akhiri dengan Grenade Bombardment untuk memberikan damage dan slow."
+      }
+    ]
+  },
+  {
+    "hero_name": "Cyclops",
+    "combos": [
+      {
+        "name": "Star Lock",
+        "sequence": [
+          "Ultimate (Star Power Lockdown)",
+          "Skill 1 (Stardust Shock)",
+          "Skill 2 (Planets Attack)"
+        ],
+        "situation": "Mengunci target dan memberikan damage beruntun",
+        "description": "Kunci hero lawan menggunakan Star Power Lockdown. Lanjutkan Stardust Shock untuk memberikan damage dari jarak jauh. Aktifkan Planets Attack agar bola-bola berbintang mengejar dan menyerang musuh di sekitar."
+      }
+    ]
+  },
+  {
+    "hero_name": "Diggie",
+    "combos": [
+      {
+        "name": "Alarm Trap",
+        "sequence": [
+          "Skill 1 (Auto Alarm Bomb)",
+          "Skill 2 (Reverse Time)",
+          "Ultimate (Time Journey) bila diperlukan"
+        ],
+        "situation": "Mengganggu pergerakan musuh dan melindungi tim",
+        "description": "Pasang Auto Alarm Bomb di jalur pergerakan lawan. Gunakan Reverse Time untuk menandai dan mengembalikan posisi target. Simpan Time Journey untuk menghapus efek negatif dan memberikan kekebalan kontrol kepada rekan satu tim."
+      }
+    ]
+  },
+  {
+    "hero_name": "Dyrroth",
+    "combos": [
+      {
+        "name": "Abyss Breaker",
+        "sequence": [
+          "Skill 2 (Spectre Step)",
+          "Gunakan kembali Skill 2 (Fatal Strike)",
+          "Skill 1 (Burst Strike)",
+          "Ultimate (Abysm Strike)"
+        ],
+        "situation": "Mengurangi pertahanan lawan lalu menghabisinya",
+        "description": "Dekati target dengan Spectre Step dan gunakan kembali untuk Fatal Strike agar pertahanan fisiknya berkurang. Lanjutkan Burst Strike untuk memberikan damage dan slow. Akhiri dengan Abysm Strike ketika target berada di jalur serangan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Edith",
+    "combos": [
+      {
+        "name": "Phylax Airborne",
+        "sequence": [
+          "Skill 2 (Onward)",
+          "Skill 1 (Earth Shatter)",
+          "Ultimate (Primal Wrath)",
+          "Skill 1 mode terbang (Divine Retribution) atau Skill 2 mode terbang (Lightning Bolt)"
+        ],
+        "situation": "Menerobos barisan lawan lalu menyerang dalam mode terbang",
+        "description": "Gunakan Onward untuk menerjang dan melemparkan target ke belakang. Lanjutkan Earth Shatter untuk mengangkat musuh di sekitar. Aktifkan Primal Wrath saat Wrath sudah terkumpul. Dalam mode terbang, gunakan Divine Retribution untuk damage area atau Lightning Bolt untuk melumpuhkan target."
+      }
+    ]
+  },
+  {
+    "hero_name": "Esmeralda",
+    "combos": [
+      {
+        "name": "Starmoon Assault",
+        "sequence": [
+          "Skill 1 (Frostmoon Shield)",
+          "Skill 2 (Stardust Dance)",
+          "Ultimate (Falling Starmoon)"
+        ],
+        "situation": "Mendekati lawan dan mengunci beberapa target",
+        "description": "Gunakan Frostmoon Shield untuk memperoleh kecepatan gerak dan menyerap perisai musuh. Lanjutkan Stardust Dance untuk memberikan damage dan mengurangi cooldown Skill 1. Gunakan Falling Starmoon untuk melompat ke lokasi target dan melumpuhkan musuh."
+      }
+    ]
+  },
+  {
+    "hero_name": "Estes",
+    "combos": [
+      {
+        "name": "Moon Goddess Blessing",
+        "sequence": [
+          "Skill 2 (Domain of Moon Goddess)",
+          "Ultimate (Blessing of Moon Goddess)",
+          "Skill 1 (Moonlight Immersion) pada rekan tim"
+        ],
+        "situation": "Membantu tim bertahan dalam team fight",
+        "description": "Gunakan Domain of Moon Goddess untuk mengganggu dan memperlambat musuh. Aktifkan Blessing of Moon Goddess untuk memperkuat penyembuhan kepada rekan satu tim di sekitar. Gunakan Moonlight Immersion pada rekan yang membutuhkan pemulihan HP."
+      }
+    ]
+  },
+  {
+    "hero_name": "Eudora",
+    "combos": [
+      {
+        "name": "Thunder Burst",
+        "sequence": [
+          "Skill 2 (Ball Lightning)",
+          "Skill 1 (Forked Lightning)",
+          "Ultimate (Thunder’s Wrath)"
+        ],
+        "situation": "Menghabisi satu target dengan burst damage",
+        "description": "Mulai dengan Ball Lightning untuk memberikan stun dan efek Superconductor. Lanjutkan Forked Lightning untuk memberikan damage tambahan. Akhiri dengan Thunder’s Wrath agar efek Superconductor memicu ledakan tambahan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Aulus",
+    "combos": [
+      {
+        "name": "Axe Rampage",
+        "sequence": [
+          "Skill 1 (Aulus, Charge!)",
+          "Skill 2 (The Power of Axe)",
+          "Gunakan kembali Skill 2",
+          "Ultimate (Cleaving Axe)"
+        ],
+        "situation": "Mengejar dan menyerang beberapa musuh",
+        "description": "Gunakan Aulus, Charge! untuk mendekati lawan dan memperoleh kekebalan kontrol jika syaratnya terpenuhi. Hantam musuh dengan The Power of Axe, gunakan kembali untuk serangan lanjutan, lalu aktifkan Cleaving Axe saat berada di tengah pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Aurora",
+    "combos": [
+      {
+        "name": "Frozen Disaster",
+        "sequence": [
+          "Skill 2 (Frosty Breeze)",
+          "Ultimate (Frigid Glacier)",
+          "Skill 1 (Hailstone Blast)"
+        ],
+        "situation": "Membekukan musuh dan memberikan burst damage",
+        "description": "Mulai dengan Frosty Breeze untuk membekukan lawan. Lanjutkan Frigid Glacier untuk memperluas area serangan dan membekukan musuh lagi. Akhiri dengan Hailstone Blast saat lawan masih sulit bergerak."
+      }
+    ]
+  },
+  {
+    "hero_name": "Badang",
+    "combos": [
+      {
+        "name": "Fist Wall Combo",
+        "sequence": [
+          "Skill 2 (Fist Break)",
+          "Skill 1 (Fist Wind)",
+          "Ultimate (Fist Crack)"
+        ],
+        "situation": "Mengurung dan menghantam lawan di dekat dinding",
+        "description": "Gunakan Fist Break untuk menerjang dan menciptakan rintangan di belakang target. Lanjutkan Fist Wind untuk mendorong musuh ke arah rintangan. Akhiri dengan Fist Crack ketika lawan terjebak agar rentetan pukulan lebih mudah mengenai sasaran."
+      }
+    ]
+  },
+  {
+    "hero_name": "Balmond",
+    "combos": [
+      {
+        "name": "Cyclone Execution",
+        "sequence": [
+          "Skill 1 (Soul Lock)",
+          "Skill 2 (Cyclone Sweep)",
+          "Ultimate (Lethal Counter)"
+        ],
+        "situation": "Mengejar lawan dan menghabisinya dengan damage tinggi",
+        "description": "Dekati musuh menggunakan Soul Lock. Aktifkan Cyclone Sweep sambil terus menempel pada target. Gunakan Lethal Counter ketika HP lawan sudah cukup rendah untuk dihabisi."
+      }
+    ]
+  },
+  {
+    "hero_name": "Barats",
+    "combos": [
+      {
+        "name": "Detona Devour",
+        "sequence": [
+          "Skill 2 (Missile Expert)",
+          "Skill 1 (So-Called Teamwork)",
+          "Ultimate (Detona’s Welcome)"
+        ],
+        "situation": "Mengganggu formasi lawan dan mengunci target penting",
+        "description": "Gunakan Missile Expert untuk menarik dan mengganggu posisi musuh. Lanjutkan So-Called Teamwork untuk memberikan damage area. Gunakan Detona’s Welcome untuk menelan target penting, idealnya arahkan agar muntahannya mengenai dinding atau hero musuh lain."
+      }
+    ]
+  },
+  {
+    "hero_name": "Baxia",
+    "combos": [
+      {
+        "name": "Tortoise Charge",
+        "sequence": [
+          "Ultimate (Tortoise’s Puissance)",
+          "Skill 1 (Baxia-Shield Unity)",
+          "Skill 2 (Shield of Spirit)"
+        ],
+        "situation": "Menerobos pertahanan dan mengejar lawan",
+        "description": "Aktifkan Tortoise’s Puissance untuk memperoleh kecepatan gerak dan meninggalkan jejak lava. Gunakan Baxia-Shield Unity untuk menerjang dan memberikan stun. Lanjutkan Shield of Spirit untuk memberikan damage serta mengurangi kecepatan gerak target."
+      }
+    ]
+  },
+  {
+    "hero_name": "Beatrix",
+    "combos": [
+      {
+        "name": "Weapon Switch Assault",
+        "sequence": [
+          "Pilih senjata sesuai jarak dan situasi",
+          "Skill 2 (Tactical Reposition)",
+          "Skill 1 (Masterful Gunner) bila perlu mengganti senjata",
+          "Ultimate sesuai senjata aktif"
+        ],
+        "situation": "Menyesuaikan serangan dengan senjata Beatrix",
+        "description": "Pilih senjata yang sesuai: Renner untuk serangan jarak jauh, Bennett untuk area, Wesker untuk jarak dekat, atau Nibiru untuk tembakan beruntun. Gunakan Tactical Reposition untuk mengatur posisi sekaligus mengisi ulang. Ganti senjata bila diperlukan dan gunakan Ultimate sesuai senjata aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Cici",
+    "combos": [
+      {
+        "name": "Yo-Yo Performance",
+        "sequence": [
+          "Skill 2 (Buoyant Bounce)",
+          "Ultimate (Curtain Call)",
+          "Skill 1 (Yo-Yo Blitz)"
+        ],
+        "situation": "Mengejar dan menyerang dua hero musuh sekaligus",
+        "description": "Gunakan Buoyant Bounce untuk mendekati target dan manfaatkan lompatan kedua bila memungkinkan. Hubungkan dua musuh dengan Curtain Call. Aktifkan Yo-Yo Blitz agar Cici menyerang target yang terhubung secara bersamaan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Faramis",
+    "combos": [
+      {
+        "name": "Nether Teamfight",
+        "sequence": [
+          "Skill 1 (Shadow Stampede)",
+          "Skill 2 (Ghost Bursters)",
+          "Ultimate (Nether Realm)"
+        ],
+        "situation": "Menerobos pertarungan dan melindungi tim dari serangan besar",
+        "description": "Gunakan Shadow Stampede untuk memasuki posisi pertarungan dan menandai lawan. Tarik musuh dengan mengaktifkan kembali skill, lalu gunakan Ghost Bursters untuk memberikan damage. Aktifkan Nether Realm ketika tim membutuhkan perlindungan dan kesempatan untuk bangkit dalam team fight."
+      }
+    ]
+  },
+  {
+    "hero_name": "Floryn",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Sow)",
+          "Skill 2 (Sprout)",
+          "Ultimate (Bloom)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Sow untuk membuka serangan. Lanjutkan Sprout untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Bloom pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Franco",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Iron Hook)",
+          "Skill 2 (Fury Shock)",
+          "Ultimate (Bloody Hunt)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Iron Hook untuk membuka serangan. Lanjutkan Fury Shock untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Bloody Hunt pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Fredrinn",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Piercing Strike)",
+          "Skill 2 (Brave Assault)",
+          "Ultimate (Appraiser's Wrath)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Piercing Strike untuk membuka serangan. Lanjutkan Brave Assault untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Appraiser's Wrath pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Freya",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Leap of Faith)",
+          "Skill 2 (Valkyrie Slash)",
+          "Ultimate (Valkyrie Descent)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Leap of Faith untuk membuka serangan. Lanjutkan Valkyrie Slash untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Valkyrie Descent pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Gatotkaca",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Blast Iron Fist)",
+          "Skill 2 (Unbreakable)",
+          "Ultimate (Avatar of the Guardian)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Blast Iron Fist untuk membuka serangan. Lanjutkan Unbreakable untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Avatar of the Guardian pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Gloo",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Slam, Slam)",
+          "Skill 2 (Spread, Spread)",
+          "Ultimate (Grab, Grab)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Slam, Slam untuk membuka serangan. Lanjutkan Spread, Spread untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Grab, Grab pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Gord",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Mystic Projectile)",
+          "Skill 2 (Mystic Injunction)",
+          "Ultimate (Mystic Gush)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Mystic Projectile untuk membuka serangan. Lanjutkan Mystic Injunction untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Mystic Gush pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Granger",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Rhapsody)",
+          "Skill 2 (Rondo)",
+          "Ultimate (Death Sonata)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Rhapsody untuk membuka serangan. Lanjutkan Rondo untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Death Sonata pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Grock",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Mighty Swing)",
+          "Skill 2 (Earthen Rampart)",
+          "Ultimate (Tectonic Charge)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Mighty Swing untuk membuka serangan. Lanjutkan Earthen Rampart untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Tectonic Charge pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Guinevere",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Energy Wave)",
+          "Skill 2 (Spatial Migration)",
+          "Ultimate (Violet Requiem)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Energy Wave untuk membuka serangan. Lanjutkan Spatial Migration untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Violet Requiem pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Gusion",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Sword Spike)",
+          "Skill 2 (Shadowblade Slaughter)",
+          "Ultimate (Incandescence)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Sword Spike untuk membuka serangan. Lanjutkan Shadowblade Slaughter untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Incandescence pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Hanabi",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Ninjutsu: Equinox)",
+          "Skill 2 (Ninjutsu: Soul Scroll)",
+          "Ultimate (Forbidden Jutsu: Higanbana)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Ninjutsu: Equinox untuk membuka serangan. Lanjutkan Ninjutsu: Soul Scroll untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Forbidden Jutsu: Higanbana pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Hanzo",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Ninjutsu: Demon Feast)",
+          "Skill 2 (Ninjutsu: Dark Mist)",
+          "Ultimate (Kinjutsu: Pinnacle Ninja)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Ninjutsu: Demon Feast untuk membuka serangan. Lanjutkan Ninjutsu: Dark Mist untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Kinjutsu: Pinnacle Ninja pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Harith",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Synchro Fission)",
+          "Skill 2 (Chrono Dash)",
+          "Ultimate (Zaman Force)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Synchro Fission untuk membuka serangan. Lanjutkan Chrono Dash untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Zaman Force pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Harley",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Poker Trick)",
+          "Skill 2 (Space Escape)",
+          "Ultimate (Deadly Magic)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Poker Trick untuk membuka serangan. Lanjutkan Space Escape untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Deadly Magic pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Hayabusa",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Ninjutsu: Phantom Shuriken)",
+          "Skill 2 (Ninjutsu: Quad Shadow)",
+          "Ultimate (Ougi: Shadow Kill)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Ninjutsu: Phantom Shuriken untuk membuka serangan. Lanjutkan Ninjutsu: Quad Shadow untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Ougi: Shadow Kill pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Helcurt",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Hidden Terror)",
+          "Skill 2 (Deadly Stinger)",
+          "Ultimate (Dark Night Falls)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Hidden Terror untuk membuka serangan. Lanjutkan Deadly Stinger untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Dark Night Falls pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Hilda",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Combat Ritual)",
+          "Skill 2 (Art of Hunting)",
+          "Ultimate (Power of Wildness)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Combat Ritual untuk membuka serangan. Lanjutkan Art of Hunting untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Power of Wildness pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Hirara",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Meisen-e)",
+          "Skill 2 (Kaerazu)",
+          "Ultimate (Twin Fans: Ukifune)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Meisen-e untuk membuka serangan. Lanjutkan Kaerazu untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Twin Fans: Ukifune pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Hylos",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Law and Order)",
+          "Skill 2 (Ring of Punishment)",
+          "Ultimate (Glorious Pathway)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Law and Order untuk membuka serangan. Lanjutkan Ring of Punishment untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Glorious Pathway pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Irithel",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Strafe)",
+          "Skill 2 (Force of the Queen)",
+          "Ultimate (Heavy Crossbow)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Strafe untuk membuka serangan. Lanjutkan Force of the Queen untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Heavy Crossbow pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Ixia",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Dual Beam)",
+          "Skill 2 (Star Helix)",
+          "Ultimate (Full Barrage)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Dual Beam untuk membuka serangan. Lanjutkan Star Helix untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Full Barrage pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Jawhead",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Smart Missiles)",
+          "Skill 2 (Ejector)",
+          "Ultimate (Unstoppable Force)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Smart Missiles untuk membuka serangan. Lanjutkan Ejector untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Unstoppable Force pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Johnson",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Impact Wrench)",
+          "Skill 2 (Electromagnetic Waves)",
+          "Ultimate (Full Throttle)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Impact Wrench untuk membuka serangan. Lanjutkan Electromagnetic Waves untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Full Throttle pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Joy",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Look, Leonin Crystal!)",
+          "Skill 2 (Meow, Rhythm of Joy!)",
+          "Ultimate (Ha, Electrifying Beats!)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Look, Leonin Crystal! untuk membuka serangan. Lanjutkan Meow, Rhythm of Joy! untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Ha, Electrifying Beats! pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Julian",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Scythe)",
+          "Skill 2 (Sword)",
+          "Skill 3 (Chain)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Scythe untuk membuka serangan. Lanjutkan Sword untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Chain pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Kadita",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Ocean Ode)",
+          "Skill 2 (Breath of the Ocean)",
+          "Ultimate (Rough Waves)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Ocean Ode untuk membuka serangan. Lanjutkan Breath of the Ocean untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Rough Waves pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Kagura",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Seimei Umbrella Open)",
+          "Skill 2 (Rasho Umbrella Flee)",
+          "Ultimate (Yin Yang Overturn)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Seimei Umbrella Open untuk membuka serangan. Lanjutkan Rasho Umbrella Flee untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Yin Yang Overturn pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Kaja",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Ring of Order)",
+          "Skill 2 (Soaring Wings)",
+          "Ultimate (Divine Binding)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Ring of Order untuk membuka serangan. Lanjutkan Soaring Wings untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Divine Binding pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Kalea",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Wavebreaker)",
+          "Skill 2 (Tidal Strike)",
+          "Ultimate (Tsunami Slam)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Wavebreaker untuk membuka serangan. Lanjutkan Tidal Strike untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Tsunami Slam pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Karina",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Dance of Blades)",
+          "Skill 2 (Dance of Death)",
+          "Ultimate (Shadow Assault)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Dance of Blades untuk membuka serangan. Lanjutkan Dance of Death untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Shadow Assault pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Karrie",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Spinning Lightwheel)",
+          "Skill 2 (Phantom Step)",
+          "Ultimate (Speedy Lightwheel)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Spinning Lightwheel untuk membuka serangan. Lanjutkan Phantom Step untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Speedy Lightwheel pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Khaleed",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Desert Tornado)",
+          "Skill 2 (Quicksand Guard)",
+          "Ultimate (Raging Sandstorm)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Desert Tornado untuk membuka serangan. Lanjutkan Quicksand Guard untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Raging Sandstorm pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Khufra",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Tyrant's Revenge)",
+          "Skill 2 (Bouncing Ball)",
+          "Ultimate (Tyrant's Rage)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Tyrant's Revenge untuk membuka serangan. Lanjutkan Bouncing Ball untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Tyrant's Rage pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Kimmy",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Anti-Grav Thruster)",
+          "Skill 2 (Starlium Beam)",
+          "Ultimate (Traction Pulse)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Anti-Grav Thruster untuk membuka serangan. Lanjutkan Starlium Beam untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Traction Pulse pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Lancelot",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Puncture)",
+          "Skill 2 (Thorned Rose)",
+          "Ultimate (Phantom Execution)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Puncture untuk membuka serangan. Lanjutkan Thorned Rose untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Phantom Execution pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Lapu-Lapu",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Justice Blades)",
+          "Skill 2 (Jungle Warrior)",
+          "Ultimate (Bravest Fighter)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Justice Blades untuk membuka serangan. Lanjutkan Jungle Warrior untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Bravest Fighter pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Leomord",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Momentum)",
+          "Skill 2 (Decimation Assault)",
+          "Ultimate (Phantom Steed)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Momentum untuk membuka serangan. Lanjutkan Decimation Assault untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Phantom Steed pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Lesley",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Master of Camouflage)",
+          "Skill 2 (Tactical Grenade)",
+          "Ultimate (Ultimate Snipe)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Master of Camouflage untuk membuka serangan. Lanjutkan Tactical Grenade untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Ultimate Snipe pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Ling",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Finch Poise)",
+          "Skill 2 (Defiant Sword)",
+          "Ultimate (Tempest of Blades)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Finch Poise untuk membuka serangan. Lanjutkan Defiant Sword untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Tempest of Blades pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Lolita",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Power Charge)",
+          "Skill 2 (Guardian's Reflection)",
+          "Ultimate (Noumenon Blast)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Power Charge untuk membuka serangan. Lanjutkan Guardian's Reflection untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Noumenon Blast pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Lukas",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Flash Combo)",
+          "Skill 2 (Flash Step)",
+          "Ultimate (Unleash the Beast)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Flash Combo untuk membuka serangan. Lanjutkan Flash Step untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Unleash the Beast pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Lunox",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Starlight Pulse)",
+          "Skill 2 (Chaos Assault)",
+          "Ultimate (Order & Chaos)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Starlight Pulse untuk membuka serangan. Lanjutkan Chaos Assault untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Order & Chaos pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Luo Yi",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Dispersion)",
+          "Skill 2 (Rotation)",
+          "Ultimate (Diversion)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Dispersion untuk membuka serangan. Lanjutkan Rotation untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Diversion pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Lylia",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Magic Shockwave)",
+          "Skill 2 (Shadow Energy)",
+          "Ultimate (Black Shoes)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Magic Shockwave untuk membuka serangan. Lanjutkan Shadow Energy untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Black Shoes pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Marcel",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Framed Moment)",
+          "Skill 2 (Tracking Shot)",
+          "Ultimate (Golden Hour)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Framed Moment untuk membuka serangan. Lanjutkan Tracking Shot untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Golden Hour pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Martis",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Asura Aura)",
+          "Skill 2 (Mortal Coil)",
+          "Ultimate (Decimation)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Asura Aura untuk membuka serangan. Lanjutkan Mortal Coil untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Decimation pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Masha",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Wild Power)",
+          "Skill 2 (Howl Shock)",
+          "Ultimate (Thunderclap)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Wild Power untuk membuka serangan. Lanjutkan Howl Shock untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Thunderclap pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Mathilda",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Soul Bloom)",
+          "Skill 2 (Guiding Wind)",
+          "Ultimate (Circling Eagle)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Soul Bloom untuk membuka serangan. Lanjutkan Guiding Wind untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Circling Eagle pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Melissa",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Falling!)",
+          "Skill 2 (Eyes on You!)",
+          "Ultimate (Go Away!)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Falling! untuk membuka serangan. Lanjutkan Eyes on You! untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Go Away! pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Minotaur",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Despair Stomp)",
+          "Skill 2 (Motivation Roar)",
+          "Ultimate (Minoan Fury)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Despair Stomp untuk membuka serangan. Lanjutkan Motivation Roar untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Minoan Fury pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Minsitthar",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Spear of Glory)",
+          "Skill 2 (Shield Assault)",
+          "Ultimate (King's Calling)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Spear of Glory untuk membuka serangan. Lanjutkan Shield Assault untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan King's Calling pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Miya",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Moon Arrow)",
+          "Skill 2 (Arrow of Eclipse)",
+          "Ultimate (Hidden Moonlight)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Moon Arrow untuk membuka serangan. Lanjutkan Arrow of Eclipse untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Hidden Moonlight pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Moskov",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Abyss Walker)",
+          "Skill 2 (Spear of Misery)",
+          "Ultimate (Spear of Destruction)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Abyss Walker untuk membuka serangan. Lanjutkan Spear of Misery untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Spear of Destruction pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Nana",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Magic Boomerang)",
+          "Skill 2 (Molina Smooch)",
+          "Ultimate (Molina Blitz)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Magic Boomerang untuk membuka serangan. Lanjutkan Molina Smooch untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Molina Blitz pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Natalia",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Claw Dash)",
+          "Skill 2 (Smoke Bomb)",
+          "Ultimate (The Hunt)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Claw Dash untuk membuka serangan. Lanjutkan Smoke Bomb untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan The Hunt pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Natan",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Superposition)",
+          "Skill 2 (Interference!)",
+          "Ultimate (Entropy?)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Superposition untuk membuka serangan. Lanjutkan Interference! untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Entropy? pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Nolan",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Expansion)",
+          "Skill 2 (Gauge)",
+          "Ultimate (Fracture)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Expansion untuk membuka serangan. Lanjutkan Gauge untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Fracture pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Novaria",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Astral Meteor)",
+          "Skill 2 (Astral Recall)",
+          "Ultimate (Astral Echo)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Astral Meteor untuk membuka serangan. Lanjutkan Astral Recall untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Astral Echo pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Obsidia",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Abyssal Bone Needle)",
+          "Skill 2 (Phantom Shadowmeld)",
+          "Ultimate (Hunt of Bone)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Abyssal Bone Needle untuk membuka serangan. Lanjutkan Phantom Shadowmeld untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Hunt of Bone pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Odette",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Avian Authority)",
+          "Skill 2 (Blue Nova)",
+          "Ultimate (Swan Song)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Avian Authority untuk membuka serangan. Lanjutkan Blue Nova untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Swan Song pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Paquito",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Heavy Left Punch)",
+          "Skill 2 (Jab)",
+          "Ultimate (Knockout Strike)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Heavy Left Punch untuk membuka serangan. Lanjutkan Jab untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Knockout Strike pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Pharsa",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Curse of Crow)",
+          "Skill 2 (Energy Impact)",
+          "Ultimate (Feathered Air Strike)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Curse of Crow untuk membuka serangan. Lanjutkan Energy Impact untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Feathered Air Strike pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Phoveus",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Demonic Impact)",
+          "Skill 2 (Dark Wave)",
+          "Ultimate (Infernal Pursuit)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Demonic Impact untuk membuka serangan. Lanjutkan Dark Wave untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Infernal Pursuit pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Popol and Kupa",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Bite 'em, Kupa!)",
+          "Skill 2 (Kupa, Help!)",
+          "Ultimate (We Are Angry!)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Bite 'em, Kupa! untuk membuka serangan. Lanjutkan Kupa, Help! untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan We Are Angry! pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Rafaela",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Light of Retribution)",
+          "Skill 2 (Holy Healing)",
+          "Ultimate (Holy Baptism)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Light of Retribution untuk membuka serangan. Lanjutkan Holy Healing untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Holy Baptism pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Roger",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Open Fire)",
+          "Skill 2 (Hunter's Steps)",
+          "Ultimate (Wolf Transformation)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Open Fire untuk membuka serangan. Lanjutkan Hunter's Steps untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Wolf Transformation pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Ruby",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Be Good!)",
+          "Skill 2 (Don't Run, Wolf King!)",
+          "Ultimate (I'm Offended!)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Be Good! untuk membuka serangan. Lanjutkan Don't Run, Wolf King! untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan I'm Offended! pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Saber",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Orbiting Swords)",
+          "Skill 2 (Charge)",
+          "Ultimate (Triple Sweep)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Orbiting Swords untuk membuka serangan. Lanjutkan Charge untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Triple Sweep pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Selena",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Abyssal Trap)",
+          "Skill 2 (Abyssal Arrow)",
+          "Ultimate (Primal Darkness)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Abyssal Trap untuk membuka serangan. Lanjutkan Abyssal Arrow untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Primal Darkness pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Silvanna",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Cometic Lance)",
+          "Skill 2 (Spiral Strangling)",
+          "Ultimate (Imperial Justice)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Cometic Lance untuk membuka serangan. Lanjutkan Spiral Strangling untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Imperial Justice pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Sora",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Sundering Strike)",
+          "Skill 2 (Windstride)",
+          "Ultimate (Shifting Skies)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Sundering Strike untuk membuka serangan. Lanjutkan Windstride untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Shifting Skies pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Sun",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Endless Variety)",
+          "Skill 2 (Swift Exchange)",
+          "Ultimate (Clone Techniques)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Endless Variety untuk membuka serangan. Lanjutkan Swift Exchange untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Clone Techniques pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Suyou",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Blade Surge)",
+          "Skill 2 (Soul Sever)",
+          "Ultimate (Evil Queller)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Blade Surge untuk membuka serangan. Lanjutkan Soul Sever untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Evil Queller pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Terizla",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Revenge Strike)",
+          "Skill 2 (Execution Strike)",
+          "Ultimate (Penalty Zone)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Revenge Strike untuk membuka serangan. Lanjutkan Execution Strike untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Penalty Zone pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Thamuz",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Molten Scythes)",
+          "Skill 2 (Chasm Trample)",
+          "Ultimate (Cauterant Inferno)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Molten Scythes untuk membuka serangan. Lanjutkan Chasm Trample untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Cauterant Inferno pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Tigreal",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Attack Wave)",
+          "Skill 2 (Sacred Hammer)",
+          "Ultimate (Implosion)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Attack Wave untuk membuka serangan. Lanjutkan Sacred Hammer untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Implosion pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Uranus",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Ionic Edge)",
+          "Skill 2 (Transcendent Ward)",
+          "Ultimate (Consecration)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Ionic Edge untuk membuka serangan. Lanjutkan Transcendent Ward untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Consecration pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Vale",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Wind Blade)",
+          "Skill 2 (Windblow)",
+          "Ultimate (Windstorm)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Wind Blade untuk membuka serangan. Lanjutkan Windblow untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Windstorm pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Valentina",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Shadow Strike)",
+          "Skill 2 (Arcane Shade)",
+          "Ultimate (I Am You)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Shadow Strike untuk membuka serangan. Lanjutkan Arcane Shade untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan I Am You pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Valir",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Burst Fireball)",
+          "Skill 2 (Searing Torrent)",
+          "Ultimate (Vengeance Flame)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Burst Fireball untuk membuka serangan. Lanjutkan Searing Torrent untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Vengeance Flame pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Vexana",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Deathly Grasp)",
+          "Skill 2 (Cursed Blast)",
+          "Ultimate (Eternal Guard)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Deathly Grasp untuk membuka serangan. Lanjutkan Cursed Blast untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Eternal Guard pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Wanwan",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Swallow's Path)",
+          "Skill 2 (Needles in Flowers)",
+          "Ultimate (Crossbow of Tang)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Swallow's Path untuk membuka serangan. Lanjutkan Needles in Flowers untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Crossbow of Tang pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "X.Borg",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Fire Missiles)",
+          "Skill 2 (Fire Stake)",
+          "Ultimate (Last Insanity)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Fire Missiles untuk membuka serangan. Lanjutkan Fire Stake untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Last Insanity pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Xavier",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Infinite Extension)",
+          "Skill 2 (Mystic Field)",
+          "Ultimate (Dawning Light)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Infinite Extension untuk membuka serangan. Lanjutkan Mystic Field untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Dawning Light pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Yi Sun-shin",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Traceless)",
+          "Skill 2 (Blood Floods)",
+          "Ultimate (Mountain Shocker)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Traceless untuk membuka serangan. Lanjutkan Blood Floods untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Mountain Shocker pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Yin",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Charged Punch)",
+          "Skill 2 (Instant Blast)",
+          "Ultimate (My Turn)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Charged Punch untuk membuka serangan. Lanjutkan Instant Blast untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan My Turn pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Yu Zhong",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Dragon Tail)",
+          "Skill 2 (Soul Grip)",
+          "Ultimate (Black Dragon Form)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Dragon Tail untuk membuka serangan. Lanjutkan Soul Grip untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Black Dragon Form pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Yve",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Void Blast)",
+          "Skill 2 (Void Crystal)",
+          "Ultimate (Real World Manipulation)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Void Blast untuk membuka serangan. Lanjutkan Void Crystal untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Real World Manipulation pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Zetian",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Phoenix Strike)",
+          "Skill 2 (Phoenix Descent)",
+          "Ultimate (Fury of the Phoenix)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Phoenix Strike untuk membuka serangan. Lanjutkan Phoenix Descent untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Fury of the Phoenix pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Zhask",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Nightmaric Spawn)",
+          "Skill 2 (Mind Eater)",
+          "Ultimate (Dominator's Descent)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Nightmaric Spawn untuk membuka serangan. Lanjutkan Mind Eater untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Dominator's Descent pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan. Hero ini memiliki variasi skill atau mode tambahan. Sesuaikan combo dengan mode dan kemampuan yang sedang aktif."
+      }
+    ]
+  },
+  {
+    "hero_name": "Zhuxin",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Fluttering Grace)",
+          "Skill 2 (Lantern Flare)",
+          "Ultimate (Crimson Beacon)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Fluttering Grace untuk membuka serangan. Lanjutkan Lantern Flare untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Crimson Beacon pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  },
+  {
+    "hero_name": "Zilong",
+    "combos": [
+      {
+        "name": "Combo Dasar",
+        "sequence": [
+          "Skill 1 (Spear Flip)",
+          "Skill 2 (Spear Strike)",
+          "Ultimate (Supreme Warrior)"
+        ],
+        "situation": "Panduan dasar untuk menyerang lawan",
+        "description": "Mulai dengan Spear Flip untuk membuka serangan. Lanjutkan Spear Strike untuk memberikan tekanan atau mengendalikan lawan, lalu gunakan Supreme Warrior pada momen yang tepat. Sesuaikan urutan dengan jarak, posisi lawan, dan situasi pertarungan."
+      }
+    ]
+  }
+]

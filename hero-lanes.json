@@ -1,0 +1,1102 @@
+{
+  "Aamon": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Akai": {
+    "roles": [
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Aldous": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Alice": {
+    "roles": [
+      "tank",
+      "mage"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Alpha": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Alucard": {
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Angela": {
+    "roles": [
+      "support"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Argus": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Arlott": {
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Atlas": {
+    "roles": [
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Aulus": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Aurora": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Badang": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Balmond": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Bane": {
+    "roles": [
+      "fighter",
+      "mage"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Barats": {
+    "roles": [
+      "tank",
+      "fighter"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Baxia": {
+    "roles": [
+      "tank"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Beatrix": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Belerick": {
+    "roles": [
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Benedetta": {
+    "roles": [
+      "assassin",
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Brody": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Bruno": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Carmilla": {
+    "roles": [
+      "support",
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Cecilion": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Chang'e": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Chip": {
+    "roles": [
+      "support",
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Chou": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Cici": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Claude": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Clint": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Cyclops": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Diggie": {
+    "roles": [
+      "support"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Dyrroth": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Edith": {
+    "roles": [
+      "tank",
+      "marksman"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Esmeralda": {
+    "roles": [
+      "tank",
+      "mage"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Estes": {
+    "roles": [
+      "support"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Eudora": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Fanny": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Faramis": {
+    "roles": [
+      "support",
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Floryn": {
+    "roles": [
+      "support"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Franco": {
+    "roles": [
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Fredrinn": {
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Freya": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Gatotkaca": {
+    "roles": [
+      "tank",
+      "fighter"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Gloo": {
+    "roles": [
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Gord": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Granger": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Grock": {
+    "roles": [
+      "tank",
+      "fighter"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Guinevere": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Gusion": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Hanabi": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Hanzo": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Harith": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Harley": {
+    "roles": [
+      "assassin",
+      "mage"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Hayabusa": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Helcurt": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Hilda": {
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Hirara": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Hylos": {
+    "roles": [
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Irithel": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Ixia": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Jawhead": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Johnson": {
+    "roles": [
+      "tank",
+      "support"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Joy": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Julian": {
+    "roles": [
+      "assassin",
+      "fighter"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Kadita": {
+    "roles": [
+      "mage",
+      "assassin"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Kagura": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Kaja": {
+    "roles": [
+      "support",
+      "fighter"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Kalea": {
+    "roles": [
+      "support",
+      "fighter"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Karina": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Karrie": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Khaleed": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Khufra": {
+    "roles": [
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Kimmy": {
+    "roles": [
+      "marksman",
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Lancelot": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Lapu-Lapu": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Layla": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Leomord": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Lesley": {
+    "roles": [
+      "marksman",
+      "assassin"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Ling": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Lolita": {
+    "roles": [
+      "support",
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Lukas": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Lunox": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Luo Yi": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Lylia": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Marcel": {
+    "roles": [
+      "support"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Martis": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Masha": {
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Mathilda": {
+    "roles": [
+      "support",
+      "assassin"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Melissa": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Minotaur": {
+    "roles": [
+      "tank",
+      "support"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Minsitthar": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Miya": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Moskov": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Nana": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Natalia": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Natan": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Nolan": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Novaria": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Obsidia": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "Odette": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Paquito": {
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Pharsa": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Phoveus": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Popol and Kupa": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Rafaela": {
+    "roles": [
+      "support"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Roger": {
+    "roles": [
+      "fighter",
+      "marksman"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Ruby": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Saber": {
+    "roles": [
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Selena": {
+    "roles": [
+      "assassin",
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Silvanna": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Sora": {
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Sun": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Suyou": {
+    "roles": [
+      "assassin",
+      "fighter"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Terizla": {
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Thamuz": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Tigreal": {
+    "roles": [
+      "tank"
+    ],
+    "lanes": [
+      "Roam"
+    ]
+  },
+  "Uranus": {
+    "roles": [
+      "tank"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Vale": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Valentina": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Valir": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Vexana": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Wanwan": {
+    "roles": [
+      "marksman"
+    ],
+    "lanes": [
+      "Gold Lane"
+    ]
+  },
+  "X.Borg": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Xavier": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Yi Sun-shin": {
+    "roles": [
+      "assassin",
+      "marksman"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Yin": {
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  "Yu Zhong": {
+    "roles": [
+      "fighter"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  },
+  "Yve": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Zetian": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Zhask": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Zhuxin": {
+    "roles": [
+      "mage"
+    ],
+    "lanes": [
+      "Mid Lane"
+    ]
+  },
+  "Zilong": {
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "lanes": [
+      "EXP Lane"
+    ]
+  }
+}

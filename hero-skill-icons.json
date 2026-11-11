@@ -1,0 +1,848 @@
+{
+  "Hirara": {
+    "Twin Fans: Ukifune": "images-skill/hirara/4.webp",
+    "Meisen-e": "images-skill/hirara/2.webp",
+    "Kaerazu": "images-skill/hirara/3.webp",
+    "Falling Maple": "images-skill/hirara/5.webp",
+    "Infernal Torrent": "images-skill/hirara/6.webp"
+  },
+  "Marcel": {
+    "Platinum Snap": "images-skill/marcel/1.webp",
+    "Framed Moment": "images-skill/marcel/2.webp",
+    "Tracking Shot": "images-skill/marcel/3.webp",
+    "Golden Hour": "images-skill/marcel/4.webp"
+  },
+  "Sora": {
+    "Mystic Surge": "images-skill/sora/9.webp",
+    "Sundering Strike": "images-skill/sora/2.webp",
+    "Windstride": "images-skill/sora/3.webp",
+    "Shifting Skies": "images-skill/sora/4.webp",
+    "Sundering Strike - Thunderflash": "images-skill/sora/6.webp",
+    "Windstride - Thunder Rush": "images-skill/sora/7.webp",
+    "Heaven's Wrath": "images-skill/sora/8.webp",
+    "Sundering Strike - Overwhelm": "images-skill/sora/10.webp",
+    "Windstride - Skyfall": "images-skill/sora/11.webp",
+    "Stormbind": "images-skill/sora/12.webp"
+  },
+  "Obsidia": {
+    "Return to Bone": "images-skill/obsidia/1.webp",
+    "Abyssal Bone Needle": "images-skill/obsidia/2.webp",
+    "Phantom Shadowmeld": "images-skill/obsidia/3.webp",
+    "Hunt of Bone": "images-skill/obsidia/4.webp"
+  },
+  "Zetian": {
+    "Celestial Armament": "images-skill/zetian/1.webp",
+    "Phoenix Strike": "images-skill/zetian/2.webp",
+    "Phoenix Descent": "images-skill/zetian/3.webp",
+    "Fury of the Phoenix": "images-skill/zetian/4.webp"
+  },
+  "Kalea": {
+    "Surge of Life": "images-skill/kalea/1.webp",
+    "Wavebreaker": "images-skill/kalea/2.webp",
+    "Tidal Strike": "images-skill/kalea/3.webp",
+    "Tsunami Slam": "images-skill/kalea/4.webp"
+  },
+  "Lukas": {
+    "Hero's Resolve": "images-skill/lukas/5.webp",
+    "Flash Combo": "images-skill/lukas/6.webp",
+    "Flash Step": "images-skill/lukas/7.webp",
+    "Unleash the Beast": "images-skill/lukas/4.webp",
+    "Shockwave Blast": "images-skill/lukas/8.webp"
+  },
+  "Suyou": {
+    "Transient Immortal": "images-skill/suyou/1.webp",
+    "Blade Surge": "images-skill/suyou/2.webp",
+    "Soul Sever": "images-skill/suyou/3.webp",
+    "Evil Queller": "images-skill/suyou/4.webp"
+  },
+  "Zhuxin": {
+    "Crimson Butterflies": "images-skill/zhuxin/1.webp",
+    "Fluttering Grace": "images-skill/zhuxin/2.webp",
+    "Lantern Flare": "images-skill/zhuxin/3.webp",
+    "Crimson Beacon": "images-skill/zhuxin/4.webp"
+  },
+  "Chip": {
+    "Snack Time!": "images-skill/chip/1.webp",
+    "Crash Course": "images-skill/chip/2.webp",
+    "Overtime": "images-skill/chip/3.webp",
+    "Shortcut": "images-skill/chip/4.webp",
+    "Why Walk?": "images-skill/chip/5.webp"
+  },
+  "Cici": {
+    "Performer's Delight": "images-skill/cici/1.webp",
+    "Yo-Yo Blitz": "images-skill/cici/2.webp",
+    "Buoyant Bounce": "images-skill/cici/3.webp",
+    "Curtain Call": "images-skill/cici/4.webp"
+  },
+  "Nolan": {
+    "Dimensional Rift": "images-skill/nolan/1.webp",
+    "Expansion": "images-skill/nolan/2.webp",
+    "Gauge": "images-skill/nolan/3.webp",
+    "Fracture": "images-skill/nolan/4.webp"
+  },
+  "Ixia": {
+    "Siphon Starlium": "images-skill/ixia/1.webp",
+    "Dual Beam": "images-skill/ixia/2.webp",
+    "Star Helix": "images-skill/ixia/3.webp",
+    "Full Barrage": "images-skill/ixia/4.webp"
+  },
+  "Arlott": {
+    "Demon Gaze": "images-skill/arlott/1.webp",
+    "Dauntless Strike": "images-skill/arlott/2.webp",
+    "Vengeance": "images-skill/arlott/3.webp",
+    "Final Slash": "images-skill/arlott/4.webp"
+  },
+  "Novaria": {
+    "Star Trail": "images-skill/novaria/1.webp",
+    "Astral Meteor": "images-skill/novaria/2.webp",
+    "Astral Recall": "images-skill/novaria/3.webp",
+    "Astral Echo": "images-skill/novaria/4.webp"
+  },
+  "Joy": {
+    "Humph, Joy's Angry!": "images-skill/joy/1.webp",
+    "Look, Leonin Crystal!": "images-skill/joy/2.webp",
+    "Meow, Rhythm of Joy!": "images-skill/joy/3.webp",
+    "Ha, Electrifying Beats!": "images-skill/joy/4.webp"
+  },
+  "Fredrinn": {
+    "Crystalline Armor": "images-skill/fredrinn/1.webp",
+    "Piercing Strike": "images-skill/fredrinn/2.webp",
+    "Brave Assault": "images-skill/fredrinn/3.webp",
+    "Energy Eruption": "images-skill/fredrinn/4.webp",
+    "Appraiser's Wrath": "images-skill/fredrinn/5.webp"
+  },
+  "Julian": {
+    "Smith's Legacy": "images-skill/julian/5.webp",
+    "Scythe": "images-skill/julian/2.webp",
+    "Sword": "images-skill/julian/3.webp",
+    "Chain": "images-skill/julian/4.webp",
+    "Enhanced Scythe": "images-skill/julian/6.webp",
+    "Enhanced Sword": "images-skill/julian/7.webp",
+    "Enhanced Chain": "images-skill/julian/8.webp"
+  },
+  "Xavier": {
+    "Transcendence": "images-skill/xavier/1.webp",
+    "Infinite Extension": "images-skill/xavier/2.webp",
+    "Mystic Field": "images-skill/xavier/3.webp",
+    "Dawning Light": "images-skill/xavier/4.webp"
+  },
+  "Melissa": {
+    "Doll Buster": "images-skill/melissa/1.webp",
+    "Falling!": "images-skill/melissa/2.webp",
+    "Eyes on You!": "images-skill/melissa/3.webp",
+    "Go Away!": "images-skill/melissa/4.webp"
+  },
+  "Yin": {
+    "Leave It to Me": "images-skill/yin/5.webp",
+    "Charged Punch": "images-skill/yin/2.webp",
+    "Instant Blast": "images-skill/yin/7.webp",
+    "My Turn": "images-skill/yin/8.webp",
+    "Frenzy Strike": "images-skill/yin/6.webp"
+  },
+  "Floryn": {
+    "Dew": "images-skill/floryn/1.webp",
+    "Sow": "images-skill/floryn/2.webp",
+    "Sprout": "images-skill/floryn/3.webp",
+    "Bloom": "images-skill/floryn/4.webp"
+  },
+  "Edith": {
+    "Overload": "images-skill/edith/5.webp",
+    "Earth Shatter": "images-skill/edith/2.webp",
+    "Onward": "images-skill/edith/3.webp",
+    "Primal Wrath": "images-skill/edith/8.webp",
+    "Divine Retribution": "images-skill/edith/6.webp",
+    "Lightning Bolt": "images-skill/edith/7.webp"
+  },
+  "Valentina": {
+    "Primal Force": "images-skill/valentina/1.webp",
+    "Shadow Strike": "images-skill/valentina/2.webp",
+    "Arcane Shade": "images-skill/valentina/3.webp",
+    "I Am You": "images-skill/valentina/4.webp"
+  },
+  "Aamon": {
+    "Invisible Armor": "images-skill/aamon/1.webp",
+    "Soul Shards": "images-skill/aamon/2.webp",
+    "Slayer Shards": "images-skill/aamon/3.webp",
+    "Endless Shards": "images-skill/aamon/4.webp"
+  },
+  "Aulus": {
+    "Fighting Spirit": "images-skill/aulus/1.webp",
+    "Aulus, Charge!": "images-skill/aulus/2.webp",
+    "The Power of Axe": "images-skill/aulus/3.webp",
+    "Cleaving Axe": "images-skill/aulus/4.webp"
+  },
+  "Natan": {
+    "Theory of Everything": "images-skill/natan/1.webp",
+    "Superposition": "images-skill/natan/2.webp",
+    "Interference!": "images-skill/natan/3.webp",
+    "Entropy?": "images-skill/natan/4.webp"
+  },
+  "Phoveus": {
+    "Demonic Force": "images-skill/phoveus/1.webp",
+    "Demonic Impact": "images-skill/phoveus/2.webp",
+    "Dark Wave": "images-skill/phoveus/3.webp",
+    "Infernal Pursuit": "images-skill/phoveus/4.webp"
+  },
+  "Beatrix": {
+    "Mechanical Genius": "images-skill/beatrix/16.webp",
+    "Masterful Gunner": "images-skill/beatrix/17.webp",
+    "Tactical Reposition": "images-skill/beatrix/18.webp",
+    "Renner's Apathy": "images-skill/beatrix/4.webp",
+    "Need Backup": "images-skill/beatrix/20.webp",
+    "Bennett's Rage": "images-skill/beatrix/9.webp",
+    "Wesker's Elation": "images-skill/beatrix/14.webp",
+    "Nibiru's Passion": "images-skill/beatrix/19.webp"
+  },
+  "Gloo": {
+    "Stick, Stick": "images-skill/gloo/1.webp",
+    "Slam, Slam": "images-skill/gloo/2.webp",
+    "Spread, Spread": "images-skill/gloo/3.webp",
+    "Grab, Grab": "images-skill/gloo/4.webp"
+  },
+  "Paquito": {
+    "Champ Stance": "images-skill/paquito/1.webp",
+    "Heavy Left Punch": "images-skill/paquito/2.webp",
+    "Jab": "images-skill/paquito/3.webp",
+    "Knockout Strike": "images-skill/paquito/4.webp"
+  },
+  "Mathilda": {
+    "Ancestral Guidance": "images-skill/mathilda/1.webp",
+    "Soul Bloom": "images-skill/mathilda/2.webp",
+    "Guiding Wind": "images-skill/mathilda/3.webp",
+    "Circling Eagle": "images-skill/mathilda/4.webp"
+  },
+  "Yve": {
+    "Galactic Power": "images-skill/yve/1.webp",
+    "Void Blast": "images-skill/yve/2.webp",
+    "Void Crystal": "images-skill/yve/3.webp",
+    "Real World Manipulation": "images-skill/yve/4.webp"
+  },
+  "Brody": {
+    "Abyss Corrosion": "images-skill/brody/1.webp",
+    "Abyss Impact": "images-skill/brody/2.webp",
+    "Corrosive Strike": "images-skill/brody/3.webp",
+    "Torn-Apart Memory": "images-skill/brody/4.webp"
+  },
+  "Barats": {
+    "Big Guy": "images-skill/barats/1.webp",
+    "So-Called Teamwork": "images-skill/barats/2.webp",
+    "Missile \"Expert\"": "images-skill/barats/3.webp",
+    "Detona's Welcome": "images-skill/barats/4.webp"
+  },
+  "Khaleed": {
+    "Sand Walk": "images-skill/khaleed/1.webp",
+    "Desert Tornado": "images-skill/khaleed/2.webp",
+    "Quicksand Guard": "images-skill/khaleed/3.webp",
+    "Raging Sandstorm": "images-skill/khaleed/4.webp"
+  },
+  "Benedetta": {
+    "Elapsed Daytime": "images-skill/benedetta/1.webp",
+    "Phantom Slash": "images-skill/benedetta/2.webp",
+    "An Eye for An Eye": "images-skill/benedetta/3.webp",
+    "Alecto: Final Blow": "images-skill/benedetta/4.webp"
+  },
+  "Luo Yi": {
+    "Duality": "images-skill/luo-yi/1.webp",
+    "Dispersion": "images-skill/luo-yi/2.webp",
+    "Rotation": "images-skill/luo-yi/3.webp",
+    "Diversion": "images-skill/luo-yi/4.webp"
+  },
+  "Yu Zhong": {
+    "Cursing Touch": "images-skill/yu-zhong/1.webp",
+    "Dragon Tail": "images-skill/yu-zhong/2.webp",
+    "Soul Grip": "images-skill/yu-zhong/3.webp",
+    "Furious Dive": "images-skill/yu-zhong/4.webp",
+    "Black Dragon Form": "images-skill/yu-zhong/5.webp"
+  },
+  "Popol and Kupa": {
+    "We Are Friends": "images-skill/popol-and-kupa/6.webp",
+    "Bite 'em, Kupa!": "images-skill/popol-and-kupa/7.webp",
+    "Kupa, Help!": "images-skill/popol-and-kupa/8.webp",
+    "Popol's Surprise": "images-skill/popol-and-kupa/9.webp",
+    "We Are Angry!": "images-skill/popol-and-kupa/10.webp"
+  },
+  "Atlas": {
+    "Frigid Breath": "images-skill/atlas/1.webp",
+    "Annihilate": "images-skill/atlas/2.webp",
+    "Perfect Match": "images-skill/atlas/3.webp",
+    "Fatal Links": "images-skill/atlas/4.webp"
+  },
+  "Carmilla": {
+    "Vampire Pact": "images-skill/carmilla/1.webp",
+    "Crimson Flower": "images-skill/carmilla/2.webp",
+    "Bloodbath": "images-skill/carmilla/3.webp",
+    "Curse of Blood": "images-skill/carmilla/4.webp"
+  },
+  "Cecilion": {
+    "Overflowing": "images-skill/cecilion/1.webp",
+    "Bat Impact": "images-skill/cecilion/2.webp",
+    "Sanguine Claws": "images-skill/cecilion/3.webp",
+    "Bats Feast": "images-skill/cecilion/4.webp",
+    "Moonlit Waltz": "images-skill/cecilion/5.webp"
+  },
+  "Silvanna": {
+    "Knightess' Resolve": "images-skill/silvanna/1.webp",
+    "Cometic Lance": "images-skill/silvanna/2.webp",
+    "Spiral Strangling": "images-skill/silvanna/3.webp",
+    "Imperial Justice": "images-skill/silvanna/4.webp"
+  },
+  "Wanwan": {
+    "Tiger Pace": "images-skill/wanwan/1.webp",
+    "Swallow’s Path": "images-skill/wanwan/2.webp",
+    "Needles in Flowers": "images-skill/wanwan/3.webp",
+    "Crossbow of Tang": "images-skill/wanwan/4.webp"
+  },
+  "Masha": {
+    "Primal Pact": "images-skill/masha/1.webp",
+    "Feral Swipe": "images-skill/masha/2.webp",
+    "Claw Strike": "images-skill/masha/3.webp",
+    "Savage Maul": "images-skill/masha/4.webp",
+    "Wild Power": "images-skill/masha/5.webp",
+    "Howl Shock": "images-skill/masha/6.webp",
+    "Life Recovery": "images-skill/masha/7.webp",
+    "Ancient Strength": "images-skill/masha/1.webp",
+    "Thunderclap": "images-skill/masha/4.webp"
+  },
+  "Baxia": {
+    "Baxia Mark": "images-skill/baxia/1.webp",
+    "Baxia-Shield Unity": "images-skill/baxia/2.webp",
+    "Shield of Spirit": "images-skill/baxia/3.webp",
+    "Tortoise’s Puissance": "images-skill/baxia/4.webp"
+  },
+  "Lylia": {
+    "Angry Gloom": "images-skill/lylia/1.webp",
+    "Magic Shockwave": "images-skill/lylia/2.webp",
+    "Shadow Energy": "images-skill/lylia/3.webp",
+    "Black Shoes": "images-skill/lylia/4.webp"
+  },
+  "Dyrroth": {
+    "Wrath of the Abyss": "images-skill/dyrroth/1.webp",
+    "Burst Strike": "images-skill/dyrroth/2.webp",
+    "Spectre Step": "images-skill/dyrroth/3.webp",
+    "Abysm Strike": "images-skill/dyrroth/4.webp"
+  },
+  "Ling": {
+    "Cloud Walker": "images-skill/ling/1.webp",
+    "Finch Poise": "images-skill/ling/2.webp",
+    "Defiant Sword": "images-skill/ling/3.webp",
+    "Tempest of Blades": "images-skill/ling/4.webp"
+  },
+  "X.Borg": {
+    "Firaga Armor": "images-skill/x-borg/1.webp",
+    "Fire Missiles": "images-skill/x-borg/2.webp",
+    "Fire Stake": "images-skill/x-borg/3.webp",
+    "Last Insanity": "images-skill/x-borg/4.webp"
+  },
+  "Terizla": {
+    "Body of Smith": "images-skill/terizla/1.webp",
+    "Revenge Strike": "images-skill/terizla/2.webp",
+    "Execution Strike": "images-skill/terizla/3.webp",
+    "Penalty Zone": "images-skill/terizla/4.webp"
+  },
+  "Esmeralda": {
+    "Starmoon Casket": "images-skill/esmeralda/1.webp",
+    "Frostmoon Shield": "images-skill/esmeralda/2.webp",
+    "Stardust Dance": "images-skill/esmeralda/3.webp",
+    "Falling Starmoon": "images-skill/esmeralda/4.webp"
+  },
+  "Guinevere": {
+    "Super Magic": "images-skill/guinevere/1.webp",
+    "Energy Wave": "images-skill/guinevere/2.webp",
+    "Spatial Migration": "images-skill/guinevere/3.webp",
+    "Violet Requiem": "images-skill/guinevere/4.webp"
+  },
+  "Granger": {
+    "Capriccio": "images-skill/granger/1.webp",
+    "Rhapsody": "images-skill/granger/2.webp",
+    "Rondo": "images-skill/granger/3.webp",
+    "Death Sonata": "images-skill/granger/4.webp"
+  },
+  "Khufra": {
+    "Spell Curse": "images-skill/khufra/1.webp",
+    "Tyrant's Revenge": "images-skill/khufra/2.webp",
+    "Bouncing Ball": "images-skill/khufra/3.webp",
+    "Tyrant's Rage": "images-skill/khufra/4.webp"
+  },
+  "Badang": {
+    "Chivalry Fist": "images-skill/badang/1.webp",
+    "Fist Wind": "images-skill/badang/2.webp",
+    "Fist Break": "images-skill/badang/3.webp",
+    "Fist Crack": "images-skill/badang/4.webp"
+  },
+  "Faramis": {
+    "Vicious Retrieval": "images-skill/faramis/1.webp",
+    "Shadow Stampede": "images-skill/faramis/2.webp",
+    "Ghost Bursters": "images-skill/faramis/3.webp",
+    "Nether Realm": "images-skill/faramis/4.webp"
+  },
+  "Kadita": {
+    "Thalassophobia": "images-skill/kadita/1.webp",
+    "Ocean Ode": "images-skill/kadita/2.webp",
+    "Breath of the Ocean": "images-skill/kadita/3.webp",
+    "Rough Waves": "images-skill/kadita/4.webp"
+  },
+  "Minsitthar": {
+    "Mark of the King": "images-skill/minsitthar/1.webp",
+    "Spear of Glory": "images-skill/minsitthar/2.webp",
+    "Shield Assault": "images-skill/minsitthar/3.webp",
+    "King's Calling": "images-skill/minsitthar/4.webp"
+  },
+  "Harith": {
+    "Key Insight": "images-skill/harith/1.webp",
+    "Synchro Fission": "images-skill/harith/2.webp",
+    "Chrono Dash": "images-skill/harith/3.webp",
+    "Zaman Force": "images-skill/harith/4.webp"
+  },
+  "Thamuz": {
+    "Grand Lord Lava": "images-skill/thamuz/1.webp",
+    "Molten Scythes": "images-skill/thamuz/2.webp",
+    "Chasm Trample": "images-skill/thamuz/3.webp",
+    "Cauterant Inferno": "images-skill/thamuz/4.webp"
+  },
+  "Kimmy": {
+    "Aerial Dominance": "images-skill/kimmy/1.webp",
+    "Anti-Grav Thruster": "images-skill/kimmy/2.webp",
+    "Starlium Beam": "images-skill/kimmy/3.webp",
+    "Traction Pulse": "images-skill/kimmy/4.webp"
+  },
+  "Belerick": {
+    "Deadly Thorns": "images-skill/belerick/1.webp",
+    "Ancient Seed": "images-skill/belerick/2.webp",
+    "Nature's Strike": "images-skill/belerick/3.webp",
+    "Wrath of Dryad": "images-skill/belerick/4.webp"
+  },
+  "Hanzo": {
+    "Ame no Habakiri": "images-skill/hanzo/5.webp",
+    "Ninjutsu: Demon Feast": "images-skill/hanzo/2.webp",
+    "Ninjutsu: Dark Mist": "images-skill/hanzo/3.webp",
+    "Kinjutsu: Pinnacle Ninja": "images-skill/hanzo/4.webp",
+    "Forbidden Ninjutsu: Soul Snatch": "images-skill/hanzo/6.webp",
+    "Forbidden Ninjutsu: Black Mist": "images-skill/hanzo/7.webp",
+    "Ninjutsu Flee: Return": "images-skill/hanzo/8.webp"
+  },
+  "Lunox": {
+    "Dreamland Twist": "images-skill/lunox/11.webp",
+    "Starlight Pulse": "images-skill/lunox/12.webp",
+    "Chaos Assault ": "images-skill/lunox/13.webp",
+    "Cosmic Fission": "images-skill/lunox/14.webp",
+    "Order & Chaos": "images-skill/lunox/5.webp",
+    "Power of Order: Brilliance": "images-skill/lunox/10.webp",
+    "Power of Chaos: Darkening": "images-skill/lunox/15.webp"
+  },
+  "Leomord": {
+    "The Oath Keeper": "images-skill/leomord/5.webp",
+    "Momentum": "images-skill/leomord/2.webp",
+    "Decimation Assault": "images-skill/leomord/3.webp",
+    "Phantom Steed": "images-skill/leomord/8.webp",
+    "Phantom Stomp": "images-skill/leomord/6.webp",
+    "Phantom Charge": "images-skill/leomord/7.webp"
+  },
+  "Vale": {
+    "Windtalk": "images-skill/vale/1.webp",
+    "Wind Blade": "images-skill/vale/2.webp",
+    "Windblow": "images-skill/vale/3.webp",
+    "Windstorm": "images-skill/vale/4.webp"
+  },
+  "Claude": {
+    "Battle Side-by-side": "images-skill/claude/1.webp",
+    "Art of Thievery": "images-skill/claude/2.webp",
+    "Battle Mirror Image": "images-skill/claude/3.webp",
+    "Blazing Duet": "images-skill/claude/4.webp"
+  },
+  "Aldous": {
+    "Contract: Transform": "images-skill/aldous/1.webp",
+    "Contract: Soul Steal": "images-skill/aldous/2.webp",
+    "Contract: Explosion": "images-skill/aldous/3.webp",
+    "Contract: Chase Fate": "images-skill/aldous/4.webp"
+  },
+  "Selena": {
+    "Symbiosis": "images-skill/selena/5.webp",
+    "Abyssal Trap": "images-skill/selena/2.webp",
+    "Abyssal Arrow": "images-skill/selena/3.webp",
+    "Primal Darkness": "images-skill/selena/4.webp",
+    "Soul Eater": "images-skill/selena/6.webp",
+    "Garotte": "images-skill/selena/7.webp",
+    "Blessing of the Moon Goddess": "images-skill/selena/8.webp"
+  },
+  "Kaja": {
+    "Wings of Lightning": "images-skill/kaja/1.webp",
+    "Ring of Order": "images-skill/kaja/2.webp",
+    "Soaring Wings": "images-skill/kaja/3.webp",
+    "Divine Binding": "images-skill/kaja/4.webp"
+  },
+  "Chang'e": {
+    "Trouble Maker": "images-skill/chang-e/1.webp",
+    "Starmoon Shockwave": "images-skill/chang-e/2.webp",
+    "Crescent Moon": "images-skill/chang-e/3.webp",
+    "Meteor Shower": "images-skill/chang-e/4.webp"
+  },
+  "Hanabi": {
+    "Ninjutsu: Petal Barrage": "images-skill/hanabi/1.webp",
+    "Ninjutsu: Equinox": "images-skill/hanabi/2.webp",
+    "Ninjutsu: Soul Scroll": "images-skill/hanabi/3.webp",
+    "Forbidden Jutsu: Higanbana": "images-skill/hanabi/4.webp"
+  },
+  "Uranus": {
+    "Radiance": "images-skill/uranus/1.webp",
+    "Ionic Edge": "images-skill/uranus/2.webp",
+    "Transcendent Ward": "images-skill/uranus/3.webp",
+    "Consecration": "images-skill/uranus/4.webp"
+  },
+  "Martis": {
+    "Asura's Wrath": "images-skill/martis/1.webp",
+    "Asura Aura": "images-skill/martis/2.webp",
+    "Mortal Coil": "images-skill/martis/3.webp",
+    "Decimation": "images-skill/martis/4.webp"
+  },
+  "Valir": {
+    "Ashing": "images-skill/valir/1.webp",
+    "Burst Fireball": "images-skill/valir/2.webp",
+    "Searing Torrent": "images-skill/valir/3.webp",
+    "Vengeance Flame": "images-skill/valir/4.webp"
+  },
+  "Gusion": {
+    "Dagger Specialist": "images-skill/gusion/1.webp",
+    "Sword Spike": "images-skill/gusion/2.webp",
+    "Shadowblade Slaughter": "images-skill/gusion/3.webp",
+    "Incandescence": "images-skill/gusion/4.webp"
+  },
+  "Angela": {
+    "Smart Heart": "images-skill/angela/1.webp",
+    "Love Waves": "images-skill/angela/2.webp",
+    "Puppet-on-a-String": "images-skill/angela/3.webp",
+    "Heartguard": "images-skill/angela/4.webp"
+  },
+  "Jawhead": {
+    "Mecha Suppression": "images-skill/jawhead/1.webp",
+    "Smart Missiles": "images-skill/jawhead/2.webp",
+    "Ejector": "images-skill/jawhead/3.webp",
+    "Unstoppable Force": "images-skill/jawhead/4.webp"
+  },
+  "Lesley": {
+    "Lethal Shot": "images-skill/lesley/1.webp",
+    "Master of Camouflage": "images-skill/lesley/2.webp",
+    "Tactical Grenade": "images-skill/lesley/3.webp",
+    "Ultimate Snipe": "images-skill/lesley/4.webp"
+  },
+  "Pharsa": {
+    "Spiritual Unity": "images-skill/pharsa/1.webp",
+    "Curse of Crow": "images-skill/pharsa/2.webp",
+    "Energy Impact": "images-skill/pharsa/3.webp",
+    "Feathered Air Strike": "images-skill/pharsa/4.webp",
+    "Wings by Wings": "images-skill/pharsa/5.webp"
+  },
+  "Helcurt": {
+    "Shadow of Styx": "images-skill/helcurt/1.webp",
+    "Hidden Terror": "images-skill/helcurt/2.webp",
+    "Deadly Stinger": "images-skill/helcurt/3.webp",
+    "Dark Night Falls": "images-skill/helcurt/4.webp"
+  },
+  "Zhask": {
+    "Decimation": "images-skill/zhask/1.webp",
+    "Nightmaric Spawn": "images-skill/zhask/2.webp",
+    "Mind Eater": "images-skill/zhask/3.webp",
+    "Hive Clones": "images-skill/zhask/4.webp",
+    "Dominator's Descent": "images-skill/zhask/5.webp"
+  },
+  "Hylos": {
+    "Thickened Blood": "images-skill/hylos/1.webp",
+    "Law and Order": "images-skill/hylos/2.webp",
+    "Ring of Punishment": "images-skill/hylos/3.webp",
+    "Glorious Pathway": "images-skill/hylos/4.webp"
+  },
+  "Diggie": {
+    "Young Again": "images-skill/diggie/1.webp",
+    "Auto Alarm Bomb": "images-skill/diggie/2.webp",
+    "Reverse Time": "images-skill/diggie/3.webp",
+    "Time Journey": "images-skill/diggie/4.webp"
+  },
+  "Lancelot": {
+    "Soul Cutter": "images-skill/lancelot/1.webp",
+    "Puncture": "images-skill/lancelot/2.webp",
+    "Thorned Rose": "images-skill/lancelot/3.webp",
+    "Phantom Execution": "images-skill/lancelot/4.webp"
+  },
+  "Odette": {
+    "Lakeshore Ambience": "images-skill/odette/1.webp",
+    "Avian Authority": "images-skill/odette/2.webp",
+    "Blue Nova": "images-skill/odette/3.webp",
+    "Swan Song": "images-skill/odette/4.webp"
+  },
+  "Argus": {
+    "Warmonger": "images-skill/argus/1.webp",
+    "Demonic Grip": "images-skill/argus/2.webp",
+    "Meteoric Sword": "images-skill/argus/3.webp",
+    "Eternal Evil": "images-skill/argus/4.webp"
+  },
+  "Grock": {
+    "Bastion of Stone": "images-skill/grock/1.webp",
+    "Mighty Swing": "images-skill/grock/2.webp",
+    "Earthen Rampart": "images-skill/grock/3.webp",
+    "Tectonic Charge": "images-skill/grock/4.webp"
+  },
+  "Irithel": {
+    "Jungle Heart": "images-skill/irithel/1.webp",
+    "Strafe": "images-skill/irithel/2.webp",
+    "Force of The Queen": "images-skill/irithel/3.webp",
+    "Heavy Crossbow": "images-skill/irithel/4.webp"
+  },
+  "Harley": {
+    "Magic Master": "images-skill/harley/1.webp",
+    "Poker Trick": "images-skill/harley/2.webp",
+    "Space Escape": "images-skill/harley/3.webp",
+    "Deadly Magic": "images-skill/harley/4.webp"
+  },
+  "Gatotkaca": {
+    "Steel Bones": "images-skill/gatotkaca/1.webp",
+    "Blast Iron Fist": "images-skill/gatotkaca/2.webp",
+    "Unbreakable": "images-skill/gatotkaca/3.webp",
+    "Avatar of the Guardian": "images-skill/gatotkaca/4.webp"
+  },
+  "Karrie": {
+    "Lightwheel Mark": "images-skill/karrie/1.webp",
+    "Spinning Lightwheel": "images-skill/karrie/2.webp",
+    "Phantom Step": "images-skill/karrie/3.webp",
+    "Speedy Lightwheel": "images-skill/karrie/4.webp"
+  },
+  "Roger": {
+    "Full Moon Curse": "images-skill/roger/5.webp",
+    "Open Fire": "images-skill/roger/2.webp",
+    "Hunter's Steps": "images-skill/roger/3.webp",
+    "Wolf Transformation": "images-skill/roger/4.webp",
+    "Lycan Pounce": "images-skill/roger/6.webp",
+    "Bloodthirsty Howl": "images-skill/roger/7.webp",
+    "Restore Human Form": "images-skill/roger/8.webp"
+  },
+  "Vexana": {
+    "Nether Touch": "images-skill/vexana/1.webp",
+    "Deathly Grasp": "images-skill/vexana/2.webp",
+    "Cursed Blast": "images-skill/vexana/3.webp",
+    "Eternal Guard": "images-skill/vexana/4.webp"
+  },
+  "Lapu-Lapu": {
+    "Homeland Defender": "images-skill/lapu-lapu/5.webp",
+    "Justice Blades": "images-skill/lapu-lapu/2.webp",
+    "Jungle Warrior": "images-skill/lapu-lapu/3.webp",
+    "Bravest Fighter": "images-skill/lapu-lapu/4.webp",
+    "Land Shaker": "images-skill/lapu-lapu/6.webp",
+    "Storm Sword": "images-skill/lapu-lapu/7.webp",
+    "Raging Slash": "images-skill/lapu-lapu/8.webp"
+  },
+  "Aurora": {
+    "Pride of Ice": "images-skill/aurora/1.webp",
+    "Hailstone Blast": "images-skill/aurora/2.webp",
+    "Frosty Breeze": "images-skill/aurora/3.webp",
+    "Frigid Glacier": "images-skill/aurora/4.webp"
+  },
+  "Hilda": {
+    "Blessing of Wilderness": "images-skill/hilda/1.webp",
+    "Combat Ritual": "images-skill/hilda/2.webp",
+    "Art of Hunting": "images-skill/hilda/3.webp",
+    "Power of Wildness": "images-skill/hilda/4.webp"
+  },
+  "Estes": {
+    "Scripture of the Moon Elf": "images-skill/estes/1.webp",
+    "Moonlight Immersion": "images-skill/estes/2.webp",
+    "Domain of Moon Goddess": "images-skill/estes/3.webp",
+    "Blessing of Moon Goddess": "images-skill/estes/4.webp"
+  },
+  "Cyclops": {
+    "Starlit Hourglass": "images-skill/cyclops/1.webp",
+    "Stardust Shock": "images-skill/cyclops/2.webp",
+    "Planets Attack": "images-skill/cyclops/3.webp",
+    "Star Power Lockdown": "images-skill/cyclops/4.webp"
+  },
+  "Johnson": {
+    "Electro Airbag": "images-skill/johnson/1.webp",
+    "Impact Wrench": "images-skill/johnson/2.webp",
+    "Electromagnetic Waves": "images-skill/johnson/3.webp",
+    "Full Throttle": "images-skill/johnson/4.webp"
+  },
+  "Moskov": {
+    "Spear of Quiescence": "images-skill/moskov/1.webp",
+    "Abyss Walker": "images-skill/moskov/2.webp",
+    "Spear of Misery": "images-skill/moskov/3.webp",
+    "Spear of Destruction": "images-skill/moskov/4.webp"
+  },
+  "Yi Sun-shin": {
+    "Heavenly Vow": "images-skill/yi-sun-shin/1.webp",
+    "Traceless": "images-skill/yi-sun-shin/2.webp",
+    "Blood Floods": "images-skill/yi-sun-shin/3.webp",
+    "Mountain Shocker": "images-skill/yi-sun-shin/4.webp"
+  },
+  "Ruby": {
+    "Let's Dance!": "images-skill/ruby/1.webp",
+    "Be Good!": "images-skill/ruby/2.webp",
+    "Don't Run, Wolf King!": "images-skill/ruby/3.webp",
+    "I'm Offended!": "images-skill/ruby/4.webp"
+  },
+  "Alpha": {
+    "Beta, Advance!": "images-skill/alpha/1.webp",
+    "Rotary Impact": "images-skill/alpha/2.webp",
+    "Force Swing": "images-skill/alpha/3.webp",
+    "Spear of Alpha": "images-skill/alpha/4.webp"
+  },
+  "Sun": {
+    "Simian God": "images-skill/sun/1.webp",
+    "Endless Variety": "images-skill/sun/2.webp",
+    "Swift Exchange": "images-skill/sun/3.webp",
+    "Instantaneous Move": "images-skill/sun/4.webp",
+    "Clone Techniques": "images-skill/sun/5.webp"
+  },
+  "Chou": {
+    "Only Fast": "images-skill/chou/1.webp",
+    "Jeet Kune Do": "images-skill/chou/2.webp",
+    "Shunpo": "images-skill/chou/3.webp",
+    "The Way of Dragon": "images-skill/chou/4.webp"
+  },
+  "Kagura": {
+    "Yin Yang Gathering ": "images-skill/kagura/5.webp",
+    "Seimei Umbrella Open ": "images-skill/kagura/6.webp",
+    "Rasho Umbrella Flee": "images-skill/kagura/7.webp",
+    "Yin Yang Overturn": "images-skill/kagura/8.webp"
+  },
+  "Natalia": {
+    "Assassin Instinct": "images-skill/natalia/1.webp",
+    "Claw Dash": "images-skill/natalia/2.webp",
+    "Smoke Bomb": "images-skill/natalia/3.webp",
+    "The Hunt": "images-skill/natalia/4.webp"
+  },
+  "Gord": {
+    "Mystic Favor": "images-skill/gord/1.webp",
+    "Mystic Projectile": "images-skill/gord/2.webp",
+    "Mystic Injunction": "images-skill/gord/3.webp",
+    "Mystic Gush": "images-skill/gord/4.webp"
+  },
+  "Freya": {
+    "Power of Einherjar": "images-skill/freya/1.webp",
+    "Leap of Faith": "images-skill/freya/2.webp",
+    "Valkyrie Slash": "images-skill/freya/3.webp",
+    "Valkyrie Descent": "images-skill/freya/4.webp"
+  },
+  "Hayabusa": {
+    "Ninjutsu: Trace of Shadow": "images-skill/hayabusa/1.webp",
+    "Ninjutsu: Phantom Shuriken": "images-skill/hayabusa/2.webp",
+    "Ninjutsu: Quad Shadow": "images-skill/hayabusa/3.webp",
+    "Ougi: Shadow Kill": "images-skill/hayabusa/4.webp"
+  },
+  "Lolita": {
+    "Noumenon Energy Core": "images-skill/lolita/1.webp",
+    "Power Charge": "images-skill/lolita/2.webp",
+    "Guardian's Reflection": "images-skill/lolita/3.webp",
+    "Noumenon Blast": "images-skill/lolita/4.webp"
+  },
+  "Minotaur": {
+    "Rage Incarnate": "images-skill/minotaur/1.webp",
+    "Despair Stomp": "images-skill/minotaur/2.webp",
+    "Motivation Roar": "images-skill/minotaur/3.webp",
+    "Minoan Fury": "images-skill/minotaur/4.webp"
+  },
+  "Layla": {
+    "Malefic Gun": "images-skill/layla/1.webp",
+    "Malefic Bomb": "images-skill/layla/2.webp",
+    "Void Projectile": "images-skill/layla/3.webp",
+    "Destruction Rush": "images-skill/layla/4.webp"
+  },
+  "Fanny": {
+    "Air Superiority": "images-skill/fanny/1.webp",
+    "Tornado Strike": "images-skill/fanny/2.webp",
+    "Steel Cable": "images-skill/fanny/3.webp",
+    "Cut Throat": "images-skill/fanny/4.webp"
+  },
+  "Zilong": {
+    "Dragon Flurry": "images-skill/zilong/1.webp",
+    "Spear Flip": "images-skill/zilong/2.webp",
+    "Spear Strike": "images-skill/zilong/3.webp",
+    "Supreme Warrior": "images-skill/zilong/4.webp"
+  },
+  "Eudora": {
+    "Superconductor": "images-skill/eudora/1.webp",
+    "Forked Lightning": "images-skill/eudora/2.webp",
+    "Ball Lightning": "images-skill/eudora/3.webp",
+    "Thunder’s Wrath": "images-skill/eudora/4.webp"
+  },
+  "Rafaela": {
+    "Divine Resurrection": "images-skill/rafaela/1.webp",
+    "Light of Retribution": "images-skill/rafaela/2.webp",
+    "Holy Healing": "images-skill/rafaela/3.webp",
+    "Holy Baptism": "images-skill/rafaela/4.webp"
+  },
+  "Clint": {
+    "Double Shot": "images-skill/clint/1.webp",
+    "Quick Draw": "images-skill/clint/2.webp",
+    "Trapping Recoil": "images-skill/clint/3.webp",
+    "Grenade Bombardment": "images-skill/clint/4.webp"
+  },
+  "Bruno": {
+    "Mecha Legs": "images-skill/bruno/1.webp",
+    "Volley Shot": "images-skill/bruno/2.webp",
+    "Slide": "images-skill/bruno/3.webp",
+    "Worldie": "images-skill/bruno/4.webp"
+  },
+  "Bane": {
+    "Shark Bite": "images-skill/bane/1.webp",
+    "Crab Claw Cannon": "images-skill/bane/2.webp",
+    "Sea Ink": "images-skill/bane/3.webp",
+    "Deadly Catch": "images-skill/bane/4.webp"
+  },
+  "Franco": {
+    "Wasteland Force": "images-skill/franco/1.webp",
+    "Iron Hook": "images-skill/franco/2.webp",
+    "Fury Shock": "images-skill/franco/3.webp",
+    "Bloody Hunt": "images-skill/franco/4.webp"
+  },
+  "Akai": {
+    "Tai Chi": "images-skill/akai/1.webp",
+    "Headbutt": "images-skill/akai/2.webp",
+    "Body Slam": "images-skill/akai/3.webp",
+    "Heavy Spin": "images-skill/akai/4.webp"
+  },
+  "Karina": {
+    "Shadow Combo": "images-skill/karina/1.webp",
+    "Dance of Blades": "images-skill/karina/2.webp",
+    "Dance of Death": "images-skill/karina/3.webp",
+    "Shadow Assault": "images-skill/karina/4.webp"
+  },
+  "Alucard": {
+    "Pursuit": "images-skill/alucard/1.webp",
+    "Groundsplitter": "images-skill/alucard/2.webp",
+    "Whirling Smash": "images-skill/alucard/3.webp",
+    "Fission Wave": "images-skill/alucard/4.webp"
+  },
+  "Tigreal": {
+    "Fearless": "images-skill/tigreal/1.webp",
+    "Attack Wave": "images-skill/tigreal/2.webp",
+    "Sacred Hammer": "images-skill/tigreal/3.webp",
+    "Implosion": "images-skill/tigreal/4.webp"
+  },
+  "Nana": {
+    "Molina's Gift": "images-skill/nana/1.webp",
+    "Magic Boomerang": "images-skill/nana/2.webp",
+    "Molina Smooch": "images-skill/nana/3.webp",
+    "Molina Blitz": "images-skill/nana/4.webp"
+  },
+  "Alice": {
+    "Crimson Blood Banquet": "images-skill/alice/1.webp",
+    "Crimson Gleam": "images-skill/alice/2.webp",
+    "Doom Waltz": "images-skill/alice/3.webp",
+    "Throne of Ruin": "images-skill/alice/4.webp"
+  },
+  "Saber": {
+    "Enemy's Bane": "images-skill/saber/1.webp",
+    "Orbiting Swords": "images-skill/saber/2.webp",
+    "Charge": "images-skill/saber/3.webp",
+    "Triple Sweep": "images-skill/saber/4.webp"
+  },
+  "Balmond": {
+    "Bloodthirst": "images-skill/balmond/1.webp",
+    "Soul Lock": "images-skill/balmond/2.webp",
+    "Cyclone Sweep": "images-skill/balmond/3.webp",
+    "Lethal Counter": "images-skill/balmond/4.webp"
+  },
+  "Miya": {
+    "Moon Blessing": "images-skill/miya/1.webp",
+    "Moon Arrow": "images-skill/miya/2.webp",
+    "Arrow of Eclipse": "images-skill/miya/3.webp",
+    "Hidden Moonlight": "images-skill/miya/4.webp"
+  }
+}
