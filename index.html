@@ -1684,7 +1684,8 @@ function findItemDetail(item){
 function getItemStats(item){
  const detail=findItemDetail(item);
  const desc=detail?.description||'';
- const match=desc.match(/gold\.\s*([^.]*)/i);
+ // Ambil teks setelah "gold." sampai titik akhir kalimat (titik desimal seperti 7.5 tidak memotong)
+ const match=desc.match(/gold\.\s*([\s\S]*?)(?:\.(?=\s|$)|$)/i);
  if(!match)return [];
  return match[1].match(/\+\s*[\d.]+%?\s+[A-Za-z][A-Za-z ]*/g)
   ?.map(x=>x.trim())||[];
