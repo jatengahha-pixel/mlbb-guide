@@ -583,6 +583,21 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>String(s??'').toLowerCase().trim();
 
+// ID elemen statistik meta (dipakai bersama oleh render dan loadMetaStats)
+function metaId(lane,name){
+ return 'meta-stats-'+lane+'-'+String(name).replace(/[^a-z0-9]/gi,'-');
+}
+
+// Sinkronkan tombol nav aktif dan kotak pencarian dengan halaman saat ini
+function syncNav(p){
+ const labels={hero:'hero',item:'item',counter:'counter',draft:'draft pick',meta:'meta',compare:'bandingkan'};
+ document.querySelectorAll('nav button').forEach(b=>{
+  b.classList.toggle('active',b.textContent.trim().toLowerCase()===labels[p]);
+ });
+ const s=$('search');
+ if(s)s.style.display=['hero','item'].includes(p)?'block':'none';
+}
+
 
 let heroPickerTarget='';
 let heroPickerType='draft';
@@ -698,6 +713,7 @@ function openHeroFromUrl(){
 function closeHeroDetail(){
  history.pushState({},'',location.pathname);
  page='hero';
+ syncNav('hero');
  render();
  window.scrollTo(0,0);
 }
@@ -707,6 +723,7 @@ window.addEventListener('popstate',()=>{
  if(slug)openHeroFromUrl();
  else{
   page='hero';
+  syncNav('hero');
   render();
  }
 });
@@ -1092,7 +1109,7 @@ function render(){
        <b>${esc(h.hero_name)}</b>
       </div>
       <span class="tag tier-${String(h.priority_tier).toLowerCase()}">${esc(h.priority_tier)}-Tier</span>
-      <div class="meta-stats" id="meta-stats-${lane}-${esc(h.hero_name).replace(/[^a-z0-9]/gi,'-')}">
+      <div class="meta-stats" id="${esc(metaId(lane,h.hero_name))}">
        <small>WR: - | Pick: - | Ban: -</small>
       </div>
      </div>`).join('')+'</div>'):'';
@@ -1195,10 +1212,15 @@ async function analyzeDraft(){
 
   const laneAliases={
    explane:'exp_lane',
+   exp:'exp_lane',
    jungle:'jungler',
+   jungler:'jungler',
    midlane:'mid_lane',
+   mid:'mid_lane',
    goldlane:'gold_lane',
-   roam:'roamer'
+   gold:'gold_lane',
+   roam:'roamer',
+   roamer:'roamer'
   };
 
   const getHeroLanes=name=>{
@@ -1206,7 +1228,7 @@ async function analyzeDraft(){
     ([n])=>norm(n)===norm(name)
    );
    return (entry?.[1]?.lanes||[])
-    .map(v=>laneAliases[norm(v)])
+    .map(v=>laneAliases[norm(v).replace(/\s+/g,'')])
     .filter(Boolean);
   };
 
@@ -1350,8 +1372,7 @@ async function loadMetaStats(){
    done++;
    Object.entries(data).forEach(([lane,list])=>{
     if(!list.some(h=>norm(h.hero_name)===norm(x.name)))return;
-    const id='meta-stats-'+lane+'-'+x.name.replace(/[^a-z0-9]/gi,'-');
-    const el=$(id);
+    const el=$(metaId(lane,x.name));
     if(el){
      el.innerHTML=x.error
       ?'<small>Statistik tidak tersedia</small>'
@@ -1582,9 +1603,9 @@ async function openHero(name,fromUrl=false){
   }).join('');
   const items=(x.items||[]).map((it,j)=>{
    const choices=it.split('/');
-   return '<div style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;background:#111c30;border-radius:10px;padding:8px;margin:4px;min-width:76px">'+
+   return '<div style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;background:#111c30;color:#edf7ff;border-radius:10px;padding:8px;margin:4px;min-width:76px">'+
     '<div style="display:flex;gap:3px">'+choices.map(n=>icon(n,'logo-equipment')).join('')+'</div>'+
-    '<small style="text-align:center;max-width:100px">'+esc(it)+'</small></div>';
+    '<small style="text-align:center;max-width:100px;color:#edf7ff">'+esc(it)+'</small></div>';
   }).join('');
   return '<div class="build"><h3>Build '+(i+1)+'</h3><p><b>Battle Spell</b></p>'+spell+
    '<p><b>Emblem & Talent</b></p><div style="display:flex;flex-wrap:wrap;gap:5px">'+emblems+'</div>'+
@@ -1681,9 +1702,7 @@ function itemAnswer(detail,start){
 
 function backToItems(){
  page='item';
- document.querySelectorAll('nav button').forEach(b=>{
-  b.classList.toggle('active',b.textContent.trim().toLowerCase()==='item');
- });
+ syncNav('item');
  render();
  window.scrollTo(0,0);
 }
