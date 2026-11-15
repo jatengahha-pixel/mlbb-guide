@@ -530,16 +530,27 @@ main{padding:12px}
  <a href="mailto:jatengahha@gmail.com?subject=Laporan%20Kesalahan%20Data%20MLBB&body=Nama%20Hero%2FItem%3A%0A%0ABagian%20yang%20salah%3A%0A%0AKoreksi%20yang%20benar%3A%0A%0ABukti%20atau%20referensi%3A" style="color:#55c8ff;font-weight:bold">✉️ Laporkan Data Salah</a>
 </footer>
 <script>
+// Akses localStorage aman (bisa gagal di mode privat / storage diblokir)
+function safeGet(key,fallback){
+ try{
+  const v=localStorage.getItem(key);
+  return v===null?fallback:v;
+ }catch(e){return fallback;}
+}
+function safeSet(key,value){
+ try{localStorage.setItem(key,value);}catch(e){}
+}
+
 function setTheme(theme){
  document.documentElement.dataset.theme=theme;
- localStorage.setItem('mlbbTheme',theme);
+ safeSet('mlbbTheme',theme);
  const button=document.getElementById('themeToggle');
  if(button)button.textContent=theme==='light'?'🌙 Mode Gelap':'☀️ Mode Terang';
 }
 function toggleTheme(){
  setTheme(document.documentElement.dataset.theme==='light'?'dark':'light');
 }
-setTheme(localStorage.getItem('mlbbTheme')||'dark');
+setTheme(safeGet('mlbbTheme','dark'));
 
 let heroes=[],items=[],builds=[],meta={},apiHeroes=[],itemDetails=[],heroLanes={},heroSkills=[],heroCombos=[],heroSkillIcons={};
 let page='hero';
@@ -550,7 +561,11 @@ let itemSortOrder='default';
 let tierRoleFilter='all';
 let favoriteOnly=false;
 
-let favoriteHeroes=JSON.parse(localStorage.getItem('mlbbFavoriteHeroes')||'[]');
+let favoriteHeroes=[];
+try{
+ const savedFav=JSON.parse(safeGet('mlbbFavoriteHeroes','[]'));
+ if(Array.isArray(savedFav))favoriteHeroes=savedFav;
+}catch(e){favoriteHeroes=[];}
 
 function toggleFavorite(name){
  if(favoriteHeroes.includes(name)){
@@ -558,7 +573,7 @@ function toggleFavorite(name){
  }else{
   favoriteHeroes.push(name);
  }
- localStorage.setItem('mlbbFavoriteHeroes',JSON.stringify(favoriteHeroes));
+ safeSet('mlbbFavoriteHeroes',JSON.stringify(favoriteHeroes));
  render();
 }
 
@@ -660,13 +675,26 @@ function closeHeroPicker(){
 async function load(){
  try{
   const files=['heroes.json','items.json','builds.json','meta.json','api-heroes.json','item-details.json','hero-lanes.json','hero-skills.json','hero-combos.json','hero-skill-icons.json'];
-  const data=await Promise.all(files.map(async f=>{
-   const r=await fetch(f,{cache:'no-store'});
-   if(!r.ok)throw Error('Gagal membaca '+f);
-   return JSON.parse((await r.text()).replace(/^\uFEFF/,''));
+  // 4 file pertama wajib; sisanya opsional agar satu file yang hilang tidak mematikan seluruh website
+  const data=await Promise.all(files.map(async(f,i)=>{
+   try{
+    const r=await fetch(f,{cache:'no-store'});
+    if(!r.ok)throw Error('Gagal membaca '+f);
+    return JSON.parse((await r.text()).replace(/^\uFEFF/,''));
+   }catch(err){
+    if(i<4)throw err;
+    console.warn('File opsional gagal dimuat:',f,err);
+    return null;
+   }
   }));
   heroes=data[0];items=data[1];builds=data[2];
-  meta=data[3];apiHeroes=(data[4].data.records||[]).map(r=>r.data);itemDetails=data[5];heroLanes=data[6];heroSkills=data[7];heroCombos=data[8];heroSkillIcons=data[9];
+  meta=data[3];
+  apiHeroes=((data[4]&&data[4].data&&data[4].data.records)||[]).map(r=>r.data);
+  itemDetails=data[5]||[];
+  heroLanes=data[6]||{};
+  heroSkills=data[7]||[];
+  heroCombos=data[8]||[];
+  heroSkillIcons=data[9]||{};
   $('heroCount').textContent=heroes.length;
   $('itemCount').textContent=items.length;
   $('metaCount').textContent=new Set(
@@ -688,6 +716,8 @@ async function load(){
 
 function show(p,b){
  page=p;
+ // Hapus parameter ?hero= agar refresh tidak membuka detail hero lagi
+ if(location.search)history.pushState({},'',location.pathname);
  document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));
  b.classList.add('active');
  $('search').value='';
@@ -915,7 +945,7 @@ function render(){
    </div>
    <div class="hero-grid">${filtered.map(h=>{
     let b=builds.find(x=>norm(x.hero_name)===norm(h.name_hero));
-    return card(h.name_hero,`<img src="images-hero/${esc(h['images-hero'])}" alt="${esc(h.name_hero)}" loading="lazy"><span class="tag">${esc((h.role||[]).join(', '))}</span><p class="muted">${getHeroLane(h.name_hero)||'Lane belum dipetakan'}</p><button onclick="toggleFavorite(this.dataset.hero)" data-hero="${esc(h.name_hero)}">${favoriteHeroes.includes(h.name_hero)?'⭐ Hapus Favorit':'☆ Tambah Favorit'}</button><button onclick="openHero(this.dataset.hero)" data-hero="${esc(h.name_hero)}">Detail Hero →</button>`);
+    return card(h.name_hero,`<img src="images-hero/${esc(h['images-hero'])}" alt="${esc(h.name_hero)}" loading="lazy"><span class="tag">${esc((h.role||[]).join(', '))}</span><p class="muted">${esc(getHeroLane(h.name_hero))||'Lane belum dipetakan'}</p><button onclick="toggleFavorite(this.dataset.hero)" data-hero="${esc(h.name_hero)}">${favoriteHeroes.includes(h.name_hero)?'⭐ Hapus Favorit':'☆ Tambah Favorit'}</button><button onclick="openHero(this.dataset.hero)" data-hero="${esc(h.name_hero)}">Detail Hero →</button>`);
    }).join('')}</div>`;
  }
 
@@ -1414,7 +1444,11 @@ async function loadCounters(){
  const rank=$('counterRank')?.value||'mythic';
  const days=$('counterDays')?.value||'7';
 
- if(!out||!target)return;
+ if(!out)return;
+ if(!target){
+  out.innerHTML='<p class="muted">Pilih hero lawan terlebih dahulu.</p>';
+  return;
+ }
 
  out.innerHTML='<p>Memuat data counter...</p>';
 
@@ -1531,10 +1565,12 @@ function renderHeroSkills(name){
   '<div class="hero-skills">'+hero.skills.map((skill,i)=>{
    const iconName=(aliases[hero.hero_name]||{})[skill.name]||skill.name;
    const icon=icons[iconName];
+   // Hero dengan lebih dari 5 skill (mis. Beatrix, Sora) tidak lagi menampilkan "undefined"
+   const label=labels[i]||('Skill tambahan '+(i-3));
    return '<div class="build">'+
     '<div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">'+
     (icon?'<img src="'+esc(icon)+'" alt="'+esc(skill.name)+'" loading="lazy" style="width:48px;height:48px;object-fit:contain;border-radius:9px;background:#171c2b;flex-shrink:0">':'')+
-    '<b>'+labels[i]+' — '+esc(skill.name)+'</b></div>'+
+    '<b>'+esc(label)+' — '+esc(skill.name)+'</b></div>'+
     '<p>'+esc(skill.description)+'</p></div>';
   }).join('')+'</div></div>';
 }
@@ -1566,7 +1602,7 @@ async function openHero(name,fromUrl=false){
  '<img src="images-hero/'+esc(h['images-hero'])+'" alt="'+esc(h.name_hero)+'" loading="lazy">'+
  '<span class="tag">'+esc((h.role||[]).join(', '))+'</span>'+
  '<p>ID Hero: '+esc(h.id_hero)+'</p>'+
- '<p>Build tersedia: '+(b?b.top_builds.length:0)+'</p>'+
+ '<p>Build tersedia: '+(b?(b.top_builds||[]).length:0)+'</p>'+
  renderHeroSkills(name)+renderHeroCombos(name)+
  '<button onclick="closeHeroDetail()">← Kembali ke hero</button>'+
  (b?(b.top_builds||[]).map((x,i)=>{
